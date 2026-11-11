@@ -23,7 +23,8 @@ class BudgetExhausted(Exception):
 
 class OpenAlex:
     def __init__(self, key=None, floor=300, max_credits=None):
-        self.key = key or os.environ.get("OPENALEX_KEY")
+        # strip spaces, quotes and newlines that come along when the key is pasted
+        self.key = (key or os.environ.get("OPENALEX_KEY") or "").strip().strip("\"'").strip()
         if not self.key:
             raise SystemExit("OPENALEX_KEY is not set")
         self.floor = floor              # stop when the server says fewer credits remain
