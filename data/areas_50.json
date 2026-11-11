@@ -1,0 +1,452 @@
+[
+ {
+  "id": "C2779197387",
+  "name": "Lithium-ion battery",
+  "level": 4,
+  "works": 36190,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2780089039",
+  "name": "Perovskite solar cell",
+  "level": 3,
+  "works": 13136,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C30080830",
+  "name": "Graphene",
+  "level": 2,
+  "works": 347834,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C108583219",
+  "name": "Deep learning",
+  "level": 2,
+  "works": 670176,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C153740404",
+  "name": "Data center",
+  "level": 2,
+  "works": 48321,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2776422217",
+  "name": "Electric vehicle",
+  "level": 3,
+  "works": 101987,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C202189072",
+  "name": "Hydrogen production",
+  "level": 3,
+  "works": 128897,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C41291067",
+  "name": "Photovoltaic system",
+  "level": 2,
+  "works": 374399,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C78600449",
+  "name": "Wind power",
+  "level": 2,
+  "works": 257496,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C10558101",
+  "name": "Smart grid",
+  "level": 2,
+  "works": 92047,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C117323899",
+  "name": "Distribution transformer",
+  "level": 4,
+  "works": 22388,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2777615417",
+  "name": "Rare-earth element",
+  "level": 3,
+  "works": 15773,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C108713360",
+  "name": "Supply chain",
+  "level": 2,
+  "works": 371394,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2776060655",
+  "name": "Tariff",
+  "level": 2,
+  "works": 51191,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2778069335",
+  "name": "Sanctions",
+  "level": 2,
+  "works": 131819,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2993591445",
+  "name": "Interest group",
+  "level": 3,
+  "works": 8562,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C126285488",
+  "name": "Monetary policy",
+  "level": 2,
+  "works": 229748,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C108225325",
+  "name": "Semiconductor",
+  "level": 2,
+  "works": 360261,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C58053490",
+  "name": "Quantum computer",
+  "level": 3,
+  "works": 134949,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C98108389",
+  "name": "CRISPR",
+  "level": 3,
+  "works": 67189,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C15083742",
+  "name": "Nanomedicine",
+  "level": 3,
+  "works": 48710,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C94665300",
+  "name": "Antibiotic resistance",
+  "level": 3,
+  "works": 255377,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2776441376",
+  "name": "Bacteriophage",
+  "level": 4,
+  "works": 67223,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C132651083",
+  "name": "Climate change",
+  "level": 2,
+  "works": 1414509,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2778379663",
+  "name": "Carbon capture and storage (timeline)",
+  "level": 3,
+  "works": 23326,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2776870568",
+  "name": "Desalination",
+  "level": 3,
+  "works": 53915,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2780560099",
+  "name": "Fertilizer",
+  "level": 2,
+  "works": 236465,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C86909935",
+  "name": "Aquaculture",
+  "level": 3,
+  "works": 132486,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2780401329",
+  "name": "Microplastics",
+  "level": 2,
+  "works": 54624,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C89623803",
+  "name": "Pandemic",
+  "level": 5,
+  "works": 797586,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C520049643",
+  "name": "Voting",
+  "level": 3,
+  "works": 162560,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2776552730",
+  "name": "Disinformation",
+  "level": 3,
+  "works": 27901,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2779687700",
+  "name": "Blockchain",
+  "level": 2,
+  "works": 110396,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C19269812",
+  "name": "Satellite",
+  "level": 2,
+  "works": 576392,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C524769229",
+  "name": "3D printing",
+  "level": 2,
+  "works": 75211,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C34413123",
+  "name": "Robotics",
+  "level": 3,
+  "works": 198431,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C3018391801",
+  "name": "Self driving",
+  "level": 2,
+  "works": 2679,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C204321447",
+  "name": "Natural language processing",
+  "level": 1,
+  "works": 1809783,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C544778455",
+  "name": "Copper",
+  "level": 2,
+  "works": 573195,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C515602321",
+  "name": "Cobalt",
+  "level": 2,
+  "works": 178925,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C555451288",
+  "name": "Uranium",
+  "level": 2,
+  "works": 132963,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C24671956",
+  "name": "Fusion power",
+  "level": 3,
+  "works": 202710,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C54101563",
+  "name": "Superconductivity",
+  "level": 2,
+  "works": 426011,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2776461528",
+  "name": "Heat pump",
+  "level": 3,
+  "works": 43955,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C207365445",
+  "name": "Thermoelectric materials",
+  "level": 3,
+  "works": 44763,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C549605437",
+  "name": "Food security",
+  "level": 3,
+  "works": 421113,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C2779483572",
+  "name": "Dementia",
+  "level": 3,
+  "works": 364718,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C511355011",
+  "name": "Obesity",
+  "level": 2,
+  "works": 825146,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C149597833",
+  "name": "Electrical steel",
+  "level": 2,
+  "works": 7280,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ },
+ {
+  "id": "C201960208",
+  "name": "Geopolitics",
+  "level": 3,
+  "works": 107916,
+  "ancestors": [],
+  "root": "?",
+  "wikidata": ""
+ }
+]

@@ -1,0 +1,97 @@
+id,area_a,area_b,group,audit_verdict,claude_label_before,text_rule,has_abstract,title
+w00,CRISPR,Antibiotic resistance,A_new_predicted,да,да,нет,нет,Staphylococcus aureus genomics and the impact of horizontal gene transfer
+w01,CRISPR,Antibiotic resistance,A_new_predicted,да,да,да,нет,Sequence-specific antimicrobials using efficiently delivered RNA-guided nucleases
+w02,CRISPR,Antibiotic resistance,A_new_predicted,нет,да,нет,нет,Uropathogenic Escherichia coli are less likely than paired fecal E. coli to have CRISPR loci
+w03,Graphene,Thermoelectric materials,A_new_predicted,нет,нет,нет,нет,Graphene-Like Bismuth Telluride Nanostructures: Template-Free Solvothermal Synthesis and Characterizations
+w04,Graphene,Thermoelectric materials,A_new_predicted,да,да,да,да,Thermal Transport and Thermoelectric Properties of Graphene and Related Materials
+w05,Graphene,Thermoelectric materials,A_new_predicted,нет,да,да,да,Seebeck Coefficient in Multiwalled Carbon Nanotubes
+w06,Graphene,Quantum computer,A_new_predicted,нет,нет,нет,да,Quantum resistance metrology using graphene
+w07,Graphene,Quantum computer,A_new_predicted,нет,нет,нет,да,Efficient quantum transport simulation for bulk graphene heterojunctions
+w08,Graphene,Quantum computer,A_new_predicted,да,да,да,да,Quantum computation with graphene nanoribbon
+w09,Graphene,Uranium,A_new_predicted,да,да,да,нет,Uranium(VI) adsorption on graphene oxide nanosheets from aqueous solutions
+w10,Graphene,Uranium,A_new_predicted,да,да,да,нет,Adsorption of uranium from aqueous solution by graphene oxide nanosheets supported on sepiolite
+w11,Graphene,Uranium,A_new_predicted,да,да,да,нет,Poly(amidoxime)-reduced graphene oxide composites as adsorbents for the enrichment of uranium from seawater
+w12,Electric vehicle,Smart grid,A_new_predicted,да,да,нет,да,Electric vehicle integration to distribution grid ensuring quality power exchange
+w13,Electric vehicle,Smart grid,A_new_predicted,да,да,да,да,Decentralized charging decisions for the smart grid
+w14,Electric vehicle,Smart grid,A_new_predicted,да,да,да,да,A review of plug-in electric vehicles as distributed energy storages in smart grid
+w15,Nanomedicine,Superconductivity,A_new_predicted,нет,нет,нет,да,Thermally Induced Parametric Instability in a Back-Action Evading Measurement of a Micromechanical Quadrature near the Zero-Point Level
+w16,Nanomedicine,Superconductivity,A_new_predicted,нет,нет,нет,да,Nanoelectromechanics of superconducting weak links (Review Article)
+w17,Nanomedicine,Superconductivity,A_new_predicted,нет,нет,нет,да,Micromechanics and superconducting circuits
+w18,Smart grid,Heat pump,A_new_predicted,да,да,нет,нет,Domestic demand-side management (DSM): Role of heat pumps and thermal energy storage (TES) systems
+w19,Smart grid,Heat pump,A_new_predicted,да,да,да,да,Intelligent Heating Systems in Households for Smart Grid Applications
+w20,Smart grid,Heat pump,A_new_predicted,да,да,да,да,Modeling of a number of Heat Pump Water Heaters as control equipment for load frequency control in power systems
+w21,Data center,Wind power,A_new_predicted,да,да,нет,нет,GreenWare: Greening Cloud-Scale Data Centers to Maximize the Use of Renewable Energy
+w22,Data center,Wind power,A_new_predicted,да,да,да,да,Utilizing green energy prediction to schedule mixed batch and service jobs in data centers
+w23,Data center,Wind power,A_new_predicted,нет,да,нет,да,Dual Power: Integrating Renewable Energy into Green Datacenters without Grid Tie Inverter
+w24,Electric vehicle,Heat pump,A_new_predicted,нет,нет,нет,нет,Thermal anaysis of an electric water pump for internal combustion engine vehicles
+w25,Electric vehicle,Heat pump,A_new_predicted,да,да,да,нет,Performance characteristics of mobile heat pump for a large passenger electric vehicle
+w26,Electric vehicle,Heat pump,A_new_predicted,да,да,да,да,Performance characteristics of a waste-heat heat pump in an electric vehicle (Korean)
+w27,Wind power,Supply chain,A_new_predicted,да,да,да,да,Assessment of U.S. Manufacturing Capability for Next-Generation Wind Turbine Drivetrains
+w28,Wind power,Supply chain,A_new_predicted,да,да,да,нет,Re-Supply - Securing the supply chains of solar PV and wind power
+w29,Wind power,Supply chain,A_new_predicted,да,да,да,да,Supply Chain and Blade Manufacturing Considerations in the Global Wind Industry (Presentation)
+w30,Supply chain,Fertilizer,A_new_predicted,да,да,да,да,Eco-Innovation in the German Fertilizer Supply Chain
+w31,Supply chain,Fertilizer,A_new_predicted,да,да,нет,да,Analysis on quality control and countermeasures of ammonium dibasic phosphate in the key steps of supply chain
+w32,Supply chain,Fertilizer,A_new_predicted,нет,нет,нет,да,"Multi-dimensional assessment of liquid fertilizer use of methane-fermentation digestate (Jintan, Jiangsu, China)"
+w33,Photovoltaic system,Cobalt,A_new_predicted,да,да,да,нет,Influence of donor and bridge structure in D–A–π–A indoline dyes on the photovoltaic properties of dye-sensitized solar cells employing iodine/cobalt electrolyte
+w34,Photovoltaic system,Cobalt,A_new_predicted,да,да,да,да,Design of Organic Dyes and Cobalt Polypyridine Redox Mediators for High-Efficiency Dye-Sensitized Solar Cells
+w35,Photovoltaic system,Cobalt,A_new_predicted,да,да,да,да,Hierarchical micro/nano-structured cobalt sulfide spindles as low-cost counter electrodes for dye-sensitized solar cells
+w36,Wind power,Superconductivity,B_new_missed,да,да,да,да,Superconducting Wind Turbine Generators
+w37,Wind power,Superconductivity,B_new_missed,да,да,да,нет,Nonlinear Control Based on Offshore High Temperature Superconductor Generator for Wind Turbines
+w38,Wind power,Superconductivity,B_new_missed,да,да,да,нет,Voltage Stability Enhancement of Wind Generator System Using Superconducting Fault Current Limiter
+w39,Smart grid,Supply chain,B_new_missed,нет,неясно,нет,да,Model Research on the Whole Industry Chain Value Analysis of Strong and Smart Grid
+w40,Smart grid,Supply chain,B_new_missed,нет,нет,нет,да,The opportunity and challenge of Big Data's application in distribution grids
+w41,Smart grid,Supply chain,B_new_missed,нет,нет,нет,да,The Situation Room: Control Center Analytics for Enhanced Situational Awareness
+w42,Perovskite solar cell,Photovoltaic system,B_new_missed,нет,да,да,да,11% Efficient Perovskite Solar Cell Based on ZnO Nanorods: An Effective Charge Collection System
+w43,Perovskite solar cell,Photovoltaic system,B_new_missed,нет,да,да,да,Efficient Hybrid Solar Cells Based on Meso-Superstructured Organometal Halide Perovskites
+w44,Perovskite solar cell,Photovoltaic system,B_new_missed,нет,да,да,да,Depletion region effect of highly efficient hole conductor free CH3NH3PbI3 perovskite solar cells
+w45,Data center,Heat pump,B_new_missed,нет,неясно,нет,да,From Chip to Cooling Tower Data Center Modeling: Influence of Server Inlet Temperature and Temperature Rise Across Cabinet
+w46,Data center,Heat pump,B_new_missed,нет,нет,нет,да,Monitoring and data acquisition system for a geothermal heat pump
+w47,Data center,Heat pump,B_new_missed,нет,да,нет,да,Novel energy recovery systems for the efficient cooling of data centers using absorption chillers and renewable energy resources
+w48,Data center,Supply chain,B_new_missed,нет,нет,нет,нет,Technological Standards for the Operations Logistics Center Rail
+w49,Data center,Supply chain,B_new_missed,нет,нет,нет,да,Non-stop processing system: minimizing processing power costs in university environments by reusing workstations
+w50,Data center,Supply chain,B_new_missed,нет,нет,нет,да,Unification of IT Systems and Facilities for Next-Generation Environmentally Friendly Data Centers
+w51,Perovskite solar cell,Semiconductor,B_new_missed,да,да,да,да,Simple Way to Engineer Metal–Semiconductor Interface for Enhanced Performance of Perovskite Organic Lead Iodide Solar Cells
+w52,Perovskite solar cell,Semiconductor,B_new_missed,да,да,да,да,ORGANOMETAL HALIDE PEROVSKITE PHOTOVOLTAICS: A DIAMOND IN THE ROUGH
+w53,Perovskite solar cell,Semiconductor,B_new_missed,нет,да,нет,да,General Working Principles of CH3NH3PbX3 Perovskite Solar Cells
+w54,Electric vehicle,Distribution transformer,B_new_missed,нет,неясно,нет,да,Reduced-capacity smart charger for electric vehicles on single-phase three-wire distribution feeders with reactive power control
+w55,Electric vehicle,Distribution transformer,B_new_missed,да,да,да,да,Electric vehicle charging and grid constraints: Comparing distributed and centralized approaches
+w56,Electric vehicle,Distribution transformer,B_new_missed,нет,да,нет,да,Price based electric vehicle charging
+w57,Smart grid,Natural language processing,B_new_missed,нет,нет,нет,нет,Demand Response and Standards: Enabling a New Role for Buildings in the Smart Grid | NIST
+w58,Smart grid,Natural language processing,B_new_missed,нет,нет,нет,да,ANSI C12.19/IEEE 1377 to IEC 61968-9 Mapping
+w59,Smart grid,Natural language processing,B_new_missed,нет,нет,нет,да,A new data classification methodology to enhance utility data security
+w60,Wind power,Distribution transformer,B_new_missed,да,да,да,да,Reactive power control of a direct grid connected slip synchronous permanent magnet wind generator
+w61,Wind power,Distribution transformer,B_new_missed,нет,неясно,нет,нет,"High-Frequency Inverters: From Photovoltaic, Wind, and Fuel-Cell-Based Renewable- and Alternative-Energy DER/DG Systems to Energy-Storage Applications"
+w62,Wind power,Distribution transformer,B_new_missed,нет,неясно,нет,да,A simplified method for estimating voltage dips due to transformer inrush
+w63,3D printing,Robotics,B_new_missed,да,да,да,да,Integrating Evolutionary Robotics with 3D Printing for Rapid Fabrication and Deployment of a Physically-Simulated Autonomous Six Articulated-Wheeled Robot
+w64,3D printing,Robotics,B_new_missed,да,да,да,да,What future for humans in assembly?
+w65,3D printing,Robotics,B_new_missed,да,да,да,да,Printing 3D dielectric elastomer actuators for soft robotics
+w66,Supply chain,3D printing,B_new_missed,да,да,да,да,3D Printing Industry Trends
+w67,Supply chain,3D printing,B_new_missed,нет,нет,нет,да,The Future of Additive Manufacturing: From Prototyping to Bioprinting
+w68,Supply chain,3D printing,B_new_missed,да,да,нет,нет,Additive manufacturing: A framework for implementation
+w69,Electric vehicle,Robotics,B_new_missed,да,да,да,да,Energy optimal control of an over actuated Robotic Electric Vehicle using enhanced control allocation approaches
+w70,Electric vehicle,Robotics,B_new_missed,нет,нет,да,да,2A1-Q08 Stabilization of Steady-state Circular Drift of an Electric Vehicle (Car Robotics & ITS)
+w71,Electric vehicle,Robotics,B_new_missed,нет,нет,да,да,2A1-Q07 Model Predictive Collision Avoidance Assisting Control Based on Hybrid System Model (Robotics in the automotive)
+w72,Cobalt,Superconductivity,C_established,нет,неясно,нет,нет,First-principles study of cobalt pnictide SrCo2N2
+w73,Cobalt,Superconductivity,C_established,да,да,да,да,CoBi3: A Binary Cobalt‐Bismuth Compound and Superconductor
+w74,Cobalt,Superconductivity,C_established,да,да,да,нет,A green approach of fabricating superconducting cobalt oxyhydrates submicron tubules using bamboo charcoal as supporting templates
+w75,Semiconductor,Superconductivity,C_established,да,да,нет,да,Hot-electron effects in InAs nanowire Josephson junctions
+w76,Semiconductor,Superconductivity,C_established,да,да,да,да,Heterojunction of Fe(Se1−xTex) superconductor on Nb-doped SrTiO3
+w77,Semiconductor,Superconductivity,C_established,да,да,да,да,Band-mixing-mediated Andreev reflection of semiconductor holes
+w78,Graphene,Superconductivity,C_established,нет,нет,нет,нет,"Photo-Induced Topological Superconductor in Silicene, Germanene, and Stanene"
+w79,Graphene,Superconductivity,C_established,нет,нет,нет,нет,Theoretical prediction of a strongly correlated Dirac metal
+w80,Graphene,Superconductivity,C_established,нет,неясно,нет,нет,Interlayer phase coherence and Josephson effects in bilayer quantum Hall systems
+w81,Superconductivity,Thermoelectric materials,C_established,нет,неясно,нет,да,Physical Properties of Unfilled Skutterudite NiP3
+w82,Superconductivity,Thermoelectric materials,C_established,нет,нет,нет,да,Theory of Unconventional Charge Ordering and Electrical Transport in Skutterudite PrRu4P12
+w83,Superconductivity,Thermoelectric materials,C_established,да,да,нет,да,Thermoelectric properties of electron- and hole-doped BaFe2As2
+w84,Food security,Obesity,C_established,нет,нет,нет,нет,Rising cigarette prices and rising obesity: Coincidence or unintended consequence?
+w85,Food security,Obesity,C_established,да,да,да,нет,Determining the association between household food insecurity and weight status among children (2-18 years) in the UK using data from the Low Income Dietary and Nutrition Survey
+w86,Food security,Obesity,C_established,да,да,да,да,Making Food Systems Nutrition‐sensitive: an Economic Policy Perspective
+w87,Hydrogen production,Copper,C_established,да,да,да,да,COPPER/ZINC CATALYSTS IN HYDROGENATION OF CARBON OXIDES
+w88,Hydrogen production,Copper,C_established,да,да,да,нет,Enhanced hydrogen selectivity via photo-engineered surface defects for methanol steam reformation using zinc oxide–copper nanocomposite catalysts
+w89,Hydrogen production,Copper,C_established,да,да,да,да,Copper-doped ZnO/ZnS core/shell nanotube as a novel photocatalyst system for photocatalytic hydrogen production under visible light
+w90,Cobalt,Uranium,C_established,нет,неясно,нет,да,Sequestering Uranium and Technetium through Co-Precipitation with Aluminum in a Contaminated Acidic Environment
+w91,Cobalt,Uranium,C_established,да,да,да,нет,A numerical comparison of hydrogen absorption behaviors of uranium and zirconium cobalt-based metal hydride beds
+w92,Cobalt,Uranium,C_established,нет,нет,нет,нет,"pH dependent separation of uranium by chelation chromatography using pyridine 2,6-dimethanol as a chelator: Single crystal X-ray structural confirmation of the chelated uranium complex"
+w93,Photovoltaic system,Copper,C_established,да,да,да,да,Nanocrystal Photovoltaics: The Case of Cu2S-CdS
+w94,Photovoltaic system,Copper,C_established,да,да,да,да,Characterization of Cu1.4Te Thin Films for CdTe Solar Cells
+w95,Photovoltaic system,Copper,C_established,да,неясно,да,да,Detailed analysis of bathocuproine layer for organic solar cells based on copper phthalocyanine and C60
