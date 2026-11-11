@@ -44,7 +44,7 @@ def nested_pairs(ar, single, pair):
             out.add(tuple(sorted((name[x], name[y]))))
     for i, a in enumerate(ar):
         for j, b in enumerate(ar):
-            if i < j and (b["id"] in a.get("ancestors", []) or a["id"] in b.get("ancestors", [])):
+            if i < j and (b["id"] in (a.get("ancestors") or []) or a["id"] in (b.get("ancestors") or [])):
                 out.add((i, j))
     for (i, j), o in pair.items():
         p = model.ysum(o, 1950, 2018)
@@ -106,6 +106,7 @@ def nightly(args):
     oa = OpenAlex(max_credits=args.max_credits)
     if not os.path.exists(AREAS):
         areas_mod.build(oa, AREAS, n=args.areas)
+    areas_mod.fill_ancestors(oa, AREAS)
     ar = load_areas()
     synonyms.build(ar)
     n_done, n_total = collect.run(oa, [a["id"] for a in ar])

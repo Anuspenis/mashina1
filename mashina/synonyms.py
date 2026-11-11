@@ -72,8 +72,19 @@ def term_pattern(term):
     return r"\b" + t + r"(s|es)?\b"
 
 
+def specific(alias):
+    """Keep aliases that cannot be an ordinary word: several words, a hyphen,
+    a digit or an acronym. Single plain words like 'error' (alias of 'Software
+    bug') would match half of all abstracts."""
+    a = alias.strip()
+    if len(a) < 4:
+        return False
+    return (" " in a or "-" in a or any(ch.isdigit() for ch in a)
+            or (a.isupper() and a.isalpha()))
+
+
 def auto_pattern(name, aliases):
-    terms = [name] + [a for a in aliases if len(a) >= 4 or " " in a]
+    terms = [name] + [a for a in aliases if specific(a)]
     pats = []
     for t in terms:
         p = term_pattern(t)
@@ -100,6 +111,9 @@ def build(areas, path=STORE):
     st = json.load(open(path)) if os.path.exists(path) else {}
     for a in areas:
         if a["id"] in st:
+            v = st[a["id"]]
+            if v.get("source", "").startswith("auto"):   # re-apply the current alias rule
+                v["pattern"] = auto_pattern(v["name"], v.get("aliases", []))
             continue
         if a["name"] in MANUAL:
             st[a["id"]] = {"name": a["name"], "pattern": MANUAL[a["name"]], "source": "manual, audited"}

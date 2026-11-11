@@ -259,7 +259,7 @@
  },
  "C1009929": {
   "name": "Software bug",
-  "pattern": "\\bsoftware[- ]?bug(s|es)?\\b|\\berror(s|es)?\\b|\\bcomputer[- ]?bug(s|es)?\\b|\\bsoftware[- ]?failure(s|es)?\\b|\\bsoftware[- ]?bugs(s|es)?\\b|\\bsoftware[- ]?flaw(s|es)?\\b|\\bsoftware[- ]?flaws(s|es)?\\b|\\bsoftware[- ]?failures(s|es)?\\b|\\bsoftware[- ]?anomaly(s|es)?\\b|\\bsoftware[- ]?defect(s|es)?\\b|\\bprogramming[- ]?bug(s|es)?\\b|\\bbug[- ]?in[- ]?software(s|es)?\\b",
+  "pattern": "\\bsoftware[- ]?bug(s|es)?\\b|\\bcomputer[- ]?bug(s|es)?\\b|\\bsoftware[- ]?failure(s|es)?\\b|\\bsoftware[- ]?bugs(s|es)?\\b|\\bsoftware[- ]?flaw(s|es)?\\b|\\bsoftware[- ]?flaws(s|es)?\\b|\\bsoftware[- ]?failures(s|es)?\\b|\\bsoftware[- ]?anomaly(s|es)?\\b|\\bsoftware[- ]?defect(s|es)?\\b|\\bprogramming[- ]?bug(s|es)?\\b|\\bbug[- ]?in[- ]?software(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "error",
@@ -318,7 +318,7 @@
  },
  "C105768512": {
   "name": "Reaction intermediate",
-  "pattern": "\\breaction[- ]?intermediate(s|es)?\\b|\\bintermediate(s|es)?\\b",
+  "pattern": "\\breaction[- ]?intermediate(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "intermediate"
@@ -346,7 +346,7 @@
  },
  "C111696304": {
   "name": "Sorting",
-  "pattern": "\\bsorting(s|es)?\\b|\\bsort(s|es)?\\b|\\bordering(s|es)?\\b",
+  "pattern": "\\bsorting(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "sort",
@@ -355,7 +355,7 @@
  },
  "C112505250": {
   "name": "Automaton",
-  "pattern": "\\bautomaton(s|es)?\\b|\\bautomata(s|es)?\\b|\\bautomated[- ]?machine(s|es)?\\b",
+  "pattern": "\\bautomaton(s|es)?\\b|\\bautomated[- ]?machine(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "automata",
@@ -443,7 +443,7 @@
  },
  "C125575132": {
   "name": "Xanthophyll",
-  "pattern": "\\bxanthophyll(s|es)?\\b|\\b127[- ]?40[- ]?2(s|es)?\\b|\\bxanthophylls(s|es)?\\b",
+  "pattern": "\\bxanthophyll(s|es)?\\b|\\b127[- ]?40[- ]?2(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "127-40-2",
@@ -452,7 +452,7 @@
  },
  "C126661725": {
   "name": "Isomerization",
-  "pattern": "\\bisomerization(s|es)?\\b|\\bisomerisation(s|es)?\\b",
+  "pattern": "\\bisomerization(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "isomerisation"
@@ -474,7 +474,7 @@
  },
  "C127349201": {
   "name": "Numerical integration",
-  "pattern": "\\bnumerical[- ]?integration(s|es)?\\b|\\bnumerical[- ]?quadrature(s|es)?\\b|\\bquadrature(s|es)?\\b",
+  "pattern": "\\bnumerical[- ]?integration(s|es)?\\b|\\bnumerical[- ]?quadrature(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "numerical quadrature",
@@ -483,7 +483,7 @@
  },
  "C127745971": {
   "name": "Feather",
-  "pattern": "\\bfeather(s|es)?\\b|\\bbird[- ]?feather(s|es)?\\b|\\bfeathers(s|es)?\\b|\\bplumage(s|es)?\\b",
+  "pattern": "\\bfeather(s|es)?\\b|\\bbird[- ]?feather(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "bird feather",
@@ -536,7 +536,7 @@
  },
  "C130838757": {
   "name": "Westernization",
-  "pattern": "\\bwesternization(s|es)?\\b|\\boccidentalization(s|es)?\\b|\\bwesternisation(s|es)?\\b|\\boccidentalisation(s|es)?\\b",
+  "pattern": "\\bwesternization(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "occidentalization",
@@ -587,7 +587,7 @@
  },
  "C13373296": {
   "name": "Chemokine",
-  "pattern": "\\bchemokine(s|es)?\\b|\\bchemotactic[- ]?cytokine(s|es)?\\b|\\bchemokines(s|es)?\\b",
+  "pattern": "\\bchemokine(s|es)?\\b|\\bchemotactic[- ]?cytokine(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "chemotactic cytokine",
@@ -635,7 +635,7 @@
  },
  "C136478896": {
   "name": "Brittleness",
-  "pattern": "\\bbrittleness(s|es)?\\b|\\bbrittle(s|es)?\\b",
+  "pattern": "\\bbrittleness(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "brittle"
@@ -673,7 +673,7 @@
  },
  "C13935069": {
   "name": "Oligopeptide",
-  "pattern": "\\boligopeptide(s|es)?\\b|\\boligopeptides(s|es)?\\b",
+  "pattern": "\\boligopeptide(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "oligopeptides"
@@ -689,7 +689,7 @@
  },
  "C141646446": {
   "name": "Continental crust",
-  "pattern": "\\bcontinental[- ]?crust(s|es)?\\b|\\bsial(s|es)?\\b",
+  "pattern": "\\bcontinental[- ]?crust(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "sial"
@@ -734,7 +734,7 @@
  },
  "C145691206": {
   "name": "Polytope",
-  "pattern": "\\bpolytope(s|es)?\\b|\\bpolytopes(s|es)?\\b|\\bnon[- ]?degenerate[- ]?polytope(s|es)?\\b",
+  "pattern": "\\bpolytope(s|es)?\\b|\\bnon[- ]?degenerate[- ]?polytope(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "polytopes",
@@ -744,7 +744,7 @@
  },
  "C146834321": {
   "name": "Closure (psychology)",
-  "pattern": "\\bclosure[- ]?\\(psychology\\)(s|es)?\\b|\\bneed[- ]?for[- ]?closure(s|es)?\\b|\\bneed[- ]?for[- ]?cognitive[- ]?closure(s|es)?\\b|\\bnfcc(s|es)?\\b",
+  "pattern": "\\bclosure[- ]?\\(psychology\\)(s|es)?\\b|\\bneed[- ]?for[- ]?closure(s|es)?\\b|\\bneed[- ]?for[- ]?cognitive[- ]?closure(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "need for closure",
@@ -776,7 +776,7 @@
  },
  "C148730421": {
   "name": "Encryption",
-  "pattern": "\\bencryption(s|es)?\\b|\\bencipherment(s|es)?\\b",
+  "pattern": "\\bencryption(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "encipherment"
@@ -804,7 +804,7 @@
  },
  "C150506046": {
   "name": "Logos Bible Software",
-  "pattern": "\\blogos[- ]?bible[- ]?software(s|es)?\\b|\\blogos\\.com(s|es)?\\b",
+  "pattern": "\\blogos[- ]?bible[- ]?software(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "logos.com"
@@ -812,7 +812,7 @@
  },
  "C151788092": {
   "name": "Moorland",
-  "pattern": "\\bmoorland(s|es)?\\b|\\bmoor(s|es)?\\b",
+  "pattern": "\\bmoorland(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "moor"
@@ -858,7 +858,7 @@
  },
  "C154280991": {
   "name": "Aquaporin",
-  "pattern": "\\baquaporin(s|es)?\\b|\\bwater[- ]?channel(s|es)?\\b|\\baquaporin[- ]?transporter(s|es)?\\b|\\baquaporin_transptr(s|es)?\\b|\\bipr034294(s|es)?\\b|\\baquaporins(s|es)?\\b",
+  "pattern": "\\baquaporin(s|es)?\\b|\\bwater[- ]?channel(s|es)?\\b|\\baquaporin[- ]?transporter(s|es)?\\b|\\bipr034294(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "water channel",
@@ -870,7 +870,7 @@
  },
  "C155672457": {
   "name": "Nanoparticle",
-  "pattern": "\\bnanoparticle(s|es)?\\b|\\bnanoparticles(s|es)?\\b",
+  "pattern": "\\bnanoparticle(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "nanoparticles"
@@ -890,7 +890,7 @@
  },
  "C158846371": {
   "name": "Blood flow",
-  "pattern": "\\bblood[- ]?flow(s|es)?\\b|\\bhaemodynamics(s|es)?\\b|\\bhæmodynamics(s|es)?\\b",
+  "pattern": "\\bblood[- ]?flow(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "haemodynamics",
@@ -941,7 +941,7 @@
  },
  "C165616093": {
   "name": "Serum albumin",
-  "pattern": "\\bserum[- ]?albumin(s|es)?\\b|\\banalba(s|es)?\\b|\\bfdah(s|es)?\\b|\\bpro0883(s|es)?\\b|\\bpro0903(s|es)?\\b|\\bpro1341(s|es)?\\b|\\balbumin(s|es)?\\b|\\bfdaht(s|es)?\\b|\\bblood[- ]?albumin(s|es)?\\b",
+  "pattern": "\\bserum[- ]?albumin(s|es)?\\b|\\banalba(s|es)?\\b|\\bfdah(s|es)?\\b|\\bpro0883(s|es)?\\b|\\bpro0903(s|es)?\\b|\\bpro1341(s|es)?\\b|\\bfdaht(s|es)?\\b|\\bblood[- ]?albumin(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "ANALBA",
@@ -979,7 +979,7 @@
  },
  "C168240541": {
   "name": "Organelle",
-  "pattern": "\\borganelle(s|es)?\\b|\\bcell[- ]?organelles(s|es)?\\b|\\bcell[- ]?organelle(s|es)?\\b|\\borganelles(s|es)?\\b",
+  "pattern": "\\borganelle(s|es)?\\b|\\bcell[- ]?organelles(s|es)?\\b|\\bcell[- ]?organelle(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "cell organelles",
@@ -989,7 +989,7 @@
  },
  "C168444539": {
   "name": "Organ transplantation",
-  "pattern": "\\borgan[- ]?transplantation(s|es)?\\b|\\btransplant(s|es)?\\b|\\btransplant[- ]?surgery(s|es)?\\b|\\btransplantation[- ]?surgery(s|es)?\\b|\\ballotransplantation(s|es)?\\b|\\ballograft(s|es)?\\b",
+  "pattern": "\\borgan[- ]?transplantation(s|es)?\\b|\\btransplant[- ]?surgery(s|es)?\\b|\\btransplantation[- ]?surgery(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "transplant",
@@ -1022,7 +1022,7 @@
  },
  "C176019070": {
   "name": "Heterosexuality",
-  "pattern": "\\bheterosexuality(s|es)?\\b|\\bstraight(s|es)?\\b|\\bstraightness(s|es)?\\b|\\bheterosexual(s|es)?\\b",
+  "pattern": "\\bheterosexuality(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "⚤",
@@ -1039,7 +1039,7 @@
  },
  "C176871988": {
   "name": "Electric motor",
-  "pattern": "\\belectric[- ]?motor(s|es)?\\b|\\bmotor(s|es)?\\b|\\belectrical[- ]?motor(s|es)?\\b|\\belectro[- ]?motor(s|es)?\\b",
+  "pattern": "\\belectric[- ]?motor(s|es)?\\b|\\belectrical[- ]?motor(s|es)?\\b|\\belectro[- ]?motor(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "motor",
@@ -1262,7 +1262,7 @@
  },
  "C206729178": {
   "name": "Scheduling (production processes)",
-  "pattern": "\\bscheduling[- ]?\\(production[- ]?processes\\)(s|es)?\\b|\\bschedule(s|es)?\\b",
+  "pattern": "\\bscheduling[- ]?\\(production[- ]?processes\\)(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "schedule"
@@ -1398,7 +1398,7 @@
  },
  "C2775979504": {
   "name": "Melamine",
-  "pattern": "\\bmelamine(s|es)?\\b|\\bsym[- ]?triaminotriazine(s|es)?\\b|\\bcyanuramide(s|es)?\\b|\\bcyanurotriamide(s|es)?\\b|\\bcyanurotriamine(s|es)?\\b|\\b2,4,6[- ]?triamino[- ]?s[- ]?triazine(s|es)?\\b|\\b1,3,5[- ]?triazine[- ]?2,4,6[- ]?triamine(s|es)?\\b|\\btriaminotriazine(s|es)?\\b|\\bcyanuric[- ]?triamide(s|es)?\\b|\\bs[- ]?triazinetriamine(s|es)?\\b",
+  "pattern": "\\bmelamine(s|es)?\\b|\\bsym[- ]?triaminotriazine(s|es)?\\b|\\b2,4,6[- ]?triamino[- ]?s[- ]?triazine(s|es)?\\b|\\b1,3,5[- ]?triazine[- ]?2,4,6[- ]?triamine(s|es)?\\b|\\bcyanuric[- ]?triamide(s|es)?\\b|\\bs[- ]?triazinetriamine(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "sym-triaminotriazine",
@@ -1731,7 +1731,7 @@
  },
  "C2777713963": {
   "name": "Butanol",
-  "pattern": "\\bbutanol(s|es)?\\b|\\bbutyl[- ]?alcohol(s|es)?\\b|\\bbutanols(s|es)?\\b|\\bbutanol[- ]?mixed[- ]?isomers(s|es)?\\b",
+  "pattern": "\\bbutanol(s|es)?\\b|\\bbutyl[- ]?alcohol(s|es)?\\b|\\bbutanol[- ]?mixed[- ]?isomers(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "butyl alcohol",
@@ -1772,7 +1772,7 @@
  },
  "C2777975993": {
   "name": "Bryophyte",
-  "pattern": "\\bbryophyte(s|es)?\\b|\\bbryophytes(s|es)?\\b|\\bbryophyta[- ]?sensu[- ]?lato(s|es)?\\b",
+  "pattern": "\\bbryophyte(s|es)?\\b|\\bbryophyta[- ]?sensu[- ]?lato(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "bryophytes",
@@ -1896,7 +1896,7 @@
  },
  "C2778736484": {
   "name": "Friendship",
-  "pattern": "\\bfriendship(s|es)?\\b|\\bfriendly(s|es)?\\b|\\bfriend(s|es)?\\b|\\bfriends(s|es)?\\b",
+  "pattern": "\\bfriendship(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "friendly",
@@ -1982,7 +1982,7 @@
  },
  "C2779320081": {
   "name": "Wakefulness",
-  "pattern": "\\bwakefulness(s|es)?\\b|\\bbeing[- ]?awake(s|es)?\\b|\\bawake(s|es)?\\b",
+  "pattern": "\\bwakefulness(s|es)?\\b|\\bbeing[- ]?awake(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "being awake",
@@ -2097,7 +2097,7 @@
  },
  "C2780092750": {
   "name": "Niacin",
-  "pattern": "\\bniacin(s|es)?\\b|\\bnicotinate(s|es)?\\b|\\b3[- ]?carboxypyridine(s|es)?\\b|\\bm[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bbeta[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bpyridine[- ]?beta[- ]?carboxylic[- ]?acid(s|es)?\\b|\\b3[- ]?pyridylcarboxylic[- ]?acid(s|es)?\\b|\\bnicacid(s|es)?\\b|\\bpelonin(s|es)?\\b|\\bnicyl(s|es)?\\b|\\btinic(s|es)?\\b|\\bdaskil(s|es)?\\b|\\bpeviton(s|es)?\\b|\\b3[- ]?picolinic[- ]?acid(s|es)?\\b|\\bpellagrin(s|es)?\\b|\\binduracin(s|es)?\\b|\\bapelagrin(s|es)?\\b|\\bakotin(s|es)?\\b|\\bpyridine[- ]?3[- ]?carboxylic[- ]?acid(s|es)?\\b|\\benduracin(s|es)?\\b|\\bnicamin(s|es)?\\b|\\bnico[- ]?span(s|es)?\\b|\\bniac(s|es)?\\b|\\bnicodelmine(s|es)?\\b|\\blinic(s|es)?\\b|\\b3[- ]?pyridylcarboxylate(s|es)?\\b|\\bslo[- ]?niacin(s|es)?\\b|\\bnicosan[- ]?3(s|es)?\\b|\\bnicolar(s|es)?\\b|\\bniacor(s|es)?\\b|\\bnicotinipca(s|es)?\\b|\\b3[- ]?carboxylpyridine(s|es)?\\b|\\bniconacid(s|es)?\\b|\\bniacine(s|es)?\\b|\\befacin(s|es)?\\b|\\bnicangin(s|es)?\\b|\\bnicocap(s|es)?\\b|\\bnyclin(s|es)?\\b|\\bnicobid(s|es)?\\b|\\b3[- ]?pyridinecarboxylate(s|es)?\\b|\\bwampocap(s|es)?\\b|\\bnicotinic[- ]?acid(s|es)?\\b|\\bnikotinsaeure(s|es)?\\b|\\bβ[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bpyridine[- ]?β[- ]?carboxylic[- ]?acid(s|es)?\\b|\\bacide[- ]?nicotinique(s|es)?\\b|\\bacido[- ]?nicotinico(s|es)?\\b|\\b3[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bacidum[- ]?nicotinicum(s|es)?\\b",
+  "pattern": "\\bniacin(s|es)?\\b|\\b3[- ]?carboxypyridine(s|es)?\\b|\\bm[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bbeta[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bpyridine[- ]?beta[- ]?carboxylic[- ]?acid(s|es)?\\b|\\b3[- ]?pyridylcarboxylic[- ]?acid(s|es)?\\b|\\b3[- ]?picolinic[- ]?acid(s|es)?\\b|\\bpyridine[- ]?3[- ]?carboxylic[- ]?acid(s|es)?\\b|\\bnico[- ]?span(s|es)?\\b|\\b3[- ]?pyridylcarboxylate(s|es)?\\b|\\bslo[- ]?niacin(s|es)?\\b|\\bnicosan[- ]?3(s|es)?\\b|\\b3[- ]?carboxylpyridine(s|es)?\\b|\\b3[- ]?pyridinecarboxylate(s|es)?\\b|\\bnicotinic[- ]?acid(s|es)?\\b|\\bβ[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bpyridine[- ]?β[- ]?carboxylic[- ]?acid(s|es)?\\b|\\bacide[- ]?nicotinique(s|es)?\\b|\\bacido[- ]?nicotinico(s|es)?\\b|\\b3[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bacidum[- ]?nicotinicum(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "nicotinate",
@@ -2218,7 +2218,7 @@
  },
  "C2780427559": {
   "name": "Tractor",
-  "pattern": "\\btractor(s|es)?\\b|\\btractors(s|es)?\\b",
+  "pattern": "\\btractor(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "Tractors",
@@ -2281,7 +2281,7 @@
  },
  "C2780841128": {
   "name": "Characterization (materials science)",
-  "pattern": "\\bcharacterization[- ]?\\(materials[- ]?science\\)(s|es)?\\b|\\bcharacterization[- ]?of[- ]?materials(s|es)?\\b|\\bmaterial[- ]?characterisation(s|es)?\\b|\\bmaterial[- ]?analysis(s|es)?\\b|\\bmaterials[- ]?characterisation(s|es)?\\b|\\bcharacterisation(s|es)?\\b",
+  "pattern": "\\bcharacterization[- ]?\\(materials[- ]?science\\)(s|es)?\\b|\\bcharacterization[- ]?of[- ]?materials(s|es)?\\b|\\bmaterial[- ]?characterisation(s|es)?\\b|\\bmaterial[- ]?analysis(s|es)?\\b|\\bmaterials[- ]?characterisation(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "characterization of materials",
@@ -2483,7 +2483,7 @@
  },
  "C2986189917": {
   "name": "Asphalt pavement",
-  "pattern": "\\basphalt[- ]?pavement(s|es)?\\b|\\broad[- ]?cover(s|es)?\\b|\\bpavement(s|es)?\\b",
+  "pattern": "\\basphalt[- ]?pavement(s|es)?\\b|\\broad[- ]?cover(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "road cover",
@@ -2719,7 +2719,7 @@
  },
  "C3018711458": {
   "name": "Female circumcision",
-  "pattern": "\\bfemale[- ]?circumcision(s|es)?\\b|\\bfemale[- ]?genital[- ]?cutting(s|es)?\\b|\\bgenital[- ]?mutilation(s|es)?\\b|\\bfgm/c(s|es)?\\b|\\bclitoridotomy(s|es)?\\b",
+  "pattern": "\\bfemale[- ]?circumcision(s|es)?\\b|\\bfemale[- ]?genital[- ]?cutting(s|es)?\\b|\\bgenital[- ]?mutilation(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "FGM",
@@ -2840,7 +2840,7 @@
  },
  "C40767141": {
   "name": "Recombinant DNA",
-  "pattern": "\\brecombinant[- ]?dna(s|es)?\\b|\\brdna(s|es)?\\b|\\bchimeric[- ]?dna(s|es)?\\b|\\bdna,[- ]?recombinant(s|es)?\\b",
+  "pattern": "\\brecombinant[- ]?dna(s|es)?\\b|\\bchimeric[- ]?dna(s|es)?\\b|\\bdna,[- ]?recombinant(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "rDNA",
@@ -2880,7 +2880,7 @@
  },
  "C46304622": {
   "name": "Certification",
-  "pattern": "\\bcertification(s|es)?\\b|\\bcertify(s|es)?\\b|\\bcertified(s|es)?\\b",
+  "pattern": "\\bcertification(s|es)?\\b",
   "source": "auto: name + Wikidata aliases",
   "aliases": [
    "certify",

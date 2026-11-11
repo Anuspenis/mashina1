@@ -55,6 +55,31 @@ def select(candidates, base, n=500, seed=42):
     return chosen
 
 
+def fill_ancestors(oa, path="data/areas.json"):
+    """The first selection came back with empty ancestor lists (the `select`
+    parameter drops them), so the field stratification fell back to a plain
+    random sample. Ancestors are needed for the part-of rule; fetch them in
+    batches of 50 (10 credits for 500 areas)."""
+    doc = json.load(open(path))
+    todo = [a for a in doc["areas"] if not a.get("ancestors")]
+    if not todo:
+        return 0
+    by_id = {a["id"]: a for a in doc["areas"]}
+    for s in range(0, len(todo), 50):
+        chunk = [a["id"] for a in todo[s:s + 50]]
+        j = oa.get("/concepts", {"filter": "openalex_id:" + "|".join(chunk), "per-page": 50})
+        for c in j["results"]:
+            a = by_id[c["id"].rsplit("/", 1)[-1]]
+            anc = c.get("ancestors") or []
+            a["ancestors"] = [x["id"].rsplit("/", 1)[-1] for x in anc] or ["none"]
+            roots = [x["display_name"] for x in anc if x.get("level") == 0]
+            a["root"] = roots[0] if roots else (c["display_name"] if c.get("level") == 0 else "?")
+    doc["note"] = ("Ancestors filled 2026-11-12. Selection was a plain random sample of "
+                   "450 of the candidates (seed 42), not stratified: roots were empty at selection time.")
+    json.dump(doc, open(path, "w"), ensure_ascii=False, indent=1)
+    return len(todo)
+
+
 def build(oa, path="data/areas.json", n=500):
     base = json.load(open(BASE50))
     cand = fetch_candidates(oa)
