@@ -1,0 +1,3349 @@
+{
+ "C2779197387": {
+  "name": "Lithium-ion battery",
+  "pattern": "lithium[- ]ion|\\bli[- ]ion",
+  "source": "manual, audited"
+ },
+ "C2780089039": {
+  "name": "Perovskite solar cell",
+  "pattern": "perovskite",
+  "source": "manual, audited"
+ },
+ "C30080830": {
+  "name": "Graphene",
+  "pattern": "(?<!-like )graphene(?!-like)",
+  "source": "manual, audited"
+ },
+ "C108583219": {
+  "name": "Deep learning",
+  "pattern": "deep learning|deep neural|convolutional neural|\\bcnn\\b|\\blstm\\b|deep network",
+  "source": "manual, audited"
+ },
+ "C153740404": {
+  "name": "Data center",
+  "pattern": "data[- ]?cent(er|re)|datacent",
+  "source": "manual, audited"
+ },
+ "C2776422217": {
+  "name": "Electric vehicle",
+  "pattern": "electric vehicle|electric car|electric bus|\\bevs?\\b|plug-in hybrid|\\bphevs?\\b|\\bbevs?\\b",
+  "source": "manual, audited"
+ },
+ "C202189072": {
+  "name": "Hydrogen production",
+  "pattern": "hydrogen|water splitting|electroly[sz]|\\bh2\\b",
+  "source": "manual, audited"
+ },
+ "C41291067": {
+  "name": "Photovoltaic system",
+  "pattern": "photovolta|solar cell|solar panel|solar module|\\bpv\\b",
+  "source": "manual, audited"
+ },
+ "C78600449": {
+  "name": "Wind power",
+  "pattern": "wind (power|energy|turbine|farm|generat|speed|resource)|offshore wind",
+  "source": "manual, audited"
+ },
+ "C10558101": {
+  "name": "Smart grid",
+  "pattern": "smart grid|smart meter|microgrid",
+  "source": "manual, audited"
+ },
+ "C117323899": {
+  "name": "Distribution transformer",
+  "pattern": "transformer",
+  "source": "manual, audited"
+ },
+ "C2777615417": {
+  "name": "Rare-earth element",
+  "pattern": "rare[- ]earth|lanthan|neodymium|dysprosium|\\bree\\b",
+  "source": "manual, audited"
+ },
+ "C108713360": {
+  "name": "Supply chain",
+  "pattern": "supply chain|supply network",
+  "source": "manual, audited"
+ },
+ "C2776060655": {
+  "name": "Tariff",
+  "pattern": "tariff",
+  "source": "manual, audited"
+ },
+ "C2778069335": {
+  "name": "Sanctions",
+  "pattern": "sanction|embargo",
+  "source": "manual, audited"
+ },
+ "C2993591445": {
+  "name": "Interest group",
+  "pattern": "interest group|lobby",
+  "source": "manual, audited"
+ },
+ "C126285488": {
+  "name": "Monetary policy",
+  "pattern": "monetary|central bank|interest rate",
+  "source": "manual, audited"
+ },
+ "C108225325": {
+  "name": "Semiconductor",
+  "pattern": "semiconduct",
+  "source": "manual, audited"
+ },
+ "C58053490": {
+  "name": "Quantum computer",
+  "pattern": "quantum comput|qubit|quantum algorithm|quantum gate",
+  "source": "manual, audited"
+ },
+ "C98108389": {
+  "name": "CRISPR",
+  "pattern": "crispr|cas9|cas12|cas13|rna-guided|guide rna",
+  "source": "manual, audited"
+ },
+ "C15083742": {
+  "name": "Nanomedicine",
+  "pattern": "nanomedic|drug deliver|nanocarrier",
+  "source": "manual, audited"
+ },
+ "C94665300": {
+  "name": "Antibiotic resistance",
+  "pattern": "resistan|antimicrob",
+  "source": "manual, audited"
+ },
+ "C2776441376": {
+  "name": "Bacteriophage",
+  "pattern": "phage",
+  "source": "manual, audited"
+ },
+ "C132651083": {
+  "name": "Climate change",
+  "pattern": "climate|global warming",
+  "source": "manual, audited"
+ },
+ "C2778379663": {
+  "name": "Carbon capture and storage (timeline)",
+  "pattern": "carbon capture|co2 capture|co2 storage|carbon storage|sequestration|\\bccs\\b",
+  "source": "manual, audited"
+ },
+ "C2776870568": {
+  "name": "Desalination",
+  "pattern": "desalinat|reverse osmosis",
+  "source": "manual, audited"
+ },
+ "C2780560099": {
+  "name": "Fertilizer",
+  "pattern": "fertili[sz]",
+  "source": "manual, audited"
+ },
+ "C86909935": {
+  "name": "Aquaculture",
+  "pattern": "aquacult|fish farm|mariculture",
+  "source": "manual, audited"
+ },
+ "C2780401329": {
+  "name": "Microplastics",
+  "pattern": "microplastic|nanoplastic|plastic debris",
+  "source": "manual, audited"
+ },
+ "C89623803": {
+  "name": "Pandemic",
+  "pattern": "pandemic|epidemic|influenza|covid|sars",
+  "source": "manual, audited"
+ },
+ "C520049643": {
+  "name": "Voting",
+  "pattern": "\\bvot(e|es|ed|ing|er|ers)\\b|election|electoral|ballot",
+  "source": "manual, audited"
+ },
+ "C2776552730": {
+  "name": "Disinformation",
+  "pattern": "disinformation|misinformation|fake news|propaganda|rumou?r",
+  "source": "manual, audited"
+ },
+ "C2779687700": {
+  "name": "Blockchain",
+  "pattern": "blockchain|distributed ledger|smart contract|bitcoin|cryptocurrenc",
+  "source": "manual, audited"
+ },
+ "C19269812": {
+  "name": "Satellite",
+  "pattern": "satellite",
+  "source": "manual, audited"
+ },
+ "C524769229": {
+  "name": "3D printing",
+  "pattern": "3d[- ]print|additive(ly)? manufactur",
+  "source": "manual, audited"
+ },
+ "C34413123": {
+  "name": "Robotics",
+  "pattern": "robot",
+  "source": "manual, audited"
+ },
+ "C3018391801": {
+  "name": "Self driving",
+  "pattern": "self[- ]driving|autonomous (vehicle|car|driving)|driverless|automated driving",
+  "source": "manual, audited"
+ },
+ "C204321447": {
+  "name": "Natural language processing",
+  "pattern": "natural language|\\bnlp\\b|text min|language model|text classif|sentiment analysis",
+  "source": "manual, audited"
+ },
+ "C544778455": {
+  "name": "Copper",
+  "pattern": "copper|\\bcu\\b|\\bcu\\d|\\bcu\\(",
+  "source": "manual, audited"
+ },
+ "C515602321": {
+  "name": "Cobalt",
+  "pattern": "cobalt|co3o4|\\bco\\(i|licoo2|\\bco-(doped|based)",
+  "source": "manual, audited"
+ },
+ "C555451288": {
+  "name": "Uranium",
+  "pattern": "uranium|uranyl|\\bu\\(vi\\)|\\buo2\\b",
+  "source": "manual, audited"
+ },
+ "C24671956": {
+  "name": "Fusion power",
+  "pattern": "fusion (power|energy|reactor|plasma)|tokamak|stellarator|nuclear fusion|inertial confinement|plasma confinement",
+  "source": "manual, audited"
+ },
+ "C54101563": {
+  "name": "Superconductivity",
+  "pattern": "supercond|josephson|andreev|cooper pair",
+  "source": "manual, audited"
+ },
+ "C2776461528": {
+  "name": "Heat pump",
+  "pattern": "heat pump",
+  "source": "manual, audited"
+ },
+ "C207365445": {
+  "name": "Thermoelectric materials",
+  "pattern": "thermoelectric|seebeck|peltier",
+  "source": "manual, audited"
+ },
+ "C549605437": {
+  "name": "Food security",
+  "pattern": "food (in)?security|malnutrition|food system|undernutrition|hunger",
+  "source": "manual, audited"
+ },
+ "C2779483572": {
+  "name": "Dementia",
+  "pattern": "dementia|alzheimer|cognitive (decline|impairment)",
+  "source": "manual, audited"
+ },
+ "C511355011": {
+  "name": "Obesity",
+  "pattern": "obes|overweight|body mass index|\\bbmi\\b|adipos|weight status",
+  "source": "manual, audited"
+ },
+ "C149597833": {
+  "name": "Electrical steel",
+  "pattern": "electrical steel|silicon steel|grain[- ]oriented|non[- ]oriented|core loss|fe-si",
+  "source": "manual, audited"
+ },
+ "C201960208": {
+  "name": "Geopolitics",
+  "pattern": "geopolit",
+  "source": "manual, audited"
+ },
+ "C100293340": {
+  "name": "Hildebrand solubility parameter",
+  "pattern": "\\bhildebrand[- ]?solubility[- ]?parameter(s|es)?\\b|\\bhildebrand[- ]?parameter(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Hildebrand parameter"
+  ]
+ },
+ "C1009929": {
+  "name": "Software bug",
+  "pattern": "\\bsoftware[- ]?bug(s|es)?\\b|\\berror(s|es)?\\b|\\bcomputer[- ]?bug(s|es)?\\b|\\bsoftware[- ]?failure(s|es)?\\b|\\bsoftware[- ]?bugs(s|es)?\\b|\\bsoftware[- ]?flaw(s|es)?\\b|\\bsoftware[- ]?flaws(s|es)?\\b|\\bsoftware[- ]?failures(s|es)?\\b|\\bsoftware[- ]?anomaly(s|es)?\\b|\\bsoftware[- ]?defect(s|es)?\\b|\\bprogramming[- ]?bug(s|es)?\\b|\\bbug[- ]?in[- ]?software(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "error",
+   "computer bug",
+   "software failure",
+   "software bugs",
+   "software flaw",
+   "software flaws",
+   "software failures",
+   "bug",
+   "software anomaly",
+   "software defect",
+   "programming bug",
+   "bug in software"
+  ]
+ },
+ "C101601086": {
+  "name": "Rank correlation",
+  "pattern": "\\brank[- ]?correlation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C103319777": {
+  "name": "Proton NMR",
+  "pattern": "\\bproton[- ]?nmr(s|es)?\\b|\\b1h[- ]?nmr(s|es)?\\b|\\bproton[- ]?nuclear[- ]?magnetic[- ]?resonance(s|es)?\\b|\\bproton[- ]?magnetic[- ]?resonance[- ]?spectroscopy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "1H-NMR",
+   "1H NMR",
+   "proton nuclear magnetic resonance",
+   "Proton Magnetic Resonance Spectroscopy"
+  ]
+ },
+ "C103711010": {
+  "name": "Earthquake engineering",
+  "pattern": "\\bearthquake[- ]?engineering(s|es)?\\b|\\bearthquake[- ]?resistant(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "earthquake resistant"
+  ]
+ },
+ "C103913367": {
+  "name": "Plucking",
+  "pattern": "\\bplucking(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C104727253": {
+  "name": "Biological pest control",
+  "pattern": "\\bbiological[- ]?pest[- ]?control(s|es)?\\b|\\bbiological[- ]?control(s|es)?\\b|\\bpest[- ]?control,[- ]?biological(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "biological control",
+   "pest control, biological"
+  ]
+ },
+ "C105768512": {
+  "name": "Reaction intermediate",
+  "pattern": "\\breaction[- ]?intermediate(s|es)?\\b|\\bintermediate(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "intermediate"
+  ]
+ },
+ "C107240024": {
+  "name": "Mechanical energy",
+  "pattern": "\\bmechanical[- ]?energy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C10929652": {
+  "name": "Radar imaging",
+  "pattern": "\\bradar[- ]?imaging(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C110099512": {
+  "name": "Philosophy of science",
+  "pattern": "\\bphilosophy[- ]?of[- ]?science(s|es)?\\b|\\btheory[- ]?of[- ]?science(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "theory of science"
+  ]
+ },
+ "C111696304": {
+  "name": "Sorting",
+  "pattern": "\\bsorting(s|es)?\\b|\\bsort(s|es)?\\b|\\bordering(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "sort",
+   "ordering"
+  ]
+ },
+ "C112505250": {
+  "name": "Automaton",
+  "pattern": "\\bautomaton(s|es)?\\b|\\bautomata(s|es)?\\b|\\bautomated[- ]?machine(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "automata",
+   "automated machine"
+  ]
+ },
+ "C113863187": {
+  "name": "SCADA",
+  "pattern": "\\bscada(s|es)?\\b|\\bsupervisory[- ]?control[- ]?and[- ]?data[- ]?acquisition(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "supervisory control and data acquisition"
+  ]
+ },
+ "C114799590": {
+  "name": "Intellectual history",
+  "pattern": "\\bintellectual[- ]?history(s|es)?\\b|\\bhistory[- ]?of[- ]?science[- ]?and[- ]?learning(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "history of science and learning"
+  ]
+ },
+ "C115047598": {
+  "name": "Quantum field theory",
+  "pattern": "\\bquantum[- ]?field[- ]?theory(s|es)?\\b|\\bquantum[- ]?field[- ]?theoretical(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "QFT",
+   "Quantum field theoretical"
+  ]
+ },
+ "C115199736": {
+  "name": "Visual Basic for Applications",
+  "pattern": "\\bvisual[- ]?basic[- ]?for[- ]?applications(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "VBA"
+  ]
+ },
+ "C118993495": {
+  "name": "Electrical efficiency",
+  "pattern": "\\belectrical[- ]?efficiency(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C120784921": {
+  "name": "Multivariate probit model",
+  "pattern": "\\bmultivariate[- ]?probit[- ]?model(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C121758426": {
+  "name": "Harmonic balance",
+  "pattern": "\\bharmonic[- ]?balance(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C122325731": {
+  "name": "Relative species abundance",
+  "pattern": "\\brelative[- ]?species[- ]?abundance(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C123688308": {
+  "name": "Correction for attenuation",
+  "pattern": "\\bcorrection[- ]?for[- ]?attenuation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C123919525": {
+  "name": "Frequency deviation",
+  "pattern": "\\bfrequency[- ]?deviation(s|es)?\\b|\\babsolute[- ]?frequency[- ]?deviation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "absolute frequency deviation"
+  ]
+ },
+ "C12404463": {
+  "name": "Chemical industry",
+  "pattern": "\\bchemical[- ]?industry(s|es)?\\b|\\bheavy[- ]?chemical[- ]?industry(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "heavy chemical industry"
+  ]
+ },
+ "C125575132": {
+  "name": "Xanthophyll",
+  "pattern": "\\bxanthophyll(s|es)?\\b|\\b127[- ]?40[- ]?2(s|es)?\\b|\\bxanthophylls(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "127-40-2",
+   "xanthophylls"
+  ]
+ },
+ "C126661725": {
+  "name": "Isomerization",
+  "pattern": "\\bisomerization(s|es)?\\b|\\bisomerisation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "isomerisation"
+  ]
+ },
+ "C127145964": {
+  "name": "Heat recovery ventilation",
+  "pattern": "\\bheat[- ]?recovery[- ]?ventilation(s|es)?\\b|\\bheat[- ]?recovery[- ]?ventilation[- ]?system(s|es)?\\b|\\bmechanical[- ]?ventilation[- ]?heat[- ]?recovery(s|es)?\\b|\\bmvhr(s|es)?\\b|\\benergy[- ]?recovery[- ]?ventilation(s|es)?\\b|\\bheat[- ]?recovery[- ]?ventilator(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Heat recovery ventilation system",
+   "HRV",
+   "mechanical ventilation heat recovery",
+   "MVHR",
+   "energy recovery ventilation",
+   "ERV",
+   "heat recovery ventilator"
+  ]
+ },
+ "C127349201": {
+  "name": "Numerical integration",
+  "pattern": "\\bnumerical[- ]?integration(s|es)?\\b|\\bnumerical[- ]?quadrature(s|es)?\\b|\\bquadrature(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "numerical quadrature",
+   "quadrature"
+  ]
+ },
+ "C127745971": {
+  "name": "Feather",
+  "pattern": "\\bfeather(s|es)?\\b|\\bbird[- ]?feather(s|es)?\\b|\\bfeathers(s|es)?\\b|\\bplumage(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "bird feather",
+   "feathers",
+   "plumage"
+  ]
+ },
+ "C128040838": {
+  "name": "Pseudorandom binary sequence",
+  "pattern": "\\bpseudorandom[- ]?binary[- ]?sequence(s|es)?\\b|\\bpseudorandomness[- ]?binary[- ]?sequence(s|es)?\\b|\\bprbs(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Pseudorandomness binary sequence",
+   "PRBS"
+  ]
+ },
+ "C128081465": {
+  "name": "Infinitive",
+  "pattern": "\\binfinitive(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "INF"
+  ]
+ },
+ "C128289946": {
+  "name": "Holographic interferometry",
+  "pattern": "\\bholographic[- ]?interferometry(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C129162502": {
+  "name": "Exfoliation joint",
+  "pattern": "\\bexfoliation[- ]?joint(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C129360787": {
+  "name": "Total dissolved solids",
+  "pattern": "\\btotal[- ]?dissolved[- ]?solids(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "TDS"
+  ]
+ },
+ "C130452526": {
+  "name": "Diagenesis",
+  "pattern": "\\bdiagenesis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C130838757": {
+  "name": "Westernization",
+  "pattern": "\\bwesternization(s|es)?\\b|\\boccidentalization(s|es)?\\b|\\bwesternisation(s|es)?\\b|\\boccidentalisation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "occidentalization",
+   "Westernisation",
+   "Occidentalisation"
+  ]
+ },
+ "C131935069": {
+  "name": "Electromagnetically induced transparency",
+  "pattern": "\\belectromagnetically[- ]?induced[- ]?transparency(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "EIT"
+  ]
+ },
+ "C132677234": {
+  "name": "Structural motif",
+  "pattern": "\\bstructural[- ]?motif(s|es)?\\b|\\bstructure[- ]?motif(s|es)?\\b|\\bprotein[- ]?structural[- ]?motif(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "structure motif",
+   "protein structural motif"
+  ]
+ },
+ "C132954091": {
+  "name": "Banach space",
+  "pattern": "\\bbanach[- ]?space(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C133320665": {
+  "name": "RAID",
+  "pattern": "\\braid(s|es)?\\b|\\bredundant[- ]?array[- ]?of[- ]?inexpensive[- ]?disks(s|es)?\\b|\\braid[- ]?array(s|es)?\\b|\\bredundant[- ]?array[- ]?of[- ]?independent[- ]?disks(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Redundant Array of Inexpensive Disks",
+   "RAID array",
+   "Redundant Array of Independent Disks"
+  ]
+ },
+ "C133462117": {
+  "name": "Data collection",
+  "pattern": "\\bdata[- ]?collection(s|es)?\\b|\\bdata[- ]?gathering(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "data gathering"
+  ]
+ },
+ "C13373296": {
+  "name": "Chemokine",
+  "pattern": "\\bchemokine(s|es)?\\b|\\bchemotactic[- ]?cytokine(s|es)?\\b|\\bchemokines(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "chemotactic cytokine",
+   "chemokines",
+   "Chemokine"
+  ]
+ },
+ "C133871045": {
+  "name": "Multiplet",
+  "pattern": "\\bmultiplet(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C134406635": {
+  "name": "Photoresist",
+  "pattern": "\\bphotoresist(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C134466208": {
+  "name": "Weight function",
+  "pattern": "\\bweight[- ]?function(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C13460635": {
+  "name": "Classification scheme",
+  "pattern": "\\bclassification[- ]?scheme(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C135257023": {
+  "name": "Domain-specific language",
+  "pattern": "\\bdomain[- ]?specific[- ]?language(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "DSL"
+  ]
+ },
+ "C135562815": {
+  "name": "Beam propagation method",
+  "pattern": "\\bbeam[- ]?propagation[- ]?method(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C136478896": {
+  "name": "Brittleness",
+  "pattern": "\\bbrittleness(s|es)?\\b|\\bbrittle(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "brittle"
+  ]
+ },
+ "C137820387": {
+  "name": "Thermoacoustics",
+  "pattern": "\\bthermoacoustics(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C137824038": {
+  "name": "Intercalation (chemistry)",
+  "pattern": "\\bintercalation[- ]?\\(chemistry\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C138296749": {
+  "name": "Global citizenship",
+  "pattern": "\\bglobal[- ]?citizenship(s|es)?\\b|\\bworld[- ]?citizenship(s|es)?\\b|\\binternational[- ]?citizenship(s|es)?\\b|\\buniversal[- ]?citizenship(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "world citizenship",
+   "international citizenship",
+   "universal citizenship"
+  ]
+ },
+ "C13854087": {
+  "name": "Interaction design",
+  "pattern": "\\binteraction[- ]?design(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "IxD"
+  ]
+ },
+ "C13935069": {
+  "name": "Oligopeptide",
+  "pattern": "\\boligopeptide(s|es)?\\b|\\boligopeptides(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "oligopeptides"
+  ]
+ },
+ "C141123601": {
+  "name": "Multiscale modeling",
+  "pattern": "\\bmultiscale[- ]?modeling(s|es)?\\b|\\bmultiscale[- ]?mathematics(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "multiscale mathematics"
+  ]
+ },
+ "C141646446": {
+  "name": "Continental crust",
+  "pattern": "\\bcontinental[- ]?crust(s|es)?\\b|\\bsial(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "sial"
+  ]
+ },
+ "C143678939": {
+  "name": "Episteme",
+  "pattern": "\\bepisteme(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C144530980": {
+  "name": "Certification and Accreditation",
+  "pattern": "\\bcertification[- ]?and[- ]?accreditation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C144814538": {
+  "name": "Autobiographical memory",
+  "pattern": "\\bautobiographical[- ]?memory(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C145103041": {
+  "name": "Embryonic stem cell",
+  "pattern": "\\bembryonic[- ]?stem[- ]?cell(s|es)?\\b|\\bes[- ]?cells(s|es)?\\b|\\bembryonic[- ]?stem[- ]?cells(s|es)?\\b|\\bcellula[- ]?precursoria[- ]?embryonica(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "ES cells",
+   "ESC",
+   "embryonic stem cells",
+   "cellula precursoria embryonica"
+  ]
+ },
+ "C145417883": {
+  "name": "Diffuse optical imaging",
+  "pattern": "\\bdiffuse[- ]?optical[- ]?imaging(s|es)?\\b|\\bdiffuse[- ]?optical[- ]?tomography(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "diffuse optical tomography"
+  ]
+ },
+ "C145691206": {
+  "name": "Polytope",
+  "pattern": "\\bpolytope(s|es)?\\b|\\bpolytopes(s|es)?\\b|\\bnon[- ]?degenerate[- ]?polytope(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "polytopes",
+   "polytope",
+   "non-degenerate polytope"
+  ]
+ },
+ "C146834321": {
+  "name": "Closure (psychology)",
+  "pattern": "\\bclosure[- ]?\\(psychology\\)(s|es)?\\b|\\bneed[- ]?for[- ]?closure(s|es)?\\b|\\bneed[- ]?for[- ]?cognitive[- ]?closure(s|es)?\\b|\\bnfcc(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "need for closure",
+   "NFC",
+   "need for cognitive closure",
+   "NfCC"
+  ]
+ },
+ "C146867326": {
+  "name": "Structure formation",
+  "pattern": "\\bstructure[- ]?formation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C147366489": {
+  "name": "Wildlife conservation",
+  "pattern": "\\bwildlife[- ]?conservation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C147581598": {
+  "name": "Extreme value theory",
+  "pattern": "\\bextreme[- ]?value[- ]?theory(s|es)?\\b|\\bextreme[- ]?value[- ]?analysis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "extreme value analysis",
+   "EVA"
+  ]
+ },
+ "C148730421": {
+  "name": "Encryption",
+  "pattern": "\\bencryption(s|es)?\\b|\\bencipherment(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "encipherment"
+  ]
+ },
+ "C149277555": {
+  "name": "Daylight",
+  "pattern": "\\bdaylight(s|es)?\\b|\\blight[- ]?of[- ]?day(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "light of day"
+  ]
+ },
+ "C149866677": {
+  "name": "Equity risk",
+  "pattern": "\\bequity[- ]?risk(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C150042643": {
+  "name": "Degreasing",
+  "pattern": "\\bdegreasing(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C150506046": {
+  "name": "Logos Bible Software",
+  "pattern": "\\blogos[- ]?bible[- ]?software(s|es)?\\b|\\blogos\\.com(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "logos.com"
+  ]
+ },
+ "C151788092": {
+  "name": "Moorland",
+  "pattern": "\\bmoorland(s|es)?\\b|\\bmoor(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "moor"
+  ]
+ },
+ "C152006893": {
+  "name": "Unreinforced masonry building",
+  "pattern": "\\bunreinforced[- ]?masonry[- ]?building(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C15302153": {
+  "name": "Employability",
+  "pattern": "\\bemployability(s|es)?\\b|\\bemployment[- ]?potential(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "employment potential"
+  ]
+ },
+ "C153127940": {
+  "name": "Oil shale",
+  "pattern": "\\boil[- ]?shale(s|es)?\\b|\\boil[- ]?shales(s|es)?\\b|\\bbituminous[- ]?shale(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "oil-shales",
+   "bituminous shale"
+  ]
+ },
+ "C154010619": {
+  "name": "Terrestrial planet",
+  "pattern": "\\bterrestrial[- ]?planet(s|es)?\\b|\\btelluric[- ]?planet(s|es)?\\b|\\brocky[- ]?planet(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "telluric planet",
+   "rocky planet"
+  ]
+ },
+ "C154130900": {
+  "name": "Talmud",
+  "pattern": "\\btalmud(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C154280991": {
+  "name": "Aquaporin",
+  "pattern": "\\baquaporin(s|es)?\\b|\\bwater[- ]?channel(s|es)?\\b|\\baquaporin[- ]?transporter(s|es)?\\b|\\baquaporin_transptr(s|es)?\\b|\\bipr034294(s|es)?\\b|\\baquaporins(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "water channel",
+   "Aquaporin transporter",
+   "Aquaporin_transptr",
+   "IPR034294",
+   "aquaporins"
+  ]
+ },
+ "C155672457": {
+  "name": "Nanoparticle",
+  "pattern": "\\bnanoparticle(s|es)?\\b|\\bnanoparticles(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "nanoparticles"
+  ]
+ },
+ "C156008332": {
+  "name": "Precipitable water",
+  "pattern": "\\bprecipitable[- ]?water(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C158424031": {
+  "name": "Gibbs sampling",
+  "pattern": "\\bgibbs[- ]?sampling(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C158846371": {
+  "name": "Blood flow",
+  "pattern": "\\bblood[- ]?flow(s|es)?\\b|\\bhaemodynamics(s|es)?\\b|\\bhæmodynamics(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "haemodynamics",
+   "hæmodynamics"
+  ]
+ },
+ "C160798176": {
+  "name": "Solar air conditioning",
+  "pattern": "\\bsolar[- ]?air[- ]?conditioning(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C161368742": {
+  "name": "High-resolution transmission electron microscopy",
+  "pattern": "\\bhigh[- ]?resolution[- ]?transmission[- ]?electron[- ]?microscopy(s|es)?\\b|\\bhrtem(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "HRTEM"
+  ]
+ },
+ "C162695957": {
+  "name": "Cyberculture",
+  "pattern": "\\bcyberculture(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "cyberculture"
+  ]
+ },
+ "C163716315": {
+  "name": "Gaussian",
+  "pattern": "\\bgaussian(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C164466805": {
+  "name": "Parametric oscillator",
+  "pattern": "\\bparametric[- ]?oscillator(s|es)?\\b|\\bparametric[- ]?excitation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Parametric excitation"
+  ]
+ },
+ "C164614171": {
+  "name": "DECIPHER",
+  "pattern": "\\bdecipher(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C165616093": {
+  "name": "Serum albumin",
+  "pattern": "\\bserum[- ]?albumin(s|es)?\\b|\\banalba(s|es)?\\b|\\bfdah(s|es)?\\b|\\bpro0883(s|es)?\\b|\\bpro0903(s|es)?\\b|\\bpro1341(s|es)?\\b|\\balbumin(s|es)?\\b|\\bfdaht(s|es)?\\b|\\bblood[- ]?albumin(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "ANALBA",
+   "FDAH",
+   "PRO0883",
+   "PRO0903",
+   "PRO1341",
+   "albumin",
+   "HSA",
+   "FDAHT",
+   "serum albumin",
+   "blood albumin"
+  ]
+ },
+ "C167672396": {
+  "name": "CD8",
+  "pattern": "\\bcd8(s|es)?\\b|\\bcd8[- ]?receptor(s|es)?\\b|\\bcd8[- ]?antigens(s|es)?\\b|\\bcd8[- ]?molecule(s|es)?\\b|\\bcd8[- ]?protein(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "CD8-receptor",
+   "CD8 antigens",
+   "CD8 molecule",
+   "CD8 receptor",
+   "CD8 protein"
+  ]
+ },
+ "C168173289": {
+  "name": "WIMP",
+  "pattern": "\\bwimp(s|es)?\\b|\\bwindows,[- ]?icons,[- ]?menus,[- ]?pointer(s|es)?\\b|\\bwindows,[- ]?icons,[- ]?mouse[- ]?and[- ]?pull[- ]?down[- ]?menus(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Windows, Icons, Menus, Pointer",
+   "Windows, Icons, Mouse and Pull-Down Menus"
+  ]
+ },
+ "C168240541": {
+  "name": "Organelle",
+  "pattern": "\\borganelle(s|es)?\\b|\\bcell[- ]?organelles(s|es)?\\b|\\bcell[- ]?organelle(s|es)?\\b|\\borganelles(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "cell organelles",
+   "cell organelle",
+   "organelles"
+  ]
+ },
+ "C168444539": {
+  "name": "Organ transplantation",
+  "pattern": "\\borgan[- ]?transplantation(s|es)?\\b|\\btransplant(s|es)?\\b|\\btransplant[- ]?surgery(s|es)?\\b|\\btransplantation[- ]?surgery(s|es)?\\b|\\ballotransplantation(s|es)?\\b|\\ballograft(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "transplant",
+   "transplant surgery",
+   "transplantation surgery",
+   "organ transplantation",
+   "allotransplantation",
+   "allograft"
+  ]
+ },
+ "C169627665": {
+  "name": "Homology modeling",
+  "pattern": "\\bhomology[- ]?modeling(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C174801256": {
+  "name": "Landscaping",
+  "pattern": "\\blandscaping(s|es)?\\b|\\blandscape[- ]?gardening(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "landscape gardening"
+  ]
+ },
+ "C175734852": {
+  "name": "Pupa",
+  "pattern": "\\bpupa(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C176019070": {
+  "name": "Heterosexuality",
+  "pattern": "\\bheterosexuality(s|es)?\\b|\\bstraight(s|es)?\\b|\\bstraightness(s|es)?\\b|\\bheterosexual(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "⚤",
+   "straight",
+   "straightness",
+   "heterosexual"
+  ]
+ },
+ "C176038584": {
+  "name": "Triad (sociology)",
+  "pattern": "\\btriad[- ]?\\(sociology\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C176871988": {
+  "name": "Electric motor",
+  "pattern": "\\belectric[- ]?motor(s|es)?\\b|\\bmotor(s|es)?\\b|\\belectrical[- ]?motor(s|es)?\\b|\\belectro[- ]?motor(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "motor",
+   "electrical motor",
+   "electro motor"
+  ]
+ },
+ "C177047870": {
+  "name": "Professional writing",
+  "pattern": "\\bprofessional[- ]?writing(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C177291462": {
+  "name": "Active listening",
+  "pattern": "\\bactive[- ]?listening(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C178005623": {
+  "name": "Anonymity",
+  "pattern": "\\banonymity(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C178165689": {
+  "name": "Inflorescence",
+  "pattern": "\\binflorescence(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C17886624": {
+  "name": "Key management",
+  "pattern": "\\bkey[- ]?management(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C179303850": {
+  "name": "Molecular recognition",
+  "pattern": "\\bmolecular[- ]?recognition(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C17967879": {
+  "name": "Space Science",
+  "pattern": "\\bspace[- ]?science(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C180260311": {
+  "name": "Animal fat",
+  "pattern": "\\banimal[- ]?fat(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "animal fat"
+  ]
+ },
+ "C180566339": {
+  "name": "Parton",
+  "pattern": "\\bparton(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C181190989": {
+  "name": "Divestment",
+  "pattern": "\\bdivestment(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C183882617": {
+  "name": "Cationic polymerization",
+  "pattern": "\\bcationic[- ]?polymerization(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C18767781": {
+  "name": "Food choice",
+  "pattern": "\\bfood[- ]?choice(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C189946632": {
+  "name": "Freudian slip",
+  "pattern": "\\bfreudian[- ]?slip(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C190974861": {
+  "name": "European integration",
+  "pattern": "\\beuropean[- ]?integration(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C192932206": {
+  "name": "Convective storm detection",
+  "pattern": "\\bconvective[- ]?storm[- ]?detection(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C193125573": {
+  "name": "Semantic interpretation",
+  "pattern": "\\bsemantic[- ]?interpretation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C19320362": {
+  "name": "Carbonate rock",
+  "pattern": "\\bcarbonate[- ]?rock(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C193596192": {
+  "name": "CD-ROM",
+  "pattern": "\\bcd[- ]?rom(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C194051981": {
+  "name": "Economic shortage",
+  "pattern": "\\beconomic[- ]?shortage(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C197336794": {
+  "name": "Conjugate",
+  "pattern": "\\bconjugate(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C197352329": {
+  "name": "Citizen science",
+  "pattern": "\\bcitizen[- ]?science(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C198446146": {
+  "name": "Chemistry education",
+  "pattern": "\\bchemistry[- ]?education(s|es)?\\b|\\bintroductory[- ]?chemistry(s|es)?\\b|\\bchemistry[- ]?teaching(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "chemistry education",
+   "introductory chemistry",
+   "chemistry teaching"
+  ]
+ },
+ "C199540501": {
+  "name": "Bobbin",
+  "pattern": "\\bbobbin(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C199873434": {
+  "name": "Carbon fixation",
+  "pattern": "\\bcarbon[- ]?fixation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C20256973": {
+  "name": "Standard score",
+  "pattern": "\\bstandard[- ]?score(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C203017698": {
+  "name": "Modified atmosphere",
+  "pattern": "\\bmodified[- ]?atmosphere(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C203130289": {
+  "name": "Epimer",
+  "pattern": "\\bepimer(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C203481301": {
+  "name": "Data system",
+  "pattern": "\\bdata[- ]?system(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C20387591": {
+  "name": "Specialty",
+  "pattern": "\\bspecialty(s|es)?\\b|\\bbranch[- ]?of[- ]?medicine(s|es)?\\b|\\bmedical[- ]?speciality(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "branch of medicine",
+   "medical speciality"
+  ]
+ },
+ "C204208750": {
+  "name": "Short run",
+  "pattern": "\\bshort[- ]?run(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C204389451": {
+  "name": "Macromolecule",
+  "pattern": "\\bmacromolecule(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C204628709": {
+  "name": "Biotinylation",
+  "pattern": "\\bbiotinylation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C205260736": {
+  "name": "Heat shock protein",
+  "pattern": "\\bheat[- ]?shock[- ]?protein(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C206217203": {
+  "name": "Earnings per share",
+  "pattern": "\\bearnings[- ]?per[- ]?share(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C206729178": {
+  "name": "Scheduling (production processes)",
+  "pattern": "\\bscheduling[- ]?\\(production[- ]?processes\\)(s|es)?\\b|\\bschedule(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "schedule"
+  ]
+ },
+ "C206967267": {
+  "name": "Ion chromatography",
+  "pattern": "\\bion[- ]?chromatography(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C207043602": {
+  "name": "Algebraic curve",
+  "pattern": "\\balgebraic[- ]?curve(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C207245611": {
+  "name": "Condensation reaction",
+  "pattern": "\\bcondensation[- ]?reaction(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C207332259": {
+  "name": "GTPase",
+  "pattern": "\\bgtpase(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C21368211": {
+  "name": "Synchrotron",
+  "pattern": "\\bsynchrotron(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C21957315": {
+  "name": "Beta-2 microglobulin",
+  "pattern": "\\bbeta[- ]?2[- ]?microglobulin(s|es)?\\b|\\bbeta[- ]?2[- ]?microglobin(s|es)?\\b|\\bbeta[- ]?chain[- ]?of[- ]?mhc[- ]?class[- ]?i[- ]?molecules(s|es)?\\b|\\bβ2[- ]?microglobulin(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "beta-2-microglobin",
+   "beta-2-microglobulin",
+   "beta chain of MHC class I molecules",
+   "β2 microglobulin",
+   "B2M"
+  ]
+ },
+ "C2341566": {
+  "name": "Cow dung",
+  "pattern": "\\bcow[- ]?dung(s|es)?\\b|\\bcow[- ]?pats(s|es)?\\b|\\bcow[- ]?pies(s|es)?\\b|\\bcow[- ]?manure(s|es)?\\b|\\bcow[- ]?pat(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "cow pats",
+   "cow pies",
+   "cow manure",
+   "Cow pat"
+  ]
+ },
+ "C23987474": {
+  "name": "Philology",
+  "pattern": "\\bphilology(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C24066741": {
+  "name": "Mass spectrometry imaging",
+  "pattern": "\\bmass[- ]?spectrometry[- ]?imaging(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C24552861": {
+  "name": "Data assimilation",
+  "pattern": "\\bdata[- ]?assimilation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C25906391": {
+  "name": "Hop (telecommunications)",
+  "pattern": "\\bhop[- ]?\\(telecommunications\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C25938499": {
+  "name": "Systemic administration",
+  "pattern": "\\bsystemic[- ]?administration(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C27256138": {
+  "name": "Disulfide bond",
+  "pattern": "\\bdisulfide[- ]?bond(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C27740335": {
+  "name": "Proteasome",
+  "pattern": "\\bproteasome(s|es)?\\b|\\bgo:0000502(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "GO:0000502",
+   "proteasome"
+  ]
+ },
+ "C2775859210": {
+  "name": "Atropine",
+  "pattern": "\\batropine(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2775871700": {
+  "name": "Breast milk",
+  "pattern": "\\bbreast[- ]?milk(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2775884135": {
+  "name": "Mandate",
+  "pattern": "\\bmandate(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2775910092": {
+  "name": "Acetylcholine",
+  "pattern": "\\bacetylcholine(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2775955345": {
+  "name": "Semantic mapping",
+  "pattern": "\\bsemantic[- ]?mapping(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2775979504": {
+  "name": "Melamine",
+  "pattern": "\\bmelamine(s|es)?\\b|\\bsym[- ]?triaminotriazine(s|es)?\\b|\\bcyanuramide(s|es)?\\b|\\bcyanurotriamide(s|es)?\\b|\\bcyanurotriamine(s|es)?\\b|\\b2,4,6[- ]?triamino[- ]?s[- ]?triazine(s|es)?\\b|\\b1,3,5[- ]?triazine[- ]?2,4,6[- ]?triamine(s|es)?\\b|\\btriaminotriazine(s|es)?\\b|\\bcyanuric[- ]?triamide(s|es)?\\b|\\bs[- ]?triazinetriamine(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "sym-triaminotriazine",
+   "cyanuramide",
+   "cyanurotriamide",
+   "cyanurotriamine",
+   "2,4,6-triamino-s-triazine",
+   "1,3,5-triazine-2,4,6-triamine",
+   "triaminotriazine",
+   "cyanuric triamide",
+   "s-triazinetriamine"
+  ]
+ },
+ "C2775987729": {
+  "name": "Green-light",
+  "pattern": "\\bgreen[- ]?light(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2775988433": {
+  "name": "VisSim",
+  "pattern": "\\bvissim(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776010296": {
+  "name": "Nesting season",
+  "pattern": "\\bnesting[- ]?season(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776020190": {
+  "name": "New class",
+  "pattern": "\\bnew[- ]?class(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776041477": {
+  "name": "Locust",
+  "pattern": "\\blocust(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776056826": {
+  "name": "Allergic contact dermatitis",
+  "pattern": "\\ballergic[- ]?contact[- ]?dermatitis(s|es)?\\b|\\bsensitization[- ]?dermatitis(s|es)?\\b|\\ballergic[- ]?contact[- ]?dermatitis[- ]?\\(disorder\\)(s|es)?\\b|\\ballergic[- ]?form[- ]?of[- ]?contact[- ]?dermatitis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "sensitization dermatitis",
+   "Allergic Contact Dermatitis",
+   "Allergic contact dermatitis",
+   "Allergic contact dermatitis (disorder)",
+   "allergic form of contact dermatitis"
+  ]
+ },
+ "C2776088076": {
+  "name": "Drill pipe",
+  "pattern": "\\bdrill[- ]?pipe(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776119841": {
+  "name": "Jury",
+  "pattern": "\\bjury(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776126399": {
+  "name": "Immutability",
+  "pattern": "\\bimmutability(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776305511": {
+  "name": "Arsenite",
+  "pattern": "\\barsenite(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776348710": {
+  "name": "Hip replacement",
+  "pattern": "\\bhip[- ]?replacement(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776359302": {
+  "name": "Isoflurane",
+  "pattern": "\\bisoflurane(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776369677": {
+  "name": "Human Development Report",
+  "pattern": "\\bhuman[- ]?development[- ]?report(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776378156": {
+  "name": "Enamine",
+  "pattern": "\\benamine(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776378700": {
+  "name": "Distraction",
+  "pattern": "\\bdistraction(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776390344": {
+  "name": "Calyx",
+  "pattern": "\\bcalyx(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776393687": {
+  "name": "Hexose",
+  "pattern": "\\bhexose(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776395126": {
+  "name": "Microcephaly",
+  "pattern": "\\bmicrocephaly(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776405206": {
+  "name": "Revelation",
+  "pattern": "\\brevelation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776436463": {
+  "name": "Brief intervention",
+  "pattern": "\\bbrief[- ]?intervention(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776439223": {
+  "name": "Otitis",
+  "pattern": "\\botitis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776452267": {
+  "name": "Secrecy",
+  "pattern": "\\bsecrecy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776498113": {
+  "name": "Defensin",
+  "pattern": "\\bdefensin(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776551768": {
+  "name": "Guar",
+  "pattern": "\\bguar(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776617377": {
+  "name": "Ammonium nitrate",
+  "pattern": "\\bammonium[- ]?nitrate(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776674983": {
+  "name": "Image editing",
+  "pattern": "\\bimage[- ]?editing(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776678335": {
+  "name": "Wilt disease",
+  "pattern": "\\bwilt[- ]?disease(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776685102": {
+  "name": "Carbapenem",
+  "pattern": "\\bcarbapenem(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776690073": {
+  "name": "Oocyte",
+  "pattern": "\\boocyte(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776692886": {
+  "name": "Polytrauma",
+  "pattern": "\\bpolytrauma(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776751424": {
+  "name": "Capitata",
+  "pattern": "\\bcapitata(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776819072": {
+  "name": "Sensu",
+  "pattern": "\\bsensu(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776822698": {
+  "name": "Green consumption",
+  "pattern": "\\bgreen[- ]?consumption(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776888792": {
+  "name": "Laryngoscopy",
+  "pattern": "\\blaryngoscopy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776966407": {
+  "name": "Lysozyme",
+  "pattern": "\\blysozyme(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2776977782": {
+  "name": "Legislative assembly",
+  "pattern": "\\blegislative[- ]?assembly(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777031316": {
+  "name": "Coal measures",
+  "pattern": "\\bcoal[- ]?measures(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777063073": {
+  "name": "Settlement (finance)",
+  "pattern": "\\bsettlement[- ]?\\(finance\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777081348": {
+  "name": "Fluorite",
+  "pattern": "\\bfluorite(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777093960": {
+  "name": "Implantable cardioverter-defibrillator",
+  "pattern": "\\bimplantable[- ]?cardioverter[- ]?defibrillator(s|es)?\\b|\\bicd[- ]?dual[- ]?chamber[- ]?devices[- ]?with[- ]?lead(s|es)?\\b|\\bdefibrillators,[- ]?implantable(s|es)?\\b|\\bimplantable[- ]?defibrillator(s|es)?\\b|\\bimplantable[- ]?defibrillators(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "ICD dual chamber devices with lead",
+   "Defibrillators, Implantable",
+   "implantable defibrillator",
+   "implantable defibrillators"
+  ]
+ },
+ "C2777135253": {
+  "name": "Halloysite",
+  "pattern": "\\bhalloysite(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777241282": {
+  "name": "Transesterification",
+  "pattern": "\\btransesterification(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777346780": {
+  "name": "Adenoidectomy",
+  "pattern": "\\badenoidectomy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777382934": {
+  "name": "Corporate identity",
+  "pattern": "\\bcorporate[- ]?identity(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777394366": {
+  "name": "Personality type",
+  "pattern": "\\bpersonality[- ]?type(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777400808": {
+  "name": "Seagrass",
+  "pattern": "\\bseagrass(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777414711": {
+  "name": "Lantern",
+  "pattern": "\\blantern(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777428918": {
+  "name": "Health assessment",
+  "pattern": "\\bhealth[- ]?assessment(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777432744": {
+  "name": "Compassion",
+  "pattern": "\\bcompassion(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777592495": {
+  "name": "Israelites",
+  "pattern": "\\bisraelites(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777594072": {
+  "name": "Pharmacopoeia",
+  "pattern": "\\bpharmacopoeia(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777713963": {
+  "name": "Butanol",
+  "pattern": "\\bbutanol(s|es)?\\b|\\bbutyl[- ]?alcohol(s|es)?\\b|\\bbutanols(s|es)?\\b|\\bbutanol[- ]?mixed[- ]?isomers(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "butyl alcohol",
+   "Butanol",
+   "butanols",
+   "butanol mixed isomers"
+  ]
+ },
+ "C2777851122": {
+  "name": "Ceramide",
+  "pattern": "\\bceramide(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777880217": {
+  "name": "Acknowledgement",
+  "pattern": "\\backnowledgement(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777903624": {
+  "name": "Spatial light modulator",
+  "pattern": "\\bspatial[- ]?light[- ]?modulator(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777921204": {
+  "name": "Knowledge translation",
+  "pattern": "\\bknowledge[- ]?translation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777923404": {
+  "name": "Blood meal",
+  "pattern": "\\bblood[- ]?meal(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2777975993": {
+  "name": "Bryophyte",
+  "pattern": "\\bbryophyte(s|es)?\\b|\\bbryophytes(s|es)?\\b|\\bbryophyta[- ]?sensu[- ]?lato(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "bryophytes",
+   "Bryophyta sensu lato"
+  ]
+ },
+ "C2777996180": {
+  "name": "Coconut oil",
+  "pattern": "\\bcoconut[- ]?oil(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778111144": {
+  "name": "Dwarfism",
+  "pattern": "\\bdwarfism(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778215004": {
+  "name": "Solvency",
+  "pattern": "\\bsolvency(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778230297": {
+  "name": "Sprayer",
+  "pattern": "\\bsprayer(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778307483": {
+  "name": "Colored",
+  "pattern": "\\bcolored(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778360550": {
+  "name": "Transdisciplinarity",
+  "pattern": "\\btransdisciplinarity(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778365127": {
+  "name": "Verticillium",
+  "pattern": "\\bverticillium(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778380070": {
+  "name": "Intangible asset",
+  "pattern": "\\bintangible[- ]?asset(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778421084": {
+  "name": "Tetrathiafulvalene",
+  "pattern": "\\btetrathiafulvalene(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778515351": {
+  "name": "Scalp",
+  "pattern": "\\bscalp(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778529423": {
+  "name": "Rite",
+  "pattern": "\\brite(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778583558": {
+  "name": "Code reuse",
+  "pattern": "\\bcode[- ]?reuse(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778589381": {
+  "name": "Chernozem",
+  "pattern": "\\bchernozem(s|es)?\\b|\\bblack[- ]?earth(s|es)?\\b|\\bblack[- ]?soil(s|es)?\\b|\\bregur[- ]?soil(s|es)?\\b|\\bblack[- ]?cotton[- ]?soil(s|es)?\\b|\\bblack[- ]?lands(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "black earth",
+   "black soil",
+   "regur soil",
+   "black cotton soil",
+   "black lands",
+   "Chernozem"
+  ]
+ },
+ "C2778682995": {
+  "name": "Eudicots",
+  "pattern": "\\beudicots(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778693558": {
+  "name": "Management development",
+  "pattern": "\\bmanagement[- ]?development(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778702967": {
+  "name": "Cutaneous leishmaniasis",
+  "pattern": "\\bcutaneous[- ]?leishmaniasis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778710519": {
+  "name": "Nitrate reductase",
+  "pattern": "\\bnitrate[- ]?reductase(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778713300": {
+  "name": "Calcium alginate",
+  "pattern": "\\bcalcium[- ]?alginate(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778736484": {
+  "name": "Friendship",
+  "pattern": "\\bfriendship(s|es)?\\b|\\bfriendly(s|es)?\\b|\\bfriend(s|es)?\\b|\\bfriends(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "friendly",
+   "friend",
+   "friends"
+  ]
+ },
+ "C2778799465": {
+  "name": "Fur seal",
+  "pattern": "\\bfur[- ]?seal(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2778904781": {
+  "name": "Kupffer cell",
+  "pattern": "\\bkupffer[- ]?cell(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779012821": {
+  "name": "Elicitor",
+  "pattern": "\\belicitor(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779015050": {
+  "name": "Global financial system",
+  "pattern": "\\bglobal[- ]?financial[- ]?system(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779077069": {
+  "name": "Centella",
+  "pattern": "\\bcentella(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779083892": {
+  "name": "Low birth weight",
+  "pattern": "\\blow[- ]?birth[- ]?weight(s|es)?\\b|\\binfant,[- ]?low[- ]?birth[- ]?weight(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "LBW",
+   "low birth weight",
+   "Infant, Low Birth Weight"
+  ]
+ },
+ "C2779116783": {
+  "name": "Angle of incidence (optics)",
+  "pattern": "\\bangle[- ]?of[- ]?incidence[- ]?\\(optics\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779117930": {
+  "name": "Magnesite",
+  "pattern": "\\bmagnesite(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779149496": {
+  "name": "Procedural justice",
+  "pattern": "\\bprocedural[- ]?justice(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779168147": {
+  "name": "Checkerboard",
+  "pattern": "\\bcheckerboard(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779227060": {
+  "name": "Immortality",
+  "pattern": "\\bimmortality(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779236577": {
+  "name": "Extensive reading",
+  "pattern": "\\bextensive[- ]?reading(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779320081": {
+  "name": "Wakefulness",
+  "pattern": "\\bwakefulness(s|es)?\\b|\\bbeing[- ]?awake(s|es)?\\b|\\bawake(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "being awake",
+   "awake"
+  ]
+ },
+ "C2779482186": {
+  "name": "Echinococcus",
+  "pattern": "\\bechinococcus(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779490328": {
+  "name": "Sunitinib",
+  "pattern": "\\bsunitinib(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779534622": {
+  "name": "Primulaceae",
+  "pattern": "\\bprimulaceae(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779534841": {
+  "name": "Patent application",
+  "pattern": "\\bpatent[- ]?application(s|es)?\\b|\\bpatent[- ]?application[- ]?document(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "patent application document"
+  ]
+ },
+ "C2779538911": {
+  "name": "Heteroptera",
+  "pattern": "\\bheteroptera(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779547328": {
+  "name": "Diuresis",
+  "pattern": "\\bdiuresis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779550045": {
+  "name": "Patulin",
+  "pattern": "\\bpatulin(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779554091": {
+  "name": "Uracil",
+  "pattern": "\\buracil(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779561538": {
+  "name": "History of education",
+  "pattern": "\\bhistory[- ]?of[- ]?education(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779662492": {
+  "name": "Hematoma",
+  "pattern": "\\bhematoma(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779703888": {
+  "name": "Islamic economics",
+  "pattern": "\\bislamic[- ]?economics(s|es)?\\b|\\bislamic[- ]?finance(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Islamic Finance"
+  ]
+ },
+ "C2779769944": {
+  "name": "Silicone",
+  "pattern": "\\bsilicone(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779830541": {
+  "name": "Microglia",
+  "pattern": "\\bmicroglia(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779832703": {
+  "name": "Alligator",
+  "pattern": "\\balligator(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2779929075": {
+  "name": "Erectile dysfunction",
+  "pattern": "\\berectile[- ]?dysfunction(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780033567": {
+  "name": "Method of moments (probability theory)",
+  "pattern": "\\bmethod[- ]?of[- ]?moments[- ]?\\(probability[- ]?theory\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780047204": {
+  "name": "Laparoscopy",
+  "pattern": "\\blaparoscopy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780092750": {
+  "name": "Niacin",
+  "pattern": "\\bniacin(s|es)?\\b|\\bnicotinate(s|es)?\\b|\\b3[- ]?carboxypyridine(s|es)?\\b|\\bm[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bbeta[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bpyridine[- ]?beta[- ]?carboxylic[- ]?acid(s|es)?\\b|\\b3[- ]?pyridylcarboxylic[- ]?acid(s|es)?\\b|\\bnicacid(s|es)?\\b|\\bpelonin(s|es)?\\b|\\bnicyl(s|es)?\\b|\\btinic(s|es)?\\b|\\bdaskil(s|es)?\\b|\\bpeviton(s|es)?\\b|\\b3[- ]?picolinic[- ]?acid(s|es)?\\b|\\bpellagrin(s|es)?\\b|\\binduracin(s|es)?\\b|\\bapelagrin(s|es)?\\b|\\bakotin(s|es)?\\b|\\bpyridine[- ]?3[- ]?carboxylic[- ]?acid(s|es)?\\b|\\benduracin(s|es)?\\b|\\bnicamin(s|es)?\\b|\\bnico[- ]?span(s|es)?\\b|\\bniac(s|es)?\\b|\\bnicodelmine(s|es)?\\b|\\blinic(s|es)?\\b|\\b3[- ]?pyridylcarboxylate(s|es)?\\b|\\bslo[- ]?niacin(s|es)?\\b|\\bnicosan[- ]?3(s|es)?\\b|\\bnicolar(s|es)?\\b|\\bniacor(s|es)?\\b|\\bnicotinipca(s|es)?\\b|\\b3[- ]?carboxylpyridine(s|es)?\\b|\\bniconacid(s|es)?\\b|\\bniacine(s|es)?\\b|\\befacin(s|es)?\\b|\\bnicangin(s|es)?\\b|\\bnicocap(s|es)?\\b|\\bnyclin(s|es)?\\b|\\bnicobid(s|es)?\\b|\\b3[- ]?pyridinecarboxylate(s|es)?\\b|\\bwampocap(s|es)?\\b|\\bnicotinic[- ]?acid(s|es)?\\b|\\bnikotinsaeure(s|es)?\\b|\\bβ[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bpyridine[- ]?β[- ]?carboxylic[- ]?acid(s|es)?\\b|\\bacide[- ]?nicotinique(s|es)?\\b|\\bacido[- ]?nicotinico(s|es)?\\b|\\b3[- ]?pyridinecarboxylic[- ]?acid(s|es)?\\b|\\bacidum[- ]?nicotinicum(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "nicotinate",
+   "3-carboxypyridine",
+   "m-pyridinecarboxylic acid",
+   "beta-pyridinecarboxylic acid",
+   "pyridine-beta-carboxylic acid",
+   "3-Pyridylcarboxylic acid",
+   "Nicacid",
+   "Pelonin",
+   "Nicyl",
+   "Tinic",
+   "Daskil",
+   "Peviton",
+   "3-Picolinic acid",
+   "Pellagrin",
+   "Induracin",
+   "Apelagrin",
+   "Akotin",
+   "pyridine-3-carboxylic acid",
+   "Enduracin",
+   "Nicamin",
+   "Nico-Span",
+   "Niac",
+   "Nicodelmine",
+   "Linic",
+   "3-Pyridylcarboxylate",
+   "Slo-niacin",
+   "Nicosan 3",
+   "Nicolar",
+   "Niacor",
+   "Nicotinipca",
+   "3-Carboxylpyridine",
+   "Niconacid",
+   "Niacine",
+   "Efacin",
+   "Nicangin",
+   "Nicocap",
+   "Nyclin",
+   "Nicobid",
+   "3-Pyridinecarboxylate",
+   "Wampocap",
+   "Nicotinic Acid",
+   "Nikotinsaeure",
+   "β-pyridinecarboxylic acid",
+   "pyridine-β-carboxylic acid",
+   "M-Pyridinecarboxylic Acid",
+   "Acide Nicotinique",
+   "Acido nicotinico",
+   "3-Pyridinecarboxylic acid",
+   "Acidum Nicotinicum",
+   "beta-Pyridinecarboxylic acid",
+   "Pyridine-beta-carboxylic acid",
+   "niacin",
+   "Nicotinic acid",
+   "Niacin"
+  ]
+ },
+ "C2780124745": {
+  "name": "Tatar",
+  "pattern": "\\btatar(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780129190": {
+  "name": "Changeover",
+  "pattern": "\\bchangeover(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780149897": {
+  "name": "Lidocaine",
+  "pattern": "\\blidocaine(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780194698": {
+  "name": "Immune dysregulation",
+  "pattern": "\\bimmune[- ]?dysregulation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780218171": {
+  "name": "Vaginal bleeding",
+  "pattern": "\\bvaginal[- ]?bleeding(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780228044": {
+  "name": "Phraseology",
+  "pattern": "\\bphraseology(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780246119": {
+  "name": "Bacteroides fragilis",
+  "pattern": "\\bbacteroides[- ]?fragilis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780315139": {
+  "name": "Azole",
+  "pattern": "\\bazole(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780323712": {
+  "name": "Metformin",
+  "pattern": "\\bmetformin(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780402116": {
+  "name": "Gout",
+  "pattern": "\\bgout(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780427559": {
+  "name": "Tractor",
+  "pattern": "\\btractor(s|es)?\\b|\\btractors(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Tractors",
+   "tractors"
+  ]
+ },
+ "C2780525273": {
+  "name": "Charge density wave",
+  "pattern": "\\bcharge[- ]?density[- ]?wave(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780534471": {
+  "name": "Isocyanate",
+  "pattern": "\\bisocyanate(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780579389": {
+  "name": "Supply network",
+  "pattern": "\\bsupply[- ]?network(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780607864": {
+  "name": "Sensorineural hearing loss",
+  "pattern": "\\bsensorineural[- ]?hearing[- ]?loss(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780690664": {
+  "name": "Economic transformation",
+  "pattern": "\\beconomic[- ]?transformation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780784151": {
+  "name": "Bacteriochlorophyll",
+  "pattern": "\\bbacteriochlorophyll(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780789378": {
+  "name": "Official language",
+  "pattern": "\\bofficial[- ]?language(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780795997": {
+  "name": "Superoxide",
+  "pattern": "\\bsuperoxide(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780809830": {
+  "name": "Linoleic acid",
+  "pattern": "\\blinoleic[- ]?acid(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780841128": {
+  "name": "Characterization (materials science)",
+  "pattern": "\\bcharacterization[- ]?\\(materials[- ]?science\\)(s|es)?\\b|\\bcharacterization[- ]?of[- ]?materials(s|es)?\\b|\\bmaterial[- ]?characterisation(s|es)?\\b|\\bmaterial[- ]?analysis(s|es)?\\b|\\bmaterials[- ]?characterisation(s|es)?\\b|\\bcharacterisation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "characterization of materials",
+   "material characterisation",
+   "material analysis",
+   "materials characterisation",
+   "characterisation"
+  ]
+ },
+ "C2780841837": {
+  "name": "Interferon gamma",
+  "pattern": "\\binterferon[- ]?gamma(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2780934415": {
+  "name": "Border Security",
+  "pattern": "\\bborder[- ]?security(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781054738": {
+  "name": "Athletes",
+  "pattern": "\\bathletes(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781081902": {
+  "name": "Tricyclic",
+  "pattern": "\\btricyclic(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781128415": {
+  "name": "Prostacyclin",
+  "pattern": "\\bprostacyclin(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781181686": {
+  "name": "Coherence (philosophical gambling strategy)",
+  "pattern": "\\bcoherence[- ]?\\(philosophical[- ]?gambling[- ]?strategy\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781183027": {
+  "name": "Copper oxide",
+  "pattern": "\\bcopper[- ]?oxide(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781192327": {
+  "name": "Child Behavior Checklist",
+  "pattern": "\\bchild[- ]?behavior[- ]?checklist(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781222102": {
+  "name": "Navajo",
+  "pattern": "\\bnavajo(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781226546": {
+  "name": "Bluff",
+  "pattern": "\\bbluff(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781263971": {
+  "name": "Quercetin",
+  "pattern": "\\bquercetin(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781357168": {
+  "name": "Digital evidence",
+  "pattern": "\\bdigital[- ]?evidence(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2781436638": {
+  "name": "Whitefly",
+  "pattern": "\\bwhitefly(s|es)?\\b|\\bthe[- ]?whiteflies(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "the whiteflies"
+  ]
+ },
+ "C2908869550": {
+  "name": "Pacific Area",
+  "pattern": "\\bpacific[- ]?area(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2910942459": {
+  "name": "Criminal behaviour",
+  "pattern": "\\bcriminal[- ]?behaviour(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C29310469": {
+  "name": "Thermal equilibrium",
+  "pattern": "\\bthermal[- ]?equilibrium(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C29331040": {
+  "name": "Preclinical imaging",
+  "pattern": "\\bpreclinical[- ]?imaging(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2982719155": {
+  "name": "Energy source",
+  "pattern": "\\benergy[- ]?source(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2982962833": {
+  "name": "Information fusion",
+  "pattern": "\\binformation[- ]?fusion(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2983405972": {
+  "name": "Local governance",
+  "pattern": "\\blocal[- ]?governance(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2983734796": {
+  "name": "Commercial bank",
+  "pattern": "\\bcommercial[- ]?bank(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2984393311": {
+  "name": "Econometric analysis",
+  "pattern": "\\beconometric[- ]?analysis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2984398910": {
+  "name": "Spect imaging",
+  "pattern": "\\bspect[- ]?imaging(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2984556133": {
+  "name": "Oil price",
+  "pattern": "\\boil[- ]?price(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2984752397": {
+  "name": "Primary care",
+  "pattern": "\\bprimary[- ]?care(s|es)?\\b|\\bprimary[- ]?health[- ]?care(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "primary health care"
+  ]
+ },
+ "C2985109136": {
+  "name": "Transport infrastructure",
+  "pattern": "\\btransport[- ]?infrastructure(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2985172591": {
+  "name": "Community college",
+  "pattern": "\\bcommunity[- ]?college(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2985179745": {
+  "name": "Plant species",
+  "pattern": "\\bplant[- ]?species(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2985215115": {
+  "name": "Gait cycle",
+  "pattern": "\\bgait[- ]?cycle(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2985529240": {
+  "name": "Digital storage",
+  "pattern": "\\bdigital[- ]?storage(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2985948822": {
+  "name": "Focused ultrasound",
+  "pattern": "\\bfocused[- ]?ultrasound(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2986189917": {
+  "name": "Asphalt pavement",
+  "pattern": "\\basphalt[- ]?pavement(s|es)?\\b|\\broad[- ]?cover(s|es)?\\b|\\bpavement(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "road cover",
+   "pavement"
+  ]
+ },
+ "C2986640111": {
+  "name": "Research policy",
+  "pattern": "\\bresearch[- ]?policy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2986743833": {
+  "name": "Energy distribution",
+  "pattern": "\\benergy[- ]?distribution(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2987920364": {
+  "name": "Health hazard",
+  "pattern": "\\bhealth[- ]?hazard(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2988115150": {
+  "name": "Communication skills",
+  "pattern": "\\bcommunication[- ]?skills(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2988574769": {
+  "name": "Water flow",
+  "pattern": "\\bwater[- ]?flow(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2988876627": {
+  "name": "Power point",
+  "pattern": "\\bpower[- ]?point(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2989048297": {
+  "name": "Radar detection",
+  "pattern": "\\bradar[- ]?detection(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2989215759": {
+  "name": "Aircraft industry",
+  "pattern": "\\baircraft[- ]?industry(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2989521464": {
+  "name": "Career planning",
+  "pattern": "\\bcareer[- ]?planning(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2991743468": {
+  "name": "Blood loss",
+  "pattern": "\\bblood[- ]?loss(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2992077309": {
+  "name": "Code of practice",
+  "pattern": "\\bcode[- ]?of[- ]?practice(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2992084085": {
+  "name": "Catalytic hydrogenation",
+  "pattern": "\\bcatalytic[- ]?hydrogenation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2992203025": {
+  "name": "Social solidarity",
+  "pattern": "\\bsocial[- ]?solidarity(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2992397558": {
+  "name": "Cultural sensitivity",
+  "pattern": "\\bcultural[- ]?sensitivity(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2992525071": {
+  "name": "Federated learning",
+  "pattern": "\\bfederated[- ]?learning(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2992540694": {
+  "name": "Job creation",
+  "pattern": "\\bjob[- ]?creation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2992730755": {
+  "name": "Agricultural development",
+  "pattern": "\\bagricultural[- ]?development(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2992829110": {
+  "name": "First generation",
+  "pattern": "\\bfirst[- ]?generation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2993248092": {
+  "name": "High latitude",
+  "pattern": "\\bhigh[- ]?latitude(s|es)?\\b|\\bearth's[- ]?frigid[- ]?zones(s|es)?\\b|\\bpolar[- ]?regions(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Earth's frigid zones",
+   "polar regions"
+  ]
+ },
+ "C2993314993": {
+  "name": "American society of anesthesiologists",
+  "pattern": "\\bamerican[- ]?society[- ]?of[- ]?anesthesiologists(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2993453402": {
+  "name": "Oral health care",
+  "pattern": "\\boral[- ]?health[- ]?care(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2993469667": {
+  "name": "Legal advice",
+  "pattern": "\\blegal[- ]?advice(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2993830578": {
+  "name": "Early adulthood",
+  "pattern": "\\bearly[- ]?adulthood(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2993838527": {
+  "name": "Point system",
+  "pattern": "\\bpoint[- ]?system(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2993878198": {
+  "name": "Indoor air",
+  "pattern": "\\bindoor[- ]?air(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2993911517": {
+  "name": "Legal service",
+  "pattern": "\\blegal[- ]?service(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2994217296": {
+  "name": "Liver fibrosis",
+  "pattern": "\\bliver[- ]?fibrosis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2994224358": {
+  "name": "Standard uncertainty",
+  "pattern": "\\bstandard[- ]?uncertainty(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2994303116": {
+  "name": "Family conflict",
+  "pattern": "\\bfamily[- ]?conflict(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C2994389346": {
+  "name": "Historical heritage",
+  "pattern": "\\bhistorical[- ]?heritage(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3017514537": {
+  "name": "Emergent literacy",
+  "pattern": "\\bemergent[- ]?literacy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Emergent literacy"
+  ]
+ },
+ "C3017577407": {
+  "name": "Hospice care",
+  "pattern": "\\bhospice[- ]?care(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3017660400": {
+  "name": "Inner mongolia",
+  "pattern": "\\binner[- ]?mongolia(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3017725471": {
+  "name": "Regional anesthesia",
+  "pattern": "\\bregional[- ]?anesthesia(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3018022065": {
+  "name": "St louis",
+  "pattern": "\\bst[- ]?louis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3018429975": {
+  "name": "Equal opportunity",
+  "pattern": "\\bequal[- ]?opportunity(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3018603336": {
+  "name": "National museum",
+  "pattern": "\\bnational[- ]?museum(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3018711458": {
+  "name": "Female circumcision",
+  "pattern": "\\bfemale[- ]?circumcision(s|es)?\\b|\\bfemale[- ]?genital[- ]?cutting(s|es)?\\b|\\bgenital[- ]?mutilation(s|es)?\\b|\\bfgm/c(s|es)?\\b|\\bclitoridotomy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "FGM",
+   "female genital cutting",
+   "female circumcision",
+   "genital mutilation",
+   "FGM/C",
+   "clitoridotomy"
+  ]
+ },
+ "C3018923921": {
+  "name": "Clinical effectiveness",
+  "pattern": "\\bclinical[- ]?effectiveness(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3019178406": {
+  "name": "Post office",
+  "pattern": "\\bpost[- ]?office(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3019198212": {
+  "name": "County government",
+  "pattern": "\\bcounty[- ]?government(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3019477493": {
+  "name": "Sheep farming",
+  "pattern": "\\bsheep[- ]?farming(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3020368053": {
+  "name": "Motion study",
+  "pattern": "\\bmotion[- ]?study(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3020479747": {
+  "name": "Gastric emptying",
+  "pattern": "\\bgastric[- ]?emptying(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3020701032": {
+  "name": "Computer game",
+  "pattern": "\\bcomputer[- ]?game(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C31827203": {
+  "name": "Tandem mass spectrometry",
+  "pattern": "\\btandem[- ]?mass[- ]?spectrometry(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C32792767": {
+  "name": "Summary statistics",
+  "pattern": "\\bsummary[- ]?statistics(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C33276779": {
+  "name": "Design elements and principles",
+  "pattern": "\\bdesign[- ]?elements[- ]?and[- ]?principles(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C3454156": {
+  "name": "Side effect (computer science)",
+  "pattern": "\\bside[- ]?effect[- ]?\\(computer[- ]?science\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C36434225": {
+  "name": "Polypharmacy",
+  "pattern": "\\bpolypharmacy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C36790819": {
+  "name": "Empiricism",
+  "pattern": "\\bempiricism(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C37210646": {
+  "name": "Ferrite (magnet)",
+  "pattern": "\\bferrite[- ]?\\(magnet\\)(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C39124391": {
+  "name": "Aortic pressure",
+  "pattern": "\\baortic[- ]?pressure(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C39399123": {
+  "name": "Earth observation",
+  "pattern": "\\bearth[- ]?observation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C39643299": {
+  "name": "Jet engine",
+  "pattern": "\\bjet[- ]?engine(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C40084718": {
+  "name": "Pavement engineering",
+  "pattern": "\\bpavement[- ]?engineering(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C40767141": {
+  "name": "Recombinant DNA",
+  "pattern": "\\brecombinant[- ]?dna(s|es)?\\b|\\brdna(s|es)?\\b|\\bchimeric[- ]?dna(s|es)?\\b|\\bdna,[- ]?recombinant(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "rDNA",
+   "chimeric DNA",
+   "DNA, Recombinant"
+  ]
+ },
+ "C42062724": {
+  "name": "16S ribosomal RNA",
+  "pattern": "\\b16s[- ]?ribosomal[- ]?rna(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C42404028": {
+  "name": "Bioequivalence",
+  "pattern": "\\bbioequivalence(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C43481613": {
+  "name": "Active galactic nucleus",
+  "pattern": "\\bactive[- ]?galactic[- ]?nucleus(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C44415725": {
+  "name": "Binary entropy function",
+  "pattern": "\\bbinary[- ]?entropy[- ]?function(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C45646460": {
+  "name": "Topological order",
+  "pattern": "\\btopological[- ]?order(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C46304622": {
+  "name": "Certification",
+  "pattern": "\\bcertification(s|es)?\\b|\\bcertify(s|es)?\\b|\\bcertified(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "certify",
+   "certified"
+  ]
+ },
+ "C4661277": {
+  "name": "Cog",
+  "pattern": "\\bcog(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C47323905": {
+  "name": "Venous return curve",
+  "pattern": "\\bvenous[- ]?return[- ]?curve(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C48102754": {
+  "name": "Water pumping",
+  "pattern": "\\bwater[- ]?pumping(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C487182": {
+  "name": "Urban sprawl",
+  "pattern": "\\burban[- ]?sprawl(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C49024897": {
+  "name": "Superfluid helium-4",
+  "pattern": "\\bsuperfluid[- ]?helium[- ]?4(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C4978587": {
+  "name": "Cramér–Rao bound",
+  "pattern": "\\bcramér–rao[- ]?bound(s|es)?\\b|\\bcramér[- ]?rao[- ]?lower[- ]?bound(s|es)?\\b|\\bcramér–rao[- ]?lower[- ]?bound(s|es)?\\b|\\bcramér–rao[- ]?inequality(s|es)?\\b|\\bcramér[- ]?rao[- ]?inequality(s|es)?\\b|\\bcramer[- ]?rao[- ]?lower[- ]?bound(s|es)?\\b|\\bcramer[- ]?rao[- ]?inequality(s|es)?\\b|\\bcrlb(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Cramér-Rao lower bound",
+   "Cramér–Rao lower bound",
+   "Cramér–Rao inequality",
+   "Cramér-Rao inequality",
+   "Cramer-Rao lower bound",
+   "Cramer-Rao inequality",
+   "CRLB"
+  ]
+ },
+ "C499572226": {
+  "name": "Sound design",
+  "pattern": "\\bsound[- ]?design(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C503182166": {
+  "name": "Scarlet fever",
+  "pattern": "\\bscarlet[- ]?fever(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C51193700": {
+  "name": "Water scarcity",
+  "pattern": "\\bwater[- ]?scarcity(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C513568399": {
+  "name": "Italian studies",
+  "pattern": "\\bitalian[- ]?studies(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C514705636": {
+  "name": "Nomenclature",
+  "pattern": "\\bnomenclature(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C51566761": {
+  "name": "TOPSIS",
+  "pattern": "\\btopsis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C51858381": {
+  "name": "Luminous efficacy",
+  "pattern": "\\bluminous[- ]?efficacy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "luminous efficacy"
+  ]
+ },
+ "C521078695": {
+  "name": "Legal practice",
+  "pattern": "\\blegal[- ]?practice(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C52370388": {
+  "name": "Regular language",
+  "pattern": "\\bregular[- ]?language(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C52703039": {
+  "name": "Chiral symmetry breaking",
+  "pattern": "\\bchiral[- ]?symmetry[- ]?breaking(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C53500534": {
+  "name": "Behavioural genetics",
+  "pattern": "\\bbehavioural[- ]?genetics(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C53537400": {
+  "name": "Numeracy",
+  "pattern": "\\bnumeracy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C538133343": {
+  "name": "Economics education",
+  "pattern": "\\beconomics[- ]?education(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C541409800": {
+  "name": "Military theory",
+  "pattern": "\\bmilitary[- ]?theory(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C543051216": {
+  "name": "Interwar period",
+  "pattern": "\\binterwar[- ]?period(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C5496284": {
+  "name": "Expected shortfall",
+  "pattern": "\\bexpected[- ]?shortfall(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C55112680": {
+  "name": "Functional analysis",
+  "pattern": "\\bfunctional[- ]?analysis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C555175668": {
+  "name": "Angiology",
+  "pattern": "\\bangiology(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C58226133": {
+  "name": "Pulmonary surfactant",
+  "pattern": "\\bpulmonary[- ]?surfactant(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C59050026": {
+  "name": "Case analysis",
+  "pattern": "\\bcase[- ]?analysis(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C60679458": {
+  "name": "Working capital",
+  "pattern": "\\bworking[- ]?capital(s|es)?\\b|\\bnet[- ]?working[- ]?capital(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "net working capital",
+   "Working capital"
+  ]
+ },
+ "C60908668": {
+  "name": "Perceptron",
+  "pattern": "\\bperceptron(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C61721801": {
+  "name": "Biostratigraphy",
+  "pattern": "\\bbiostratigraphy(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C62235348": {
+  "name": "Functional requirement",
+  "pattern": "\\bfunctional[- ]?requirement(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C6377922": {
+  "name": "Deontic logic",
+  "pattern": "\\bdeontic[- ]?logic(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C66009135": {
+  "name": "Dication",
+  "pattern": "\\bdication(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C6757342": {
+  "name": "Posterior parietal cortex",
+  "pattern": "\\bposterior[- ]?parietal[- ]?cortex(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C67666897": {
+  "name": "Prism",
+  "pattern": "\\bprism(s|es)?\\b|\\boptical[- ]?prism(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "optical prism"
+  ]
+ },
+ "C6831451": {
+  "name": "Mist",
+  "pattern": "\\bmist(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C6840138": {
+  "name": "Crystal twinning",
+  "pattern": "\\bcrystal[- ]?twinning(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C68643176": {
+  "name": "Cultural studies",
+  "pattern": "\\bcultural[- ]?studies(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C69357855": {
+  "name": "Diffusion",
+  "pattern": "\\bdiffusion(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C69897798": {
+  "name": "Personality development",
+  "pattern": "\\bpersonality[- ]?development(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C70615421": {
+  "name": "Laplace's equation",
+  "pattern": "\\blaplace's[- ]?equation(s|es)?\\b|\\blaplace[- ]?equation(s|es)?\\b|\\blaplace's[- ]?pde(s|es)?\\b|\\blaplace[- ]?pde(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Laplace equation",
+   "Laplace's PDE",
+   "Laplace PDE"
+  ]
+ },
+ "C71139939": {
+  "name": "Modal",
+  "pattern": "\\bmodal(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C73922627": {
+  "name": "Single crystal",
+  "pattern": "\\bsingle[- ]?crystal(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C74294265": {
+  "name": "Circuit switching",
+  "pattern": "\\bcircuit[- ]?switching(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C74305511": {
+  "name": "Library catalog",
+  "pattern": "\\blibrary[- ]?catalog(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C7453809": {
+  "name": "Energy carrier",
+  "pattern": "\\benergy[- ]?carrier(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C74672266": {
+  "name": "Language acquisition",
+  "pattern": "\\blanguage[- ]?acquisition(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C74925373": {
+  "name": "Control network",
+  "pattern": "\\bcontrol[- ]?network(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C75398719": {
+  "name": "Quantitative precipitation estimation",
+  "pattern": "\\bquantitative[- ]?precipitation[- ]?estimation(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C7720470": {
+  "name": "Transceiver",
+  "pattern": "\\btransceiver(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C77513098": {
+  "name": "Cognitive dissonance",
+  "pattern": "\\bcognitive[- ]?dissonance(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C79605941": {
+  "name": "Gabbro",
+  "pattern": "\\bgabbro(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C80038905": {
+  "name": "Teleology",
+  "pattern": "\\bteleology(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C80462391": {
+  "name": "Naval architecture",
+  "pattern": "\\bnaval[- ]?architecture(s|es)?\\b|\\bship[- ]?design(s|es)?\\b|\\bnaval[- ]?design(s|es)?\\b|\\bnaval[- ]?engineering(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "ship design",
+   "naval design",
+   "naval engineering"
+  ]
+ },
+ "C81693640": {
+  "name": "Bud",
+  "pattern": "\\bbud(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C8272713": {
+  "name": "Stochastic process",
+  "pattern": "\\bstochastic[- ]?process(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C83230799": {
+  "name": "Indoor bioaerosol",
+  "pattern": "\\bindoor[- ]?bioaerosol(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C84525736": {
+  "name": "Decision tree",
+  "pattern": "\\bdecision[- ]?tree(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C8505890": {
+  "name": "Budget constraint",
+  "pattern": "\\bbudget[- ]?constraint(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C85847156": {
+  "name": "Verifiable secret sharing",
+  "pattern": "\\bverifiable[- ]?secret[- ]?sharing(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C86615163": {
+  "name": "International human rights law",
+  "pattern": "\\binternational[- ]?human[- ]?rights[- ]?law(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C86888617": {
+  "name": "Magnetar",
+  "pattern": "\\bmagnetar(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C88504338": {
+  "name": "Weldability",
+  "pattern": "\\bweldability(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C89429830": {
+  "name": "Scaffold",
+  "pattern": "\\bscaffold(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C90119067": {
+  "name": "Polynomial",
+  "pattern": "\\bpolynomial(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C90376892": {
+  "name": "Bargaining problem",
+  "pattern": "\\bbargaining[- ]?problem(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C91093795": {
+  "name": "Information Age",
+  "pattern": "\\binformation[- ]?age(s|es)?\\b|\\bdigital[- ]?age(s|es)?\\b|\\binternet[- ]?age(s|es)?\\b|\\bage[- ]?of[- ]?information(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": [
+   "Digital Age",
+   "Internet Age",
+   "Age of Information"
+  ]
+ },
+ "C92224547": {
+  "name": "Probability of error",
+  "pattern": "\\bprobability[- ]?of[- ]?error(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C93361087": {
+  "name": "Data consistency",
+  "pattern": "\\bdata[- ]?consistency(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C9342510": {
+  "name": "Coulomb",
+  "pattern": "\\bcoulomb(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C95730909": {
+  "name": "Disenfranchised grief",
+  "pattern": "\\bdisenfranchised[- ]?grief(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C97002063": {
+  "name": "Bibliography",
+  "pattern": "\\bbibliography(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ },
+ "C9809166": {
+  "name": "Michelson interferometer",
+  "pattern": "\\bmichelson[- ]?interferometer(s|es)?\\b",
+  "source": "auto: name + Wikidata aliases",
+  "aliases": []
+ }
+}

@@ -1,0 +1,4506 @@
+{
+ "rule": "50 base + stratified random level-2/3, works>5000, seed 42",
+ "candidates": 25683,
+ "areas": [
+  {
+   "id": "C2779197387",
+   "name": "Lithium-ion battery",
+   "level": 4,
+   "works": 36190,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2780089039",
+   "name": "Perovskite solar cell",
+   "level": 3,
+   "works": 13136,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C30080830",
+   "name": "Graphene",
+   "level": 2,
+   "works": 347834,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C108583219",
+   "name": "Deep learning",
+   "level": 2,
+   "works": 670176,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C153740404",
+   "name": "Data center",
+   "level": 2,
+   "works": 48321,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2776422217",
+   "name": "Electric vehicle",
+   "level": 3,
+   "works": 101987,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C202189072",
+   "name": "Hydrogen production",
+   "level": 3,
+   "works": 128897,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C41291067",
+   "name": "Photovoltaic system",
+   "level": 2,
+   "works": 374399,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C78600449",
+   "name": "Wind power",
+   "level": 2,
+   "works": 257496,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C10558101",
+   "name": "Smart grid",
+   "level": 2,
+   "works": 92047,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C117323899",
+   "name": "Distribution transformer",
+   "level": 4,
+   "works": 22388,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2777615417",
+   "name": "Rare-earth element",
+   "level": 3,
+   "works": 15773,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C108713360",
+   "name": "Supply chain",
+   "level": 2,
+   "works": 371394,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2776060655",
+   "name": "Tariff",
+   "level": 2,
+   "works": 51191,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2778069335",
+   "name": "Sanctions",
+   "level": 2,
+   "works": 131819,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2993591445",
+   "name": "Interest group",
+   "level": 3,
+   "works": 8562,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C126285488",
+   "name": "Monetary policy",
+   "level": 2,
+   "works": 229748,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C108225325",
+   "name": "Semiconductor",
+   "level": 2,
+   "works": 360261,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C58053490",
+   "name": "Quantum computer",
+   "level": 3,
+   "works": 134949,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C98108389",
+   "name": "CRISPR",
+   "level": 3,
+   "works": 67189,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C15083742",
+   "name": "Nanomedicine",
+   "level": 3,
+   "works": 48710,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C94665300",
+   "name": "Antibiotic resistance",
+   "level": 3,
+   "works": 255377,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2776441376",
+   "name": "Bacteriophage",
+   "level": 4,
+   "works": 67223,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C132651083",
+   "name": "Climate change",
+   "level": 2,
+   "works": 1414509,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2778379663",
+   "name": "Carbon capture and storage (timeline)",
+   "level": 3,
+   "works": 23326,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2776870568",
+   "name": "Desalination",
+   "level": 3,
+   "works": 53915,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2780560099",
+   "name": "Fertilizer",
+   "level": 2,
+   "works": 236465,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C86909935",
+   "name": "Aquaculture",
+   "level": 3,
+   "works": 132486,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2780401329",
+   "name": "Microplastics",
+   "level": 2,
+   "works": 54624,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C89623803",
+   "name": "Pandemic",
+   "level": 5,
+   "works": 797586,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C520049643",
+   "name": "Voting",
+   "level": 3,
+   "works": 162560,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2776552730",
+   "name": "Disinformation",
+   "level": 3,
+   "works": 27901,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2779687700",
+   "name": "Blockchain",
+   "level": 2,
+   "works": 110396,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C19269812",
+   "name": "Satellite",
+   "level": 2,
+   "works": 576392,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C524769229",
+   "name": "3D printing",
+   "level": 2,
+   "works": 75211,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C34413123",
+   "name": "Robotics",
+   "level": 3,
+   "works": 198431,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C3018391801",
+   "name": "Self driving",
+   "level": 2,
+   "works": 2679,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C204321447",
+   "name": "Natural language processing",
+   "level": 1,
+   "works": 1809783,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C544778455",
+   "name": "Copper",
+   "level": 2,
+   "works": 573195,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C515602321",
+   "name": "Cobalt",
+   "level": 2,
+   "works": 178925,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C555451288",
+   "name": "Uranium",
+   "level": 2,
+   "works": 132963,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C24671956",
+   "name": "Fusion power",
+   "level": 3,
+   "works": 202710,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C54101563",
+   "name": "Superconductivity",
+   "level": 2,
+   "works": 426011,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2776461528",
+   "name": "Heat pump",
+   "level": 3,
+   "works": 43955,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C207365445",
+   "name": "Thermoelectric materials",
+   "level": 3,
+   "works": 44763,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C549605437",
+   "name": "Food security",
+   "level": 3,
+   "works": 421113,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C2779483572",
+   "name": "Dementia",
+   "level": 3,
+   "works": 364718,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C511355011",
+   "name": "Obesity",
+   "level": 2,
+   "works": 825146,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C149597833",
+   "name": "Electrical steel",
+   "level": 2,
+   "works": 7280,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C201960208",
+   "name": "Geopolitics",
+   "level": 3,
+   "works": 107916,
+   "ancestors": [],
+   "root": "?",
+   "wikidata": ""
+  },
+  {
+   "id": "C100293340",
+   "name": "Hildebrand solubility parameter",
+   "level": 3,
+   "works": 6923,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3895235"
+  },
+  {
+   "id": "C1009929",
+   "name": "Software bug",
+   "level": 3,
+   "works": 16229,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q179550"
+  },
+  {
+   "id": "C101601086",
+   "name": "Rank correlation",
+   "level": 2,
+   "works": 17383,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3753228"
+  },
+  {
+   "id": "C103319777",
+   "name": "Proton NMR",
+   "level": 2,
+   "works": 62107,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1979695"
+  },
+  {
+   "id": "C103711010",
+   "name": "Earthquake engineering",
+   "level": 2,
+   "works": 21080,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q909789"
+  },
+  {
+   "id": "C103913367",
+   "name": "Plucking",
+   "level": 2,
+   "works": 6350,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1771460"
+  },
+  {
+   "id": "C104727253",
+   "name": "Biological pest control",
+   "level": 2,
+   "works": 133372,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q116890"
+  },
+  {
+   "id": "C105768512",
+   "name": "Reaction intermediate",
+   "level": 3,
+   "works": 15638,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7458208"
+  },
+  {
+   "id": "C107240024",
+   "name": "Mechanical energy",
+   "level": 3,
+   "works": 23258,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q184550"
+  },
+  {
+   "id": "C10929652",
+   "name": "Radar imaging",
+   "level": 3,
+   "works": 111404,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7279985"
+  },
+  {
+   "id": "C110099512",
+   "name": "Philosophy of science",
+   "level": 2,
+   "works": 96038,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q59115"
+  },
+  {
+   "id": "C111696304",
+   "name": "Sorting",
+   "level": 2,
+   "works": 99992,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2303697"
+  },
+  {
+   "id": "C112505250",
+   "name": "Automaton",
+   "level": 2,
+   "works": 62448,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q787116"
+  },
+  {
+   "id": "C113863187",
+   "name": "SCADA",
+   "level": 2,
+   "works": 23447,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q17498"
+  },
+  {
+   "id": "C114799590",
+   "name": "Intellectual history",
+   "level": 2,
+   "works": 19931,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1195695"
+  },
+  {
+   "id": "C115047598",
+   "name": "Quantum field theory",
+   "level": 2,
+   "works": 95539,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q54505"
+  },
+  {
+   "id": "C115199736",
+   "name": "Visual Basic for Applications",
+   "level": 2,
+   "works": 11192,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q667566"
+  },
+  {
+   "id": "C118993495",
+   "name": "Electrical efficiency",
+   "level": 3,
+   "works": 11073,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5042828"
+  },
+  {
+   "id": "C120784921",
+   "name": "Multivariate probit model",
+   "level": 2,
+   "works": 6716,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q17086363"
+  },
+  {
+   "id": "C121758426",
+   "name": "Harmonic balance",
+   "level": 3,
+   "works": 8318,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5659248"
+  },
+  {
+   "id": "C122325731",
+   "name": "Relative species abundance",
+   "level": 3,
+   "works": 51037,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3738459"
+  },
+  {
+   "id": "C123688308",
+   "name": "Correction for attenuation",
+   "level": 3,
+   "works": 6838,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7309537"
+  },
+  {
+   "id": "C123919525",
+   "name": "Frequency deviation",
+   "level": 3,
+   "works": 7622,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q761942"
+  },
+  {
+   "id": "C12404463",
+   "name": "Chemical industry",
+   "level": 2,
+   "works": 28557,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q207652"
+  },
+  {
+   "id": "C125575132",
+   "name": "Xanthophyll",
+   "level": 3,
+   "works": 6724,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q216208"
+  },
+  {
+   "id": "C126661725",
+   "name": "Isomerization",
+   "level": 3,
+   "works": 66940,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q903420"
+  },
+  {
+   "id": "C127145964",
+   "name": "Heat recovery ventilation",
+   "level": 3,
+   "works": 20371,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2142051"
+  },
+  {
+   "id": "C127349201",
+   "name": "Numerical integration",
+   "level": 2,
+   "works": 28462,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q753445"
+  },
+  {
+   "id": "C127745971",
+   "name": "Feather",
+   "level": 2,
+   "works": 30274,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q81025"
+  },
+  {
+   "id": "C128040838",
+   "name": "Pseudorandom binary sequence",
+   "level": 3,
+   "works": 5620,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1810628"
+  },
+  {
+   "id": "C128081465",
+   "name": "Infinitive",
+   "level": 3,
+   "works": 9233,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q179230"
+  },
+  {
+   "id": "C128289946",
+   "name": "Holographic interferometry",
+   "level": 3,
+   "works": 10065,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5884113"
+  },
+  {
+   "id": "C129162502",
+   "name": "Exfoliation joint",
+   "level": 3,
+   "works": 19863,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1200889"
+  },
+  {
+   "id": "C129360787",
+   "name": "Total dissolved solids",
+   "level": 2,
+   "works": 25483,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2466917"
+  },
+  {
+   "id": "C130452526",
+   "name": "Diagenesis",
+   "level": 2,
+   "works": 48549,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q180621"
+  },
+  {
+   "id": "C130838757",
+   "name": "Westernization",
+   "level": 3,
+   "works": 13572,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6498273"
+  },
+  {
+   "id": "C131935069",
+   "name": "Electromagnetically induced transparency",
+   "level": 2,
+   "works": 8391,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3537757"
+  },
+  {
+   "id": "C132677234",
+   "name": "Structural motif",
+   "level": 2,
+   "works": 12820,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3273544"
+  },
+  {
+   "id": "C132954091",
+   "name": "Banach space",
+   "level": 2,
+   "works": 77225,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q194397"
+  },
+  {
+   "id": "C133320665",
+   "name": "RAID",
+   "level": 2,
+   "works": 7698,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q179299"
+  },
+  {
+   "id": "C133462117",
+   "name": "Data collection",
+   "level": 2,
+   "works": 3878221,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4929239"
+  },
+  {
+   "id": "C13373296",
+   "name": "Chemokine",
+   "level": 3,
+   "works": 122975,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q421866"
+  },
+  {
+   "id": "C133871045",
+   "name": "Multiplet",
+   "level": 3,
+   "works": 10055,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4598301"
+  },
+  {
+   "id": "C134406635",
+   "name": "Photoresist",
+   "level": 3,
+   "works": 20035,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1439684"
+  },
+  {
+   "id": "C134466208",
+   "name": "Weight function",
+   "level": 2,
+   "works": 9140,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1520657"
+  },
+  {
+   "id": "C13460635",
+   "name": "Classification scheme",
+   "level": 2,
+   "works": 12849,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q85753676"
+  },
+  {
+   "id": "C135257023",
+   "name": "Domain-specific language",
+   "level": 2,
+   "works": 8531,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q691358"
+  },
+  {
+   "id": "C135562815",
+   "name": "Beam propagation method",
+   "level": 3,
+   "works": 5480,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4876189"
+  },
+  {
+   "id": "C136478896",
+   "name": "Brittleness",
+   "level": 2,
+   "works": 106005,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q898288"
+  },
+  {
+   "id": "C137820387",
+   "name": "Thermoacoustics",
+   "level": 2,
+   "works": 5254,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q909337"
+  },
+  {
+   "id": "C137824038",
+   "name": "Intercalation (chemistry)",
+   "level": 2,
+   "works": 49478,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q175562"
+  },
+  {
+   "id": "C138296749",
+   "name": "Global citizenship",
+   "level": 2,
+   "works": 12521,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2785021"
+  },
+  {
+   "id": "C13854087",
+   "name": "Interaction design",
+   "level": 2,
+   "works": 13581,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1061656"
+  },
+  {
+   "id": "C13935069",
+   "name": "Oligopeptide",
+   "level": 3,
+   "works": 11109,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2157266"
+  },
+  {
+   "id": "C141123601",
+   "name": "Multiscale modeling",
+   "level": 2,
+   "works": 15110,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6935072"
+  },
+  {
+   "id": "C141646446",
+   "name": "Continental crust",
+   "level": 3,
+   "works": 23824,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q858571"
+  },
+  {
+   "id": "C143678939",
+   "name": "Episteme",
+   "level": 2,
+   "works": 5438,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1164521"
+  },
+  {
+   "id": "C144530980",
+   "name": "Certification and Accreditation",
+   "level": 3,
+   "works": 6236,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5065121"
+  },
+  {
+   "id": "C144814538",
+   "name": "Autobiographical memory",
+   "level": 3,
+   "works": 18141,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q682304"
+  },
+  {
+   "id": "C145103041",
+   "name": "Embryonic stem cell",
+   "level": 3,
+   "works": 207017,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1151519"
+  },
+  {
+   "id": "C145417883",
+   "name": "Diffuse optical imaging",
+   "level": 3,
+   "works": 5895,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5275421"
+  },
+  {
+   "id": "C145691206",
+   "name": "Polytope",
+   "level": 2,
+   "works": 16945,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q747980"
+  },
+  {
+   "id": "C146834321",
+   "name": "Closure (psychology)",
+   "level": 2,
+   "works": 953268,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2979672"
+  },
+  {
+   "id": "C146867326",
+   "name": "Structure formation",
+   "level": 3,
+   "works": 10936,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2914363"
+  },
+  {
+   "id": "C147366489",
+   "name": "Wildlife conservation",
+   "level": 3,
+   "works": 81332,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q766328"
+  },
+  {
+   "id": "C147581598",
+   "name": "Extreme value theory",
+   "level": 2,
+   "works": 30145,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q729429"
+  },
+  {
+   "id": "C148730421",
+   "name": "Encryption",
+   "level": 2,
+   "works": 255276,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q141090"
+  },
+  {
+   "id": "C149277555",
+   "name": "Daylight",
+   "level": 2,
+   "works": 23474,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q16491"
+  },
+  {
+   "id": "C149866677",
+   "name": "Equity risk",
+   "level": 3,
+   "works": 7340,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5384698"
+  },
+  {
+   "id": "C150042643",
+   "name": "Degreasing",
+   "level": 2,
+   "works": 11422,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1182909"
+  },
+  {
+   "id": "C150506046",
+   "name": "Logos Bible Software",
+   "level": 2,
+   "works": 27973,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6667822"
+  },
+  {
+   "id": "C151788092",
+   "name": "Moorland",
+   "level": 2,
+   "works": 24548,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1092661"
+  },
+  {
+   "id": "C152006893",
+   "name": "Unreinforced masonry building",
+   "level": 3,
+   "works": 8825,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6067058"
+  },
+  {
+   "id": "C15302153",
+   "name": "Employability",
+   "level": 2,
+   "works": 42084,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q470863"
+  },
+  {
+   "id": "C153127940",
+   "name": "Oil shale",
+   "level": 2,
+   "works": 95540,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q221378"
+  },
+  {
+   "id": "C154010619",
+   "name": "Terrestrial planet",
+   "level": 3,
+   "works": 13589,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q128207"
+  },
+  {
+   "id": "C154130900",
+   "name": "Talmud",
+   "level": 3,
+   "works": 5759,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q43290"
+  },
+  {
+   "id": "C154280991",
+   "name": "Aquaporin",
+   "level": 2,
+   "works": 9906,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q623090"
+  },
+  {
+   "id": "C155672457",
+   "name": "Nanoparticle",
+   "level": 2,
+   "works": 1017777,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q61231"
+  },
+  {
+   "id": "C156008332",
+   "name": "Precipitable water",
+   "level": 3,
+   "works": 8683,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q778526"
+  },
+  {
+   "id": "C158424031",
+   "name": "Gibbs sampling",
+   "level": 3,
+   "works": 14741,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1191905"
+  },
+  {
+   "id": "C158846371",
+   "name": "Blood flow",
+   "level": 2,
+   "works": 199640,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1642137"
+  },
+  {
+   "id": "C160798176",
+   "name": "Solar air conditioning",
+   "level": 3,
+   "works": 7712,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1312298"
+  },
+  {
+   "id": "C161368742",
+   "name": "High-resolution transmission electron microscopy",
+   "level": 3,
+   "works": 39460,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q874906"
+  },
+  {
+   "id": "C162695957",
+   "name": "Cyberculture",
+   "level": 3,
+   "works": 7782,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q863590"
+  },
+  {
+   "id": "C163716315",
+   "name": "Gaussian",
+   "level": 2,
+   "works": 342282,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q901177"
+  },
+  {
+   "id": "C164466805",
+   "name": "Parametric oscillator",
+   "level": 2,
+   "works": 9225,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2632607"
+  },
+  {
+   "id": "C164614171",
+   "name": "DECIPHER",
+   "level": 2,
+   "works": 13228,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5204775"
+  },
+  {
+   "id": "C165616093",
+   "name": "Serum albumin",
+   "level": 2,
+   "works": 39115,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q424232"
+  },
+  {
+   "id": "C167672396",
+   "name": "CD8",
+   "level": 3,
+   "works": 188872,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q417800"
+  },
+  {
+   "id": "C168173289",
+   "name": "WIMP",
+   "level": 3,
+   "works": 5504,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2116203"
+  },
+  {
+   "id": "C168240541",
+   "name": "Organelle",
+   "level": 2,
+   "works": 61586,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q45948"
+  },
+  {
+   "id": "C168444539",
+   "name": "Organ transplantation",
+   "level": 3,
+   "works": 32589,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q105196"
+  },
+  {
+   "id": "C169627665",
+   "name": "Homology modeling",
+   "level": 3,
+   "works": 15879,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5767913"
+  },
+  {
+   "id": "C174801256",
+   "name": "Landscaping",
+   "level": 2,
+   "works": 13538,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q8070591"
+  },
+  {
+   "id": "C175734852",
+   "name": "Pupa",
+   "level": 3,
+   "works": 46321,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q170595"
+  },
+  {
+   "id": "C176019070",
+   "name": "Heterosexuality",
+   "level": 3,
+   "works": 10104,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1035954"
+  },
+  {
+   "id": "C176038584",
+   "name": "Triad (sociology)",
+   "level": 2,
+   "works": 19242,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q626432"
+  },
+  {
+   "id": "C176871988",
+   "name": "Electric motor",
+   "level": 2,
+   "works": 53517,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q72313"
+  },
+  {
+   "id": "C177047870",
+   "name": "Professional writing",
+   "level": 2,
+   "works": 16755,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3953114"
+  },
+  {
+   "id": "C177291462",
+   "name": "Active listening",
+   "level": 2,
+   "works": 206206,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q423038"
+  },
+  {
+   "id": "C178005623",
+   "name": "Anonymity",
+   "level": 2,
+   "works": 47420,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q308859"
+  },
+  {
+   "id": "C178165689",
+   "name": "Inflorescence",
+   "level": 2,
+   "works": 139767,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q156428"
+  },
+  {
+   "id": "C17886624",
+   "name": "Key management",
+   "level": 3,
+   "works": 14315,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1320561"
+  },
+  {
+   "id": "C179303850",
+   "name": "Molecular recognition",
+   "level": 3,
+   "works": 15957,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4300362"
+  },
+  {
+   "id": "C17967879",
+   "name": "Space Science",
+   "level": 2,
+   "works": 14028,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1195766"
+  },
+  {
+   "id": "C180260311",
+   "name": "Animal fat",
+   "level": 2,
+   "works": 6958,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1423543"
+  },
+  {
+   "id": "C180566339",
+   "name": "Parton",
+   "level": 3,
+   "works": 32988,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q117483"
+  },
+  {
+   "id": "C181190989",
+   "name": "Divestment",
+   "level": 2,
+   "works": 8825,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1200733"
+  },
+  {
+   "id": "C183882617",
+   "name": "Cationic polymerization",
+   "level": 2,
+   "works": 119383,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3046749"
+  },
+  {
+   "id": "C18767781",
+   "name": "Food choice",
+   "level": 2,
+   "works": 18713,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5465445"
+  },
+  {
+   "id": "C189946632",
+   "name": "Freudian slip",
+   "level": 2,
+   "works": 11498,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1418757"
+  },
+  {
+   "id": "C190974861",
+   "name": "European integration",
+   "level": 3,
+   "works": 61069,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1048268"
+  },
+  {
+   "id": "C192932206",
+   "name": "Convective storm detection",
+   "level": 3,
+   "works": 7148,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q16951299"
+  },
+  {
+   "id": "C193125573",
+   "name": "Semantic interpretation",
+   "level": 2,
+   "works": 9687,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7449065"
+  },
+  {
+   "id": "C19320362",
+   "name": "Carbonate rock",
+   "level": 3,
+   "works": 81953,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q777913"
+  },
+  {
+   "id": "C193596192",
+   "name": "CD-ROM",
+   "level": 2,
+   "works": 18763,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7982"
+  },
+  {
+   "id": "C194051981",
+   "name": "Economic shortage",
+   "level": 3,
+   "works": 282626,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1337691"
+  },
+  {
+   "id": "C197336794",
+   "name": "Conjugate",
+   "level": 2,
+   "works": 91762,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5161150"
+  },
+  {
+   "id": "C197352329",
+   "name": "Citizen science",
+   "level": 2,
+   "works": 101647,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1093434"
+  },
+  {
+   "id": "C198446146",
+   "name": "Chemistry education",
+   "level": 3,
+   "works": 16446,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1069229"
+  },
+  {
+   "id": "C199540501",
+   "name": "Bobbin",
+   "level": 2,
+   "works": 5414,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1520790"
+  },
+  {
+   "id": "C199873434",
+   "name": "Carbon fixation",
+   "level": 3,
+   "works": 11322,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q901921"
+  },
+  {
+   "id": "C20256973",
+   "name": "Standard score",
+   "level": 2,
+   "works": 5827,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1050272"
+  },
+  {
+   "id": "C203017698",
+   "name": "Modified atmosphere",
+   "level": 3,
+   "works": 13110,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1815645"
+  },
+  {
+   "id": "C203130289",
+   "name": "Epimer",
+   "level": 2,
+   "works": 8492,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q926272"
+  },
+  {
+   "id": "C203481301",
+   "name": "Data system",
+   "level": 2,
+   "works": 16320,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q76221"
+  },
+  {
+   "id": "C20387591",
+   "name": "Specialty",
+   "level": 2,
+   "works": 114760,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q930752"
+  },
+  {
+   "id": "C204208750",
+   "name": "Short run",
+   "level": 2,
+   "works": 21420,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1519415"
+  },
+  {
+   "id": "C204389451",
+   "name": "Macromolecule",
+   "level": 2,
+   "works": 57245,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q178593"
+  },
+  {
+   "id": "C204628709",
+   "name": "Biotinylation",
+   "level": 2,
+   "works": 17983,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q864854"
+  },
+  {
+   "id": "C205260736",
+   "name": "Heat shock protein",
+   "level": 3,
+   "works": 70354,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q418939"
+  },
+  {
+   "id": "C206217203",
+   "name": "Earnings per share",
+   "level": 3,
+   "works": 15441,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1134378"
+  },
+  {
+   "id": "C206729178",
+   "name": "Scheduling (production processes)",
+   "level": 2,
+   "works": 392846,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2271896"
+  },
+  {
+   "id": "C206967267",
+   "name": "Ion chromatography",
+   "level": 2,
+   "works": 29239,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q905749"
+  },
+  {
+   "id": "C207043602",
+   "name": "Algebraic curve",
+   "level": 2,
+   "works": 5430,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q266237"
+  },
+  {
+   "id": "C207245611",
+   "name": "Condensation reaction",
+   "level": 3,
+   "works": 19037,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q910058"
+  },
+  {
+   "id": "C207332259",
+   "name": "GTPase",
+   "level": 2,
+   "works": 32032,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q769143"
+  },
+  {
+   "id": "C21368211",
+   "name": "Synchrotron",
+   "level": 2,
+   "works": 80594,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q689863"
+  },
+  {
+   "id": "C21957315",
+   "name": "Beta-2 microglobulin",
+   "level": 2,
+   "works": 9411,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q287896"
+  },
+  {
+   "id": "C2341566",
+   "name": "Cow dung",
+   "level": 3,
+   "works": 11162,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q910759"
+  },
+  {
+   "id": "C23987474",
+   "name": "Philology",
+   "level": 3,
+   "works": 66775,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q40634"
+  },
+  {
+   "id": "C24066741",
+   "name": "Mass spectrometry imaging",
+   "level": 3,
+   "works": 8308,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3796564"
+  },
+  {
+   "id": "C24552861",
+   "name": "Data assimilation",
+   "level": 2,
+   "works": 61977,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2670177"
+  },
+  {
+   "id": "C25906391",
+   "name": "Hop (telecommunications)",
+   "level": 2,
+   "works": 26871,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1432381"
+  },
+  {
+   "id": "C25938499",
+   "name": "Systemic administration",
+   "level": 3,
+   "works": 10301,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7663812"
+  },
+  {
+   "id": "C27256138",
+   "name": "Disulfide bond",
+   "level": 2,
+   "works": 27259,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1230226"
+  },
+  {
+   "id": "C27740335",
+   "name": "Proteasome",
+   "level": 2,
+   "works": 38517,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q14878333"
+  },
+  {
+   "id": "C2775859210",
+   "name": "Atropine",
+   "level": 2,
+   "works": 31757,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q26272"
+  },
+  {
+   "id": "C2775871700",
+   "name": "Breast milk",
+   "level": 2,
+   "works": 32547,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q22728"
+  },
+  {
+   "id": "C2775884135",
+   "name": "Mandate",
+   "level": 2,
+   "works": 130565,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q845436"
+  },
+  {
+   "id": "C2775910092",
+   "name": "Acetylcholine",
+   "level": 2,
+   "works": 74105,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q180623"
+  },
+  {
+   "id": "C2775955345",
+   "name": "Semantic mapping",
+   "level": 2,
+   "works": 8786,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7449071"
+  },
+  {
+   "id": "C2775979504",
+   "name": "Melamine",
+   "level": 2,
+   "works": 16644,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q212553"
+  },
+  {
+   "id": "C2775987729",
+   "name": "Green-light",
+   "level": 3,
+   "works": 5506,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2336758"
+  },
+  {
+   "id": "C2775988433",
+   "name": "VisSim",
+   "level": 3,
+   "works": 5278,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q369244"
+  },
+  {
+   "id": "C2776010296",
+   "name": "Nesting season",
+   "level": 3,
+   "works": 6630,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q12353139"
+  },
+  {
+   "id": "C2776020190",
+   "name": "New class",
+   "level": 2,
+   "works": 7391,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q997453"
+  },
+  {
+   "id": "C2776041477",
+   "name": "Locust",
+   "level": 2,
+   "works": 15332,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q83931"
+  },
+  {
+   "id": "C2776056826",
+   "name": "Allergic contact dermatitis",
+   "level": 3,
+   "works": 16513,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q16242752"
+  },
+  {
+   "id": "C2776088076",
+   "name": "Drill pipe",
+   "level": 3,
+   "works": 7053,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4199385"
+  },
+  {
+   "id": "C2776119841",
+   "name": "Jury",
+   "level": 2,
+   "works": 39802,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q837675"
+  },
+  {
+   "id": "C2776126399",
+   "name": "Immutability",
+   "level": 3,
+   "works": 6044,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3942906"
+  },
+  {
+   "id": "C2776305511",
+   "name": "Arsenite",
+   "level": 3,
+   "works": 9969,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q10859825"
+  },
+  {
+   "id": "C2776348710",
+   "name": "Hip replacement",
+   "level": 3,
+   "works": 7669,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q32333487"
+  },
+  {
+   "id": "C2776359302",
+   "name": "Isoflurane",
+   "level": 2,
+   "works": 20865,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q413918"
+  },
+  {
+   "id": "C2776369677",
+   "name": "Human Development Report",
+   "level": 3,
+   "works": 16787,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1185686"
+  },
+  {
+   "id": "C2776378156",
+   "name": "Enamine",
+   "level": 3,
+   "works": 6247,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q408018"
+  },
+  {
+   "id": "C2776378700",
+   "name": "Distraction",
+   "level": 2,
+   "works": 44981,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3030775"
+  },
+  {
+   "id": "C2776390344",
+   "name": "Calyx",
+   "level": 2,
+   "works": 14738,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5024772"
+  },
+  {
+   "id": "C2776393687",
+   "name": "Hexose",
+   "level": 3,
+   "works": 6124,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q339725"
+  },
+  {
+   "id": "C2776395126",
+   "name": "Microcephaly",
+   "level": 2,
+   "works": 14242,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q431643"
+  },
+  {
+   "id": "C2776405206",
+   "name": "Revelation",
+   "level": 2,
+   "works": 41711,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q192906"
+  },
+  {
+   "id": "C2776436463",
+   "name": "Brief intervention",
+   "level": 3,
+   "works": 13898,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4967030"
+  },
+  {
+   "id": "C2776439223",
+   "name": "Otitis",
+   "level": 2,
+   "works": 43978,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q480700"
+  },
+  {
+   "id": "C2776452267",
+   "name": "Secrecy",
+   "level": 2,
+   "works": 43105,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1503443"
+  },
+  {
+   "id": "C2776498113",
+   "name": "Defensin",
+   "level": 3,
+   "works": 6029,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q412820"
+  },
+  {
+   "id": "C2776551768",
+   "name": "Guar",
+   "level": 2,
+   "works": 8244,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q264770"
+  },
+  {
+   "id": "C2776617377",
+   "name": "Ammonium nitrate",
+   "level": 2,
+   "works": 19605,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q182329"
+  },
+  {
+   "id": "C2776674983",
+   "name": "Image editing",
+   "level": 3,
+   "works": 10473,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q545981"
+  },
+  {
+   "id": "C2776678335",
+   "name": "Wilt disease",
+   "level": 2,
+   "works": 9367,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3281368"
+  },
+  {
+   "id": "C2776685102",
+   "name": "Carbapenem",
+   "level": 3,
+   "works": 16881,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q410897"
+  },
+  {
+   "id": "C2776690073",
+   "name": "Oocyte",
+   "level": 3,
+   "works": 87071,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3246226"
+  },
+  {
+   "id": "C2776692886",
+   "name": "Polytrauma",
+   "level": 2,
+   "works": 10437,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2103168"
+  },
+  {
+   "id": "C2776751424",
+   "name": "Capitata",
+   "level": 3,
+   "works": 13560,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q146580"
+  },
+  {
+   "id": "C2776819072",
+   "name": "Sensu",
+   "level": 3,
+   "works": 22851,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1087319"
+  },
+  {
+   "id": "C2776822698",
+   "name": "Green consumption",
+   "level": 3,
+   "works": 6884,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q23580735"
+  },
+  {
+   "id": "C2776888792",
+   "name": "Laryngoscopy",
+   "level": 3,
+   "works": 20951,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2357917"
+  },
+  {
+   "id": "C2776966407",
+   "name": "Lysozyme",
+   "level": 2,
+   "works": 36947,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q24779410"
+  },
+  {
+   "id": "C2776977782",
+   "name": "Legislative assembly",
+   "level": 3,
+   "works": 5545,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1153777"
+  },
+  {
+   "id": "C2777031316",
+   "name": "Coal measures",
+   "level": 3,
+   "works": 5043,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5137826"
+  },
+  {
+   "id": "C2777063073",
+   "name": "Settlement (finance)",
+   "level": 3,
+   "works": 499514,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1553237"
+  },
+  {
+   "id": "C2777081348",
+   "name": "Fluorite",
+   "level": 2,
+   "works": 12261,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q102151"
+  },
+  {
+   "id": "C2777093960",
+   "name": "Implantable cardioverter-defibrillator",
+   "level": 2,
+   "works": 22436,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q594446"
+  },
+  {
+   "id": "C2777135253",
+   "name": "Halloysite",
+   "level": 2,
+   "works": 7671,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q12821923"
+  },
+  {
+   "id": "C2777241282",
+   "name": "Transesterification",
+   "level": 3,
+   "works": 29710,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q591576"
+  },
+  {
+   "id": "C2777346780",
+   "name": "Adenoidectomy",
+   "level": 3,
+   "works": 7985,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q356194"
+  },
+  {
+   "id": "C2777382934",
+   "name": "Corporate identity",
+   "level": 2,
+   "works": 5771,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q609781"
+  },
+  {
+   "id": "C2777394366",
+   "name": "Personality type",
+   "level": 3,
+   "works": 5092,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q786753"
+  },
+  {
+   "id": "C2777400808",
+   "name": "Seagrass",
+   "level": 3,
+   "works": 28720,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q646660"
+  },
+  {
+   "id": "C2777414711",
+   "name": "Lantern",
+   "level": 3,
+   "works": 11111,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q862454"
+  },
+  {
+   "id": "C2777428918",
+   "name": "Health assessment",
+   "level": 2,
+   "works": 7223,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5690807"
+  },
+  {
+   "id": "C2777432744",
+   "name": "Compassion",
+   "level": 2,
+   "works": 49870,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1412160"
+  },
+  {
+   "id": "C2777592495",
+   "name": "Israelites",
+   "level": 2,
+   "works": 12967,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q51669"
+  },
+  {
+   "id": "C2777594072",
+   "name": "Pharmacopoeia",
+   "level": 3,
+   "works": 7236,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q117247"
+  },
+  {
+   "id": "C2777713963",
+   "name": "Butanol",
+   "level": 3,
+   "works": 20773,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q663902"
+  },
+  {
+   "id": "C2777851122",
+   "name": "Ceramide",
+   "level": 3,
+   "works": 18973,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q424213"
+  },
+  {
+   "id": "C2777880217",
+   "name": "Acknowledgement",
+   "level": 2,
+   "works": 53364,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4674282"
+  },
+  {
+   "id": "C2777903624",
+   "name": "Spatial light modulator",
+   "level": 2,
+   "works": 13256,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1477653"
+  },
+  {
+   "id": "C2777921204",
+   "name": "Knowledge translation",
+   "level": 2,
+   "works": 14477,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q66104672"
+  },
+  {
+   "id": "C2777923404",
+   "name": "Blood meal",
+   "level": 2,
+   "works": 6464,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q886705"
+  },
+  {
+   "id": "C2777975993",
+   "name": "Bryophyte",
+   "level": 2,
+   "works": 9198,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q29993"
+  },
+  {
+   "id": "C2777996180",
+   "name": "Coconut oil",
+   "level": 2,
+   "works": 11075,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q216235"
+  },
+  {
+   "id": "C2778111144",
+   "name": "Dwarfism",
+   "level": 3,
+   "works": 5954,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q194101"
+  },
+  {
+   "id": "C2778215004",
+   "name": "Solvency",
+   "level": 3,
+   "works": 20887,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1137437"
+  },
+  {
+   "id": "C2778230297",
+   "name": "Sprayer",
+   "level": 2,
+   "works": 15974,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1141546"
+  },
+  {
+   "id": "C2778307483",
+   "name": "Colored",
+   "level": 2,
+   "works": 50629,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5149038"
+  },
+  {
+   "id": "C2778360550",
+   "name": "Transdisciplinarity",
+   "level": 2,
+   "works": 11653,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q249542"
+  },
+  {
+   "id": "C2778365127",
+   "name": "Verticillium",
+   "level": 2,
+   "works": 5448,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2452570"
+  },
+  {
+   "id": "C2778380070",
+   "name": "Intangible asset",
+   "level": 2,
+   "works": 5402,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q427581"
+  },
+  {
+   "id": "C2778421084",
+   "name": "Tetrathiafulvalene",
+   "level": 3,
+   "works": 5611,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2179180"
+  },
+  {
+   "id": "C2778515351",
+   "name": "Scalp",
+   "level": 2,
+   "works": 53661,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q9622"
+  },
+  {
+   "id": "C2778529423",
+   "name": "Rite",
+   "level": 2,
+   "works": 16683,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q628455"
+  },
+  {
+   "id": "C2778583558",
+   "name": "Code reuse",
+   "level": 3,
+   "works": 5699,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q771245"
+  },
+  {
+   "id": "C2778589381",
+   "name": "Chernozem",
+   "level": 3,
+   "works": 8916,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q193158"
+  },
+  {
+   "id": "C2778682995",
+   "name": "Eudicots",
+   "level": 3,
+   "works": 9730,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q165468"
+  },
+  {
+   "id": "C2778693558",
+   "name": "Management development",
+   "level": 2,
+   "works": 16091,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1955814"
+  },
+  {
+   "id": "C2778702967",
+   "name": "Cutaneous leishmaniasis",
+   "level": 3,
+   "works": 15959,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2590966"
+  },
+  {
+   "id": "C2778710519",
+   "name": "Nitrate reductase",
+   "level": 3,
+   "works": 15195,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q420896"
+  },
+  {
+   "id": "C2778713300",
+   "name": "Calcium alginate",
+   "level": 3,
+   "works": 7196,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2034064"
+  },
+  {
+   "id": "C2778736484",
+   "name": "Friendship",
+   "level": 2,
+   "works": 71359,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q491"
+  },
+  {
+   "id": "C2778799465",
+   "name": "Fur seal",
+   "level": 2,
+   "works": 6563,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1043473"
+  },
+  {
+   "id": "C2778904781",
+   "name": "Kupffer cell",
+   "level": 2,
+   "works": 5038,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q513486"
+  },
+  {
+   "id": "C2779012821",
+   "name": "Elicitor",
+   "level": 3,
+   "works": 9814,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1329233"
+  },
+  {
+   "id": "C2779015050",
+   "name": "Global financial system",
+   "level": 3,
+   "works": 6832,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q574833"
+  },
+  {
+   "id": "C2779077069",
+   "name": "Centella",
+   "level": 2,
+   "works": 5462,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1348880"
+  },
+  {
+   "id": "C2779083892",
+   "name": "Low birth weight",
+   "level": 3,
+   "works": 65134,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6692979"
+  },
+  {
+   "id": "C2779116783",
+   "name": "Angle of incidence (optics)",
+   "level": 2,
+   "works": 8623,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1196575"
+  },
+  {
+   "id": "C2779117930",
+   "name": "Magnesite",
+   "level": 3,
+   "works": 6784,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q425450"
+  },
+  {
+   "id": "C2779149496",
+   "name": "Procedural justice",
+   "level": 3,
+   "works": 25454,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q442100"
+  },
+  {
+   "id": "C2779168147",
+   "name": "Checkerboard",
+   "level": 2,
+   "works": 5260,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q460711"
+  },
+  {
+   "id": "C2779227060",
+   "name": "Immortality",
+   "level": 2,
+   "works": 13902,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q193942"
+  },
+  {
+   "id": "C2779236577",
+   "name": "Extensive reading",
+   "level": 3,
+   "works": 30668,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5421970"
+  },
+  {
+   "id": "C2779320081",
+   "name": "Wakefulness",
+   "level": 3,
+   "works": 19529,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q246710"
+  },
+  {
+   "id": "C2779482186",
+   "name": "Echinococcus",
+   "level": 3,
+   "works": 7656,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q344662"
+  },
+  {
+   "id": "C2779490328",
+   "name": "Sunitinib",
+   "level": 3,
+   "works": 20678,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q417542"
+  },
+  {
+   "id": "C2779534622",
+   "name": "Primulaceae",
+   "level": 2,
+   "works": 12100,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q157115"
+  },
+  {
+   "id": "C2779534841",
+   "name": "Patent application",
+   "level": 2,
+   "works": 5652,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3022019"
+  },
+  {
+   "id": "C2779538911",
+   "name": "Heteroptera",
+   "level": 2,
+   "works": 21017,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q27191"
+  },
+  {
+   "id": "C2779547328",
+   "name": "Diuresis",
+   "level": 3,
+   "works": 14827,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q584691"
+  },
+  {
+   "id": "C2779550045",
+   "name": "Patulin",
+   "level": 3,
+   "works": 5646,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q414526"
+  },
+  {
+   "id": "C2779554091",
+   "name": "Uracil",
+   "level": 3,
+   "works": 14104,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q182990"
+  },
+  {
+   "id": "C2779561538",
+   "name": "History of education",
+   "level": 2,
+   "works": 5718,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1062194"
+  },
+  {
+   "id": "C2779662492",
+   "name": "Hematoma",
+   "level": 2,
+   "works": 69520,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q468787"
+  },
+  {
+   "id": "C2779703888",
+   "name": "Islamic economics",
+   "level": 3,
+   "works": 12422,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1353213"
+  },
+  {
+   "id": "C2779769944",
+   "name": "Silicone",
+   "level": 2,
+   "works": 53079,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q146439"
+  },
+  {
+   "id": "C2779830541",
+   "name": "Microglia",
+   "level": 3,
+   "works": 84811,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1622829"
+  },
+  {
+   "id": "C2779832703",
+   "name": "Alligator",
+   "level": 2,
+   "works": 6567,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q530397"
+  },
+  {
+   "id": "C2779929075",
+   "name": "Erectile dysfunction",
+   "level": 2,
+   "works": 54126,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q184674"
+  },
+  {
+   "id": "C2780033567",
+   "name": "Method of moments (probability theory)",
+   "level": 3,
+   "works": 15575,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6823720"
+  },
+  {
+   "id": "C2780047204",
+   "name": "Laparoscopy",
+   "level": 2,
+   "works": 164270,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q675754"
+  },
+  {
+   "id": "C2780092750",
+   "name": "Niacin",
+   "level": 2,
+   "works": 10256,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q134658"
+  },
+  {
+   "id": "C2780124745",
+   "name": "Tatar",
+   "level": 2,
+   "works": 8026,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q25285"
+  },
+  {
+   "id": "C2780129190",
+   "name": "Changeover",
+   "level": 3,
+   "works": 6189,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5071912"
+  },
+  {
+   "id": "C2780149897",
+   "name": "Lidocaine",
+   "level": 2,
+   "works": 44385,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q216935"
+  },
+  {
+   "id": "C2780194698",
+   "name": "Immune dysregulation",
+   "level": 3,
+   "works": 14751,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6005429"
+  },
+  {
+   "id": "C2780218171",
+   "name": "Vaginal bleeding",
+   "level": 3,
+   "works": 11425,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q244913"
+  },
+  {
+   "id": "C2780228044",
+   "name": "Phraseology",
+   "level": 2,
+   "works": 8964,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1126894"
+  },
+  {
+   "id": "C2780246119",
+   "name": "Bacteroides fragilis",
+   "level": 3,
+   "works": 8837,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q221817"
+  },
+  {
+   "id": "C2780315139",
+   "name": "Azole",
+   "level": 3,
+   "works": 8361,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q419639"
+  },
+  {
+   "id": "C2780323712",
+   "name": "Metformin",
+   "level": 3,
+   "works": 65284,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q19484"
+  },
+  {
+   "id": "C2780402116",
+   "name": "Gout",
+   "level": 2,
+   "works": 31738,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q133087"
+  },
+  {
+   "id": "C2780427559",
+   "name": "Tractor",
+   "level": 2,
+   "works": 30808,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q39495"
+  },
+  {
+   "id": "C2780525273",
+   "name": "Charge density wave",
+   "level": 3,
+   "works": 9083,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1800052"
+  },
+  {
+   "id": "C2780534471",
+   "name": "Isocyanate",
+   "level": 3,
+   "works": 15398,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q408365"
+  },
+  {
+   "id": "C2780579389",
+   "name": "Supply network",
+   "level": 3,
+   "works": 6164,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q17083991"
+  },
+  {
+   "id": "C2780607864",
+   "name": "Sensorineural hearing loss",
+   "level": 3,
+   "works": 24561,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q928697"
+  },
+  {
+   "id": "C2780690664",
+   "name": "Economic transformation",
+   "level": 2,
+   "works": 13824,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q19602103"
+  },
+  {
+   "id": "C2780784151",
+   "name": "Bacteriochlorophyll",
+   "level": 3,
+   "works": 5526,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1992180"
+  },
+  {
+   "id": "C2780789378",
+   "name": "Official language",
+   "level": 2,
+   "works": 5126,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q23492"
+  },
+  {
+   "id": "C2780795997",
+   "name": "Superoxide",
+   "level": 3,
+   "works": 56608,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q413283"
+  },
+  {
+   "id": "C2780809830",
+   "name": "Linoleic acid",
+   "level": 3,
+   "works": 55702,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q407426"
+  },
+  {
+   "id": "C2780841128",
+   "name": "Characterization (materials science)",
+   "level": 2,
+   "works": 696508,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5073781"
+  },
+  {
+   "id": "C2780841837",
+   "name": "Interferon gamma",
+   "level": 3,
+   "works": 24194,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q24741149"
+  },
+  {
+   "id": "C2780934415",
+   "name": "Border Security",
+   "level": 2,
+   "works": 24018,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q20997131"
+  },
+  {
+   "id": "C2781054738",
+   "name": "Athletes",
+   "level": 2,
+   "works": 266146,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4813730"
+  },
+  {
+   "id": "C2781081902",
+   "name": "Tricyclic",
+   "level": 2,
+   "works": 17975,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3539074"
+  },
+  {
+   "id": "C2781128415",
+   "name": "Prostacyclin",
+   "level": 2,
+   "works": 18617,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q412050"
+  },
+  {
+   "id": "C2781181686",
+   "name": "Coherence (philosophical gambling strategy)",
+   "level": 2,
+   "works": 259253,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4226068"
+  },
+  {
+   "id": "C2781183027",
+   "name": "Copper oxide",
+   "level": 3,
+   "works": 15823,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q106920642"
+  },
+  {
+   "id": "C2781192327",
+   "name": "Child Behavior Checklist",
+   "level": 2,
+   "works": 7032,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5097706"
+  },
+  {
+   "id": "C2781222102",
+   "name": "Navajo",
+   "level": 2,
+   "works": 10465,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q13310"
+  },
+  {
+   "id": "C2781226546",
+   "name": "Bluff",
+   "level": 2,
+   "works": 11227,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q886106"
+  },
+  {
+   "id": "C2781263971",
+   "name": "Quercetin",
+   "level": 3,
+   "works": 53451,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q409478"
+  },
+  {
+   "id": "C2781357168",
+   "name": "Digital evidence",
+   "level": 3,
+   "works": 10549,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5276084"
+  },
+  {
+   "id": "C2781436638",
+   "name": "Whitefly",
+   "level": 2,
+   "works": 12152,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q815617"
+  },
+  {
+   "id": "C2908869550",
+   "name": "Pacific Area",
+   "level": 2,
+   "works": 18740,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q19866663"
+  },
+  {
+   "id": "C2910942459",
+   "name": "Criminal behaviour",
+   "level": 2,
+   "works": 9716,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q83267"
+  },
+  {
+   "id": "C29310469",
+   "name": "Thermal equilibrium",
+   "level": 2,
+   "works": 11502,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3175122"
+  },
+  {
+   "id": "C29331040",
+   "name": "Preclinical imaging",
+   "level": 3,
+   "works": 27416,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7239554"
+  },
+  {
+   "id": "C2982719155",
+   "name": "Energy source",
+   "level": 3,
+   "works": 120201,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q25584060"
+  },
+  {
+   "id": "C2982962833",
+   "name": "Information fusion",
+   "level": 2,
+   "works": 15186,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q17092450"
+  },
+  {
+   "id": "C2983405972",
+   "name": "Local governance",
+   "level": 3,
+   "works": 7343,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6501447"
+  },
+  {
+   "id": "C2983734796",
+   "name": "Commercial bank",
+   "level": 2,
+   "works": 19493,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q848507"
+  },
+  {
+   "id": "C2984393311",
+   "name": "Econometric analysis",
+   "level": 2,
+   "works": 21143,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q160039"
+  },
+  {
+   "id": "C2984398910",
+   "name": "Spect imaging",
+   "level": 2,
+   "works": 8576,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q849737"
+  },
+  {
+   "id": "C2984556133",
+   "name": "Oil price",
+   "level": 2,
+   "works": 23387,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q297279"
+  },
+  {
+   "id": "C2984752397",
+   "name": "Primary care",
+   "level": 2,
+   "works": 318635,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3259956"
+  },
+  {
+   "id": "C2985109136",
+   "name": "Transport infrastructure",
+   "level": 2,
+   "works": 18848,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7590"
+  },
+  {
+   "id": "C2985172591",
+   "name": "Community college",
+   "level": 2,
+   "works": 37832,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1336920"
+  },
+  {
+   "id": "C2985179745",
+   "name": "Plant species",
+   "level": 2,
+   "works": 50812,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q131449"
+  },
+  {
+   "id": "C2985215115",
+   "name": "Gait cycle",
+   "level": 3,
+   "works": 7286,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q22305006"
+  },
+  {
+   "id": "C2985529240",
+   "name": "Digital storage",
+   "level": 2,
+   "works": 5167,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q193395"
+  },
+  {
+   "id": "C2985948822",
+   "name": "Focused ultrasound",
+   "level": 3,
+   "works": 6256,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q564897"
+  },
+  {
+   "id": "C2986189917",
+   "name": "Asphalt pavement",
+   "level": 3,
+   "works": 35720,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1049667"
+  },
+  {
+   "id": "C2986640111",
+   "name": "Research policy",
+   "level": 2,
+   "works": 6203,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q904708"
+  },
+  {
+   "id": "C2986743833",
+   "name": "Energy distribution",
+   "level": 2,
+   "works": 140818,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q844861"
+  },
+  {
+   "id": "C2987920364",
+   "name": "Health hazard",
+   "level": 2,
+   "works": 8918,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1132455"
+  },
+  {
+   "id": "C2988115150",
+   "name": "Communication skills",
+   "level": 2,
+   "works": 46748,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q11024"
+  },
+  {
+   "id": "C2988574769",
+   "name": "Water flow",
+   "level": 2,
+   "works": 58563,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2259545"
+  },
+  {
+   "id": "C2988876627",
+   "name": "Power point",
+   "level": 2,
+   "works": 8434,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q11266"
+  },
+  {
+   "id": "C2989048297",
+   "name": "Radar detection",
+   "level": 3,
+   "works": 7184,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q930654"
+  },
+  {
+   "id": "C2989215759",
+   "name": "Aircraft industry",
+   "level": 2,
+   "works": 15997,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q936518"
+  },
+  {
+   "id": "C2989521464",
+   "name": "Career planning",
+   "level": 2,
+   "works": 9959,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3761395"
+  },
+  {
+   "id": "C2991743468",
+   "name": "Blood loss",
+   "level": 2,
+   "works": 76075,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q166019"
+  },
+  {
+   "id": "C2992077309",
+   "name": "Code of practice",
+   "level": 2,
+   "works": 16045,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q55607839"
+  },
+  {
+   "id": "C2992084085",
+   "name": "Catalytic hydrogenation",
+   "level": 3,
+   "works": 5187,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q214166"
+  },
+  {
+   "id": "C2992203025",
+   "name": "Social solidarity",
+   "level": 2,
+   "works": 5309,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q815726"
+  },
+  {
+   "id": "C2992397558",
+   "name": "Cultural sensitivity",
+   "level": 2,
+   "works": 5325,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5188450"
+  },
+  {
+   "id": "C2992525071",
+   "name": "Federated learning",
+   "level": 2,
+   "works": 22229,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q50818671"
+  },
+  {
+   "id": "C2992540694",
+   "name": "Job creation",
+   "level": 2,
+   "works": 18444,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q41171"
+  },
+  {
+   "id": "C2992730755",
+   "name": "Agricultural development",
+   "level": 3,
+   "works": 37380,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q55603353"
+  },
+  {
+   "id": "C2992829110",
+   "name": "First generation",
+   "level": 3,
+   "works": 11184,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3921615"
+  },
+  {
+   "id": "C2993248092",
+   "name": "High latitude",
+   "level": 3,
+   "works": 6802,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q60670"
+  },
+  {
+   "id": "C2993314993",
+   "name": "American society of anesthesiologists",
+   "level": 2,
+   "works": 7015,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q466833"
+  },
+  {
+   "id": "C2993453402",
+   "name": "Oral health care",
+   "level": 3,
+   "works": 8678,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q12128"
+  },
+  {
+   "id": "C2993469667",
+   "name": "Legal advice",
+   "level": 2,
+   "works": 6479,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q220117"
+  },
+  {
+   "id": "C2993830578",
+   "name": "Early adulthood",
+   "level": 3,
+   "works": 11593,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5370791"
+  },
+  {
+   "id": "C2993838527",
+   "name": "Point system",
+   "level": 2,
+   "works": 12249,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7208403"
+  },
+  {
+   "id": "C2993878198",
+   "name": "Indoor air",
+   "level": 2,
+   "works": 14348,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q905504"
+  },
+  {
+   "id": "C2993911517",
+   "name": "Legal service",
+   "level": 2,
+   "works": 5783,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4116200"
+  },
+  {
+   "id": "C2994217296",
+   "name": "Liver fibrosis",
+   "level": 3,
+   "works": 24092,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q147778"
+  },
+  {
+   "id": "C2994224358",
+   "name": "Standard uncertainty",
+   "level": 3,
+   "works": 362357,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q13649246"
+  },
+  {
+   "id": "C2994303116",
+   "name": "Family conflict",
+   "level": 2,
+   "works": 5485,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q223642"
+  },
+  {
+   "id": "C2994389346",
+   "name": "Historical heritage",
+   "level": 2,
+   "works": 36435,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q210272"
+  },
+  {
+   "id": "C3017514537",
+   "name": "Emergent literacy",
+   "level": 3,
+   "works": 6237,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5370764"
+  },
+  {
+   "id": "C3017577407",
+   "name": "Hospice care",
+   "level": 3,
+   "works": 12275,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q608152"
+  },
+  {
+   "id": "C3017660400",
+   "name": "Inner mongolia",
+   "level": 3,
+   "works": 21691,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q41079"
+  },
+  {
+   "id": "C3017725471",
+   "name": "Regional anesthesia",
+   "level": 2,
+   "works": 10507,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1455662"
+  },
+  {
+   "id": "C3018022065",
+   "name": "St louis",
+   "level": 2,
+   "works": 12615,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q38022"
+  },
+  {
+   "id": "C3018429975",
+   "name": "Equal opportunity",
+   "level": 2,
+   "works": 8468,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q912512"
+  },
+  {
+   "id": "C3018603336",
+   "name": "National museum",
+   "level": 2,
+   "works": 18163,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1847499"
+  },
+  {
+   "id": "C3018711458",
+   "name": "Female circumcision",
+   "level": 2,
+   "works": 16687,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q208373"
+  },
+  {
+   "id": "C3018923921",
+   "name": "Clinical effectiveness",
+   "level": 2,
+   "works": 5535,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q2585693"
+  },
+  {
+   "id": "C3019178406",
+   "name": "Post office",
+   "level": 3,
+   "works": 34683,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q35054"
+  },
+  {
+   "id": "C3019198212",
+   "name": "County government",
+   "level": 2,
+   "works": 19862,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q6501447"
+  },
+  {
+   "id": "C3019477493",
+   "name": "Sheep farming",
+   "level": 3,
+   "works": 11799,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1790941"
+  },
+  {
+   "id": "C3020368053",
+   "name": "Motion study",
+   "level": 2,
+   "works": 16846,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q114642"
+  },
+  {
+   "id": "C3020479747",
+   "name": "Gastric emptying",
+   "level": 3,
+   "works": 26922,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1029907"
+  },
+  {
+   "id": "C3020701032",
+   "name": "Computer game",
+   "level": 2,
+   "works": 8071,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7889"
+  },
+  {
+   "id": "C31827203",
+   "name": "Tandem mass spectrometry",
+   "level": 3,
+   "works": 73215,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q874296"
+  },
+  {
+   "id": "C32792767",
+   "name": "Summary statistics",
+   "level": 2,
+   "works": 48988,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1370484"
+  },
+  {
+   "id": "C33276779",
+   "name": "Design elements and principles",
+   "level": 2,
+   "works": 52830,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1943363"
+  },
+  {
+   "id": "C3454156",
+   "name": "Side effect (computer science)",
+   "level": 2,
+   "works": 31061,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1144241"
+  },
+  {
+   "id": "C36434225",
+   "name": "Polypharmacy",
+   "level": 2,
+   "works": 32320,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1895998"
+  },
+  {
+   "id": "C36790819",
+   "name": "Empiricism",
+   "level": 2,
+   "works": 20186,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q83368"
+  },
+  {
+   "id": "C37210646",
+   "name": "Ferrite (magnet)",
+   "level": 2,
+   "works": 81238,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5105088"
+  },
+  {
+   "id": "C39124391",
+   "name": "Aortic pressure",
+   "level": 3,
+   "works": 7985,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4778759"
+  },
+  {
+   "id": "C39399123",
+   "name": "Earth observation",
+   "level": 3,
+   "works": 58817,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1348989"
+  },
+  {
+   "id": "C39643299",
+   "name": "Jet engine",
+   "level": 2,
+   "works": 17334,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q178777"
+  },
+  {
+   "id": "C40084718",
+   "name": "Pavement engineering",
+   "level": 3,
+   "works": 7972,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7155835"
+  },
+  {
+   "id": "C40767141",
+   "name": "Recombinant DNA",
+   "level": 3,
+   "works": 438570,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q285697"
+  },
+  {
+   "id": "C42062724",
+   "name": "16S ribosomal RNA",
+   "level": 3,
+   "works": 140924,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1209205"
+  },
+  {
+   "id": "C42404028",
+   "name": "Bioequivalence",
+   "level": 3,
+   "works": 17217,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q864940"
+  },
+  {
+   "id": "C43481613",
+   "name": "Active galactic nucleus",
+   "level": 3,
+   "works": 51580,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q46587"
+  },
+  {
+   "id": "C44415725",
+   "name": "Binary entropy function",
+   "level": 3,
+   "works": 6230,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4913893"
+  },
+  {
+   "id": "C45646460",
+   "name": "Topological order",
+   "level": 3,
+   "works": 10889,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q17165159"
+  },
+  {
+   "id": "C46304622",
+   "name": "Certification",
+   "level": 2,
+   "works": 254218,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q374814"
+  },
+  {
+   "id": "C4661277",
+   "name": "Cog",
+   "level": 2,
+   "works": 5082,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1054157"
+  },
+  {
+   "id": "C47323905",
+   "name": "Venous return curve",
+   "level": 3,
+   "works": 8804,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3506185"
+  },
+  {
+   "id": "C48102754",
+   "name": "Water pumping",
+   "level": 3,
+   "works": 5172,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7973695"
+  },
+  {
+   "id": "C487182",
+   "name": "Urban sprawl",
+   "level": 3,
+   "works": 18159,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q192042"
+  },
+  {
+   "id": "C49024897",
+   "name": "Superfluid helium-4",
+   "level": 3,
+   "works": 8530,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7643352"
+  },
+  {
+   "id": "C4978587",
+   "name": "Cramér–Rao bound",
+   "level": 3,
+   "works": 7691,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1138810"
+  },
+  {
+   "id": "C499572226",
+   "name": "Sound design",
+   "level": 3,
+   "works": 5395,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1937950"
+  },
+  {
+   "id": "C503182166",
+   "name": "Scarlet fever",
+   "level": 2,
+   "works": 5272,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q180266"
+  },
+  {
+   "id": "C51193700",
+   "name": "Water scarcity",
+   "level": 3,
+   "works": 51871,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5376358"
+  },
+  {
+   "id": "C513568399",
+   "name": "Italian studies",
+   "level": 2,
+   "works": 21609,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q515601"
+  },
+  {
+   "id": "C514705636",
+   "name": "Nomenclature",
+   "level": 3,
+   "works": 202760,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q863247"
+  },
+  {
+   "id": "C51566761",
+   "name": "TOPSIS",
+   "level": 2,
+   "works": 28634,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1235853"
+  },
+  {
+   "id": "C51858381",
+   "name": "Luminous efficacy",
+   "level": 3,
+   "works": 6751,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1504173"
+  },
+  {
+   "id": "C521078695",
+   "name": "Legal practice",
+   "level": 2,
+   "works": 20989,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4180175"
+  },
+  {
+   "id": "C52370388",
+   "name": "Regular language",
+   "level": 3,
+   "works": 6070,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q752532"
+  },
+  {
+   "id": "C52703039",
+   "name": "Chiral symmetry breaking",
+   "level": 3,
+   "works": 29245,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5101837"
+  },
+  {
+   "id": "C53500534",
+   "name": "Behavioural genetics",
+   "level": 2,
+   "works": 5781,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1204375"
+  },
+  {
+   "id": "C53537400",
+   "name": "Numeracy",
+   "level": 3,
+   "works": 25721,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q140637"
+  },
+  {
+   "id": "C538133343",
+   "name": "Economics education",
+   "level": 3,
+   "works": 23684,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5333576"
+  },
+  {
+   "id": "C541409800",
+   "name": "Military theory",
+   "level": 3,
+   "works": 6286,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q15680550"
+  },
+  {
+   "id": "C543051216",
+   "name": "Interwar period",
+   "level": 3,
+   "works": 11495,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q154611"
+  },
+  {
+   "id": "C5496284",
+   "name": "Expected shortfall",
+   "level": 3,
+   "works": 9216,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5420856"
+  },
+  {
+   "id": "C55112680",
+   "name": "Functional analysis",
+   "level": 3,
+   "works": 31810,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q190549"
+  },
+  {
+   "id": "C555175668",
+   "name": "Angiology",
+   "level": 2,
+   "works": 26305,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q539690"
+  },
+  {
+   "id": "C58226133",
+   "name": "Pulmonary surfactant",
+   "level": 2,
+   "works": 183645,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1324199"
+  },
+  {
+   "id": "C59050026",
+   "name": "Case analysis",
+   "level": 2,
+   "works": 14013,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5048330"
+  },
+  {
+   "id": "C60679458",
+   "name": "Working capital",
+   "level": 2,
+   "works": 25498,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q823288"
+  },
+  {
+   "id": "C60908668",
+   "name": "Perceptron",
+   "level": 3,
+   "works": 43550,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q690207"
+  },
+  {
+   "id": "C61721801",
+   "name": "Biostratigraphy",
+   "level": 2,
+   "works": 37575,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q864826"
+  },
+  {
+   "id": "C62235348",
+   "name": "Functional requirement",
+   "level": 2,
+   "works": 9605,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3264234"
+  },
+  {
+   "id": "C6377922",
+   "name": "Deontic logic",
+   "level": 2,
+   "works": 8328,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q302542"
+  },
+  {
+   "id": "C66009135",
+   "name": "Dication",
+   "level": 3,
+   "works": 5495,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5272330"
+  },
+  {
+   "id": "C6757342",
+   "name": "Posterior parietal cortex",
+   "level": 2,
+   "works": 16908,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3486606"
+  },
+  {
+   "id": "C67666897",
+   "name": "Prism",
+   "level": 2,
+   "works": 46820,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q165896"
+  },
+  {
+   "id": "C6831451",
+   "name": "Mist",
+   "level": 2,
+   "works": 16568,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q192196"
+  },
+  {
+   "id": "C6840138",
+   "name": "Crystal twinning",
+   "level": 3,
+   "works": 29648,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q109856"
+  },
+  {
+   "id": "C68643176",
+   "name": "Cultural studies",
+   "level": 2,
+   "works": 58187,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1143546"
+  },
+  {
+   "id": "C69357855",
+   "name": "Diffusion",
+   "level": 2,
+   "works": 592282,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q163214"
+  },
+  {
+   "id": "C69897798",
+   "name": "Personality development",
+   "level": 3,
+   "works": 13198,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q3520110"
+  },
+  {
+   "id": "C70615421",
+   "name": "Laplace's equation",
+   "level": 3,
+   "works": 13369,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q339444"
+  },
+  {
+   "id": "C71139939",
+   "name": "Modal",
+   "level": 2,
+   "works": 170676,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q910194"
+  },
+  {
+   "id": "C73922627",
+   "name": "Single crystal",
+   "level": 2,
+   "works": 293468,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q754943"
+  },
+  {
+   "id": "C74294265",
+   "name": "Circuit switching",
+   "level": 2,
+   "works": 5719,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q506273"
+  },
+  {
+   "id": "C74305511",
+   "name": "Library catalog",
+   "level": 2,
+   "works": 15583,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q856638"
+  },
+  {
+   "id": "C7453809",
+   "name": "Energy carrier",
+   "level": 3,
+   "works": 14529,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q568469"
+  },
+  {
+   "id": "C74672266",
+   "name": "Language acquisition",
+   "level": 2,
+   "works": 185674,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q815859"
+  },
+  {
+   "id": "C74925373",
+   "name": "Control network",
+   "level": 3,
+   "works": 7196,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4175911"
+  },
+  {
+   "id": "C75398719",
+   "name": "Quantitative precipitation estimation",
+   "level": 3,
+   "works": 6142,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q7268938"
+  },
+  {
+   "id": "C7720470",
+   "name": "Transceiver",
+   "level": 3,
+   "works": 40730,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q954187"
+  },
+  {
+   "id": "C77513098",
+   "name": "Cognitive dissonance",
+   "level": 2,
+   "works": 20444,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q209722"
+  },
+  {
+   "id": "C79605941",
+   "name": "Gabbro",
+   "level": 3,
+   "works": 11482,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q46947"
+  },
+  {
+   "id": "C80038905",
+   "name": "Teleology",
+   "level": 2,
+   "works": 16618,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q192121"
+  },
+  {
+   "id": "C80462391",
+   "name": "Naval architecture",
+   "level": 2,
+   "works": 8933,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1136352"
+  },
+  {
+   "id": "C81693640",
+   "name": "Bud",
+   "level": 2,
+   "works": 5144,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q189838"
+  },
+  {
+   "id": "C8272713",
+   "name": "Stochastic process",
+   "level": 2,
+   "works": 137170,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q176737"
+  },
+  {
+   "id": "C83230799",
+   "name": "Indoor bioaerosol",
+   "level": 2,
+   "works": 5105,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q17056224"
+  },
+  {
+   "id": "C84525736",
+   "name": "Decision tree",
+   "level": 2,
+   "works": 135712,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q831366"
+  },
+  {
+   "id": "C8505890",
+   "name": "Budget constraint",
+   "level": 2,
+   "works": 23925,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q605095"
+  },
+  {
+   "id": "C85847156",
+   "name": "Verifiable secret sharing",
+   "level": 3,
+   "works": 33620,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q59015987"
+  },
+  {
+   "id": "C86615163",
+   "name": "International human rights law",
+   "level": 3,
+   "works": 54965,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1147615"
+  },
+  {
+   "id": "C86888617",
+   "name": "Magnetar",
+   "level": 3,
+   "works": 6186,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q190426"
+  },
+  {
+   "id": "C88504338",
+   "name": "Weldability",
+   "level": 3,
+   "works": 39937,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1340805"
+  },
+  {
+   "id": "C89429830",
+   "name": "Scaffold",
+   "level": 2,
+   "works": 85114,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q735710"
+  },
+  {
+   "id": "C90119067",
+   "name": "Polynomial",
+   "level": 2,
+   "works": 511351,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q43260"
+  },
+  {
+   "id": "C90376892",
+   "name": "Bargaining problem",
+   "level": 2,
+   "works": 5293,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1516247"
+  },
+  {
+   "id": "C91093795",
+   "name": "Information Age",
+   "level": 2,
+   "works": 8151,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q956129"
+  },
+  {
+   "id": "C92224547",
+   "name": "Probability of error",
+   "level": 2,
+   "works": 6385,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q1673216"
+  },
+  {
+   "id": "C93361087",
+   "name": "Data consistency",
+   "level": 2,
+   "works": 15555,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q4426698"
+  },
+  {
+   "id": "C9342510",
+   "name": "Coulomb",
+   "level": 3,
+   "works": 74306,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q25406"
+  },
+  {
+   "id": "C95730909",
+   "name": "Disenfranchised grief",
+   "level": 3,
+   "works": 6372,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q5282149"
+  },
+  {
+   "id": "C97002063",
+   "name": "Bibliography",
+   "level": 2,
+   "works": 195953,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q134995"
+  },
+  {
+   "id": "C9809166",
+   "name": "Michelson interferometer",
+   "level": 3,
+   "works": 856482,
+   "root": "?",
+   "ancestors": [],
+   "wikidata": "Q733088"
+  }
+ ]
+}
