@@ -1,0 +1,49 @@
+{
+ "sec_grid": {
+  "status": "error",
+  "seconds": 0.2,
+  "body": "<HTTPError 403: 'Forbidden'>"
+ },
+ "sec_grid_short": {
+  "status": "error",
+  "seconds": 0.0,
+  "body": "<HTTPError 403: 'Forbidden'>"
+ },
+ "sec_cbam": {
+  "status": "error",
+  "seconds": 0.1,
+  "body": "<HTTPError 403: 'Forbidden'>"
+ },
+ "prozorro_search": {
+  "status": "error",
+  "seconds": 0.5,
+  "body": "<HTTPError 405: 'Method Not Allowed'>"
+ },
+ "prozorro_public": {
+  "status": 200,
+  "seconds": 0.6,
+  "body": "{\"data\": [{\"dateModified\": \"2015-02-23T12:00:00.756010+02:00\", \"id\": \"09076ffc415e4d57ad7046aacc91b6e1\"}], \"next_page\": {\"offset\": \"1424685600.75601.1.42dbe9e1c7717d9dcf74fe47e6083ad9\", \"path\": \"/api/2.5/tenders?limit=1&offset=1424685600.75601.1.42dbe9e1c7717d9dcf74fe47e6083ad9\", \"uri\": \"https://public.api.openprocurement.org/api/2.5/tenders?limit=1&offset=1424685600.75601.1.42dbe9e1c7717d9dcf74fe"
+ },
+ "ted_cpv_0": {
+  "status": 200,
+  "seconds": 0.5,
+  "body": "{\"notices\":[{\"publication-number\":\"62-2025\",\"links\":{\"xml\":{\"MUL\":\"https://ted.europa.eu/en/notice/62-2025/xml\"},\"pdf\":{\"BUL\":\"https://ted.europa.eu/bg/notice/62-2025/pdf\",\"SPA\":\"https://ted.europa.eu/es/notice/62-2025/pdf\",\"CES\":\"https://ted.europa.eu/cs/notice/62-2025/pdf\",\"DAN\":\"https://ted.europ",
+  "total": 2408
+ },
+ "ted_cpv_1": {
+  "status": 200,
+  "seconds": 2.0,
+  "body": "{\"notices\":[{\"publication-number\":\"62-2025\",\"links\":{\"xml\":{\"MUL\":\"https://ted.europa.eu/en/notice/62-2025/xml\"},\"pdf\":{\"BUL\":\"https://ted.europa.eu/bg/notice/62-2025/pdf\",\"SPA\":\"https://ted.europa.eu/es/notice/62-2025/pdf\",\"CES\":\"https://ted.europa.eu/cs/notice/62-2025/pdf\",\"DAN\":\"https://ted.europ",
+  "total": 2408
+ },
+ "jobnet": {
+  "status": "error",
+  "seconds": 5.1,
+  "body": "<HTTPError 302: 'The HTTP server returned a redirect error that would lead to an infinite loop.\\nThe last 30x error message was:\\nFound'>"
+ },
+ "jobnet_alt": {
+  "status": "error",
+  "seconds": 4.3,
+  "body": "<HTTPError 302: 'The HTTP server returned a redirect error that would lead to an infinite loop.\\nThe last 30x error message was:\\nFound'>"
+ }
+}
