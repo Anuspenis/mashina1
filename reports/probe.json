@@ -4,29 +4,57 @@
  },
  "ted_0": {
   "status": 200,
-  "seconds": 1.1,
+  "seconds": 1.6,
   "sample": "{\"notices\":[{\"publication-number\":\"590331-2019\",\"links\":{\"xml\":{\"MUL\":\"https://ted.europa.eu/en/notice/590331-2019/xml\"},\"pdf\":{\"BUL\":\"https://ted.europa.eu/bg/notice/590331-2019/pdf\",\"SPA\":\"https://ted.europa.eu/es/notice/590331-2019/pdf\",\"CES\":\"https://ted.europa.eu/cs/notice/590331-2019/pdf\",\"DAN\":\"https://ted.europa.eu/da/notice/590331-2019/pdf\",\"DEU\":\"https://ted.europa.eu/de/notice/590331-2019/pdf\",\"EST\":\"https://ted.europa.eu/et/notice/590331-2019/pdf\",\"ELL\":\"https://ted.europa.eu/el/notice/590331-2019/pdf\",\"ENG\":\"https://ted.europa.eu/en/notice/590331-2019/pdf\",\"FRA\":\"https://ted.europa.eu/fr/notice/590331-2019/pdf\",\"GLE\":\"https://ted.europa.eu/ga/notice/590331-2019/pdf\",\"HRV\":\"https://ted.europa.eu/hr/notice/590331-2019/pdf\",\"ITA\":\"https://ted.europa.eu/it/notice/590331-2019/pdf\",\"LAV\":\"https://ted.europa.eu/lv/notice/590331-2019/pdf\",\"LIT\":\"https://ted.europa.eu/lt/notice/590331-2019/pdf\",\"HUN\":\"https://ted.europa.eu/hu/notice/590331-2019/pdf\",\"MLT\":\"https://ted.europa.eu/mt/notice/590331-2019/pdf\",\"NLD\":\"https://ted.europa.eu/nl/notice/590331-2019/pdf\",\"POL\":\"https://ted.europa.eu/pl/notice/590331-2019/pdf\",\"POR\":\"https://ted.europa.eu/pt/notice/590331-2019/pdf\",\"RON\":\"https://ted.europa.eu/ro/notice/590331-2019/pdf\",\"SLK\":\"https://ted.europa.eu/sk/notice/590331-2019/pdf\",\"SLV\":\"https://ted.europa.eu/sl/notice/590331-2019/pdf\",\"FIN\":\"https://ted.europa.eu/fi/notice/590331-2019/pdf\",\"SWE\":\"https://ted.europa.eu/sv/notice/590331-2019/pdf\"},\"pdfs\":{\"ENG\":\"https://ted."
  },
  "ted_1": {
   "status": 200,
-  "seconds": 0.5,
+  "seconds": 1.5,
   "sample": "{\"notices\":[{\"publication-number\":\"398538-2016\",\"links\":{\"xml\":{\"MUL\":\"https://ted.europa.eu/en/notice/398538-2016/xml\"},\"pdf\":{\"BUL\":\"https://ted.europa.eu/bg/notice/398538-2016/pdf\",\"SPA\":\"https://ted.europa.eu/es/notice/398538-2016/pdf\",\"CES\":\"https://ted.europa.eu/cs/notice/398538-2016/pdf\",\"DAN\":\"https://ted.europa.eu/da/notice/398538-2016/pdf\",\"DEU\":\"https://ted.europa.eu/de/notice/398538-2016/pdf\",\"EST\":\"https://ted.europa.eu/et/notice/398538-2016/pdf\",\"ELL\":\"https://ted.europa.eu/el/notice/398538-2016/pdf\",\"ENG\":\"https://ted.europa.eu/en/notice/398538-2016/pdf\",\"FRA\":\"https://ted.europa.eu/fr/notice/398538-2016/pdf\",\"GLE\":\"https://ted.europa.eu/ga/notice/398538-2016/pdf\",\"HRV\":\"https://ted.europa.eu/hr/notice/398538-2016/pdf\",\"ITA\":\"https://ted.europa.eu/it/notice/398538-2016/pdf\",\"LAV\":\"https://ted.europa.eu/lv/notice/398538-2016/pdf\",\"LIT\":\"https://ted.europa.eu/lt/notice/398538-2016/pdf\",\"HUN\":\"https://ted.europa.eu/hu/notice/398538-2016/pdf\",\"MLT\":\"https://ted.europa.eu/mt/notice/398538-2016/pdf\",\"NLD\":\"https://ted.europa.eu/nl/notice/398538-2016/pdf\",\"POL\":\"https://ted.europa.eu/pl/notice/398538-2016/pdf\",\"POR\":\"https://ted.europa.eu/pt/notice/398538-2016/pdf\",\"RON\":\"https://ted.europa.eu/ro/notice/398538-2016/pdf\",\"SLK\":\"https://ted.europa.eu/sk/notice/398538-2016/pdf\",\"SLV\":\"https://ted.europa.eu/sl/notice/398538-2016/pdf\",\"FIN\":\"https://ted.europa.eu/fi/notice/398538-2016/pdf\",\"SWE\":\"https://ted.europa.eu/sv/notice/398538-2016/pdf\"},\"pdfs\":{\"DEU\":\"https://ted."
  },
  "ted_date_0": {
   "status": 200,
-  "seconds": 2.0
+  "seconds": 0.3,
+  "keys": [
+   "notices",
+   "totalNoticeCount",
+   "iterationNextToken",
+   "timedOut"
+  ],
+  "total": 84
  },
  "ted_date_1": {
   "status": 200,
-  "seconds": 0.9
+  "seconds": 0.8,
+  "keys": [
+   "notices",
+   "totalNoticeCount",
+   "iterationNextToken",
+   "timedOut"
+  ],
+  "total": 84
  },
  "ted_date_2": {
   "status": 200,
-  "seconds": 1.0
+  "seconds": 1.8,
+  "keys": [
+   "notices",
+   "totalNoticeCount",
+   "iterationNextToken",
+   "timedOut"
+  ],
+  "total": 533
  },
  "ted_date_3": {
   "status": 200,
-  "seconds": 0.4
+  "seconds": 0.7,
+  "keys": [
+   "notices",
+   "totalNoticeCount",
+   "iterationNextToken",
+   "timedOut"
+  ],
+  "total": 101
  },
  "wiki_pageviews": {
   "status": 200,
@@ -40,7 +68,7 @@
  },
  "crossref": {
   "status": 200,
-  "seconds": 0.2,
+  "seconds": 0.3,
   "sample": "{\"status\":\"ok\",\"message-type\":\"work-list\",\"message-version\":\"1.0.0\",\"message\":{\"facets\":{},\"total-results\":356267,\"items\":[],\"items-per-page\":0,\"query\":{\"start-index\":0,\"search-terms\":null}}}"
  }
 }
