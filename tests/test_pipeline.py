@@ -54,3 +54,21 @@ def test_resumable_collect(tmp_path):
         pair[tuple(sorted((POS[a], POS[b])))] = v
     out = model.evaluate(IDS, single, pair)
     assert abs(out[2008]["auc_cos"] - 0.793) < 0.002
+
+
+def test_interim_subset(tmp_path, monkeypatch):
+    """A complete prefix of areas is found and evaluated as its own network."""
+    from mashina import __main__ as m
+    path = str(tmp_path / "counts.json")
+    collect.run(FakeOA(cap=700), IDS, path=path, log=lambda *_: None)   # partial night
+    st = collect.load(path)
+    ids_sorted = sorted(IDS)
+    k = m.complete_prefix(ids_sorted, st)
+    assert 5 < k < 50
+    ar = [{"id": a, "name": a, "ancestors": []} for a in ids_sorted[:k]]
+    ids, single, pair = m.index(ar, st)
+    assert len(pair) <= k * (k - 1) // 2 and all(i < j < k for i, j in pair)
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "reports").mkdir()
+    res = m.evaluate(ar, st, name="interim")
+    assert res["areas"] == k and (tmp_path / "reports" / "interim.md").exists()

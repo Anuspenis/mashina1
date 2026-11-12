@@ -28,9 +28,23 @@ def index(ar, counts):
     pair = {}
     for k, v in counts["pair"].items():
         a, b = k.split("|")
-        i, j = sorted((pos[a], pos[b]))
-        pair[(i, j)] = v
+        if a in pos and b in pos:          # a subset of areas keeps only its own pairs
+            i, j = sorted((pos[a], pos[b]))
+            pair[(i, j)] = v
     return ids, counts["single"], pair
+
+
+def complete_prefix(ids_sorted, counts):
+    """How many leading areas (in sorted-id order, the order of collection) already
+    have counts for all their pairs. Those areas form a complete sub-network."""
+    done = collect.settled(counts)
+    m = 0
+    for i, a in enumerate(ids_sorted):
+        if all(collect.pair_key(a, b) in done for b in ids_sorted[i + 1:]):
+            m += 1
+        else:
+            break
+    return m
 
 
 def nested_pairs(ar, single, pair):
@@ -54,13 +68,13 @@ def nested_pairs(ar, single, pair):
     return out
 
 
-def label_jobs(ids, single, pair, exclude):
+def label_jobs(ids, single, pair, exclude, windows=("te", "tr")):
     jobs = []
     for c in model.CUTS:
         for r in model.build(ids, single, pair, c, exclude=exclude):
             if r["y"]:
                 jobs.append((c, ids[r["i"]], ids[r["j"]], "te"))
-                if r["tr"] > 0:
+                if r["tr"] > 0 and "tr" in windows:
                     jobs.append((c, ids[r["i"]], ids[r["j"]], "tr"))
     return jobs
 
@@ -76,7 +90,7 @@ def status_text(ar, counts, lab, jobs, spent, remaining):
     return "\n".join(lines) + "\n"
 
 
-def evaluate(ar, counts):
+def evaluate(ar, counts, name="results", note=""):
     ids, single, pair = index(ar, counts)
     ex = nested_pairs(ar, single, pair)
     lab = json.load(open(labels.STORE)) if os.path.exists(labels.STORE) else {}
@@ -84,22 +98,54 @@ def evaluate(ar, counts):
     clean = {}
     for k, v in lab.items():
         c, a, b, win = k.split("|")
-        if win == "te":
+        if win == "te" and a in pos and b in pos:
             i, j = sorted((pos[a], pos[b]))
             clean[(int(c), i, j)] = int(v["match"] >= 10)
     res = {"tags": model.evaluate(ids, single, pair, exclude=ex),
            "clean": model.evaluate(ids, single, pair, labels=clean, exclude=ex),
            "nested_excluded": len(ex), "areas": len(ar)}
-    json.dump(res, open("reports/results.json", "w"), indent=1)
+    json.dump(res, open(f"reports/{name}.json", "w"), indent=1)
     rows = ["| Срез | Связей: теги → чистые | AUC сходства: теги → чистые | AUC модели: теги → чистые | P@20 модели: теги → чистые |",
             "| --- | --- | --- | --- | --- |"]
     for c in (2008, 2012):
         t, k = res["tags"][c], res["clean"][c]
+        base = k["pos"] / max(k["n"], 1)
+        lift = k["p20_lr"] / base if base else 0
         rows.append(f"| {c} | {t['pos']} → {k['pos']} | {t['auc_cos']} → {k['auc_cos']} | "
-                    f"{t['auc_lr']} → {k['auc_lr']} | {t['p20_lr']:.2f} → {k['p20_lr']:.2f} |")
-    open("reports/results.md", "w").write(
-        f"# Результаты на {len(ar)} областях\n\nВложенных пар исключено: {len(ex)}.\n\n" + "\n".join(rows) + "\n")
+                    f"{t['auc_lr']} → {k['auc_lr']} | {t['p20_lr']:.2f} → {k['p20_lr']:.2f} ({lift:.0f}× случайного) |")
+    open(f"reports/{name}.md", "w").write(
+        f"# Результаты на {len(ar)} областях\n\n{note}Вложенных пар исключено: {len(ex)}.\n\n" + "\n".join(rows) + "\n")
     return res
+
+
+INTERIM = "data/interim_subset.json"
+
+
+def interim(oa, ar, counts, at):
+    """One early answer on the first complete sub-network of areas. The label scans
+    it needs are a subset of the final ones, so the main run loses nothing."""
+    if os.path.exists("reports/interim.json"):
+        return
+    if os.path.exists(INTERIM):
+        sub_ids = json.load(open(INTERIM))
+    else:
+        ids_sorted = sorted(a["id"] for a in ar)
+        m = complete_prefix(ids_sorted, counts)
+        if m < at or m >= len(ar):
+            return
+        sub_ids = ids_sorted[:m]
+        json.dump(sub_ids, open(INTERIM, "w"))
+    keep = set(sub_ids)
+    sub = [a for a in ar if a["id"] in keep]
+    ids, single, pair = index(sub, counts)
+    ex = nested_pairs(sub, single, pair)
+    jobs = label_jobs(ids, single, pair, ex, windows=("te",))
+    rx = synonyms.compiled(json.load(open(synonyms.STORE)))
+    lab = labels.run(oa, jobs, rx)
+    if all(f"{c}|{a}|{b}|{w}" in lab for c, a, b, w in jobs):
+        evaluate(sub, counts, name="interim",
+                 note="Промежуточный результат: первые области, для которых собраны все пары. "
+                      "Критерий записан заранее (README). Финал — на всех 500.\n\n")
 
 
 def nightly(args):
@@ -109,6 +155,7 @@ def nightly(args):
     areas_mod.fill_ancestors(oa, AREAS)
     ar = load_areas()
     synonyms.build(ar)
+    interim(oa, ar, collect.load(), args.interim_at)
     n_done, n_total = collect.run(oa, [a["id"] for a in ar])
     counts = collect.load()
     jobs, lab = [], {}
@@ -130,6 +177,7 @@ def main():
     n = sub.add_parser("nightly")
     n.add_argument("--areas", type=int, default=500)
     n.add_argument("--max-credits", type=int, default=9500)
+    n.add_argument("--interim-at", type=int, default=120)
     sub.add_parser("status")
     sub.add_parser("evaluate")
     a = p.parse_args()
