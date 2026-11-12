@@ -1,0 +1,31 @@
+name: probe
+
+# One-off: which free market-side sources answer from Actions. No OpenAlex credits.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Probe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m mashina.probe_sources
+      - name: Commit report
+        if: always()
+        run: |
+          git config user.name "mashina-bot"
+          git config user.email "mashina-bot@users.noreply.github.com"
+          git add reports/probe.json
+          git diff --cached --quiet || git commit -m "probe: $(date -u +%F)"
+          git pull --rebase origin main
+          git push
