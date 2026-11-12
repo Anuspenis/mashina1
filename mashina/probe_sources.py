@@ -27,16 +27,27 @@ def fetch(url, data=None, headers=None, timeout=60):
 def main():
     out = {}
     q = '"carbon border" (shortage OR bottleneck OR delay)'
-    out["gdelt_timeline"] = fetch("https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
+    out["gdelt_timeline"] = {"skipped": "429 from Actions on 13.11"} or fetch("https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
         {"query": q, "mode": "timelinevolraw", "format": "json", "timespan": "3months"}))
-    time.sleep(6)
-    out["gdelt_artlist"] = fetch("https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
-        {"query": '"power transformer" shortage', "mode": "artlist", "format": "json", "maxrecords": 5, "timespan": "12months"}))
     for i, body in enumerate([
             {"query": 'FT~"carbon border"', "fields": ["publication-number", "notice-title"], "limit": 2},
             {"query": 'notice-title~"transformer"', "fields": ["publication-number", "notice-title"], "limit": 2}]):
         out[f"ted_{i}"] = fetch("https://api.ted.europa.eu/v3/notices/search", data=json.dumps(body).encode(),
                                 headers={"Content-Type": "application/json"})
+    for i, qq in enumerate(['FT~"power transformer" AND PD>=20250101',
+                            'FT~("power transformer") AND publication-date>=20250101',
+                            'FT~(transformer AND substation) AND PD>=20250101 AND PD<=20251231',
+                            'FT~"power transformer" AND PD>=20230101 AND PD<=20241231']):
+        r = fetch("https://api.ted.europa.eu/v3/notices/search", data=json.dumps(
+            {"query": qq, "fields": ["publication-number"], "limit": 1}).encode(),
+            headers={"Content-Type": "application/json"})
+        try:
+            j = json.loads(r.pop("sample"))
+            r["keys"] = list(j.keys()); r["total"] = j.get("totalNoticeCount")
+        except Exception:
+            pass
+        out[f"ted_date_{i}"] = r
+        time.sleep(1)
     out["wiki_pageviews"] = fetch(
         "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/"
         "Carbon_Border_Adjustment_Mechanism/monthly/20250101/20261031")
