@@ -38,9 +38,12 @@ class OpenAlex:
         if self.max_credits is not None and self.spent >= self.max_credits:
             raise BudgetExhausted(f"spent={self.spent}")
 
-    def get(self, path, params):
+    def get(self, path, params, allow_search=False):
+        """allow_search=True only for one-off runs with their own credit cap:
+        a text search costs 10 credits per request."""
         self._check()
-        if any(k.startswith("search") for k in params):
+        is_search = any(k.startswith("search") for k in params) or ".search" in str(params.get("filter", ""))
+        if is_search and not allow_search:
             raise ValueError("search costs 10 credits; filter locally instead")
         url = BASE + path + "?" + urllib.parse.urlencode(params, safe=":,|")
         req = urllib.request.Request(url, headers={

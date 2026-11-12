@@ -1,0 +1,38 @@
+name: niches
+
+# One-off data check of the niche scores (about 200 OpenAlex credits + GitHub search).
+# Manual only; run late in the UTC day after the nightly run has finished.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy==2.1.3
+      - name: Research
+        env:
+          OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m mashina.niche_research
+      - name: Commit report
+        if: always()
+        run: |
+          git config user.name "mashina-bot"
+          git config user.email "mashina-bot@users.noreply.github.com"
+          git add reports/niches_data.*
+          git diff --cached --quiet || git commit -m "niches data: $(date -u +%F)"
+          git pull --rebase origin main
+          git push
