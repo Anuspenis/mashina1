@@ -11,7 +11,7 @@ import urllib.request
 UA = {"User-Agent": "mashina research (github.com/Anuspenis/mashina1)"}
 
 
-def fetch(url, data=None, headers=None, timeout=60):
+def fetch(url, data=None, headers=None, timeout=60, full=False):
     h = dict(UA)
     h.update(headers or {})
     req = urllib.request.Request(url, data=data, headers=h)
@@ -19,7 +19,7 @@ def fetch(url, data=None, headers=None, timeout=60):
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
             body = r.read().decode("utf-8", "replace")
-            return {"status": r.status, "seconds": round(time.time() - t, 1), "sample": body[:1500]}
+            return {"status": r.status, "seconds": round(time.time() - t, 1), "sample": body if full else body[:1500]}
     except Exception as e:  # record any failure
         return {"status": "error", "seconds": round(time.time() - t, 1), "error": repr(e)[:500]}
 
@@ -40,7 +40,7 @@ def main():
                             'FT~"power transformer" AND PD>=20230101 AND PD<=20241231']):
         r = fetch("https://api.ted.europa.eu/v3/notices/search", data=json.dumps(
             {"query": qq, "fields": ["publication-number"], "limit": 1}).encode(),
-            headers={"Content-Type": "application/json"})
+            headers={"Content-Type": "application/json"}, full=True)
         try:
             j = json.loads(r.pop("sample"))
             r["keys"] = list(j.keys()); r["total"] = j.get("totalNoticeCount")
