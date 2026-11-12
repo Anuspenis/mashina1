@@ -1,0 +1,5674 @@
+{
+ "run": "2026-11-12 23:48 UTC",
+ "criteria": [
+  "size",
+  "demand",
+  "momentum",
+  "open",
+  "timing",
+  "durable",
+  "access",
+  "capital",
+  "wlb"
+ ],
+ "jackpot_weights": [
+  3.0,
+  2.0,
+  2.0,
+  0.5,
+  1.0,
+  1.0,
+  2.0,
+  1.0,
+  1.0
+ ],
+ "wiki_trend_last6_vs_prev6": {
+  "ai": 2.06,
+  "grid": 0.95,
+  "rearm": 0.64,
+  "drones": 0.74,
+  "ukraine": null,
+  "energyshock": 0.25,
+  "euproof": 1.64,
+  "minerals": 0.72,
+  "nuclear": 0.69,
+  "space": 0.84,
+  "biotech": null,
+  "quantum": 0.83,
+  "shipping": 0.79,
+  "adaptation": 0.97,
+  "batteries": 0.8,
+  "chips": 0.96,
+  "hydrogen": 0.74,
+  "aidata": 0.81
+ },
+ "shortlist": [
+  "Электросети и электрификация — разрешения и соответствие закону",
+  "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — данные, проверка, качество",
+  "Энергетический шок: СПГ, нефть, переработка — разрешения и соответствие закону",
+  "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — разрешения и соответствие закону",
+  "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — оборудование и компоненты",
+  "Вычисления для ИИ и дата-центры — разрешения и соответствие закону",
+  "Электросети и электрификация — данные, проверка, качество",
+  "Электросети и электрификация — люди и навыки",
+  "Вычисления для ИИ и дата-центры — данные, проверка, качество"
+ ],
+ "rows": [
+  {
+   "boom": "ai",
+   "need": "materials",
+   "niche": "Вычисления для ИИ и дата-центры — сырьё и материалы",
+   "size": 3,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "капзатраты гиперскейлеров $209 млрд за III кв. 2026",
+   "recent": [
+    1,
+    59,
+    0
+   ],
+   "prior": [
+    0,
+    62,
+    0
+   ],
+   "gh": [
+    0,
+    1,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 2.06,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.667,
+   "random_top20": 0.043
+  },
+  {
+   "boom": "ai",
+   "need": "energy",
+   "niche": "Вычисления для ИИ и дата-центры — энергия для этого",
+   "size": 3,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "капзатраты гиперскейлеров $209 млрд за III кв. 2026",
+   "recent": [
+    57,
+    30,
+    5
+   ],
+   "prior": [
+    62,
+    15,
+    0
+   ],
+   "gh": [
+    4,
+    5,
+    2
+   ],
+   "tenders_recent": 30.0,
+   "tenders_prior": 15.0,
+   "momentum_raw": 2.1428571428571432,
+   "unreliable": true,
+   "gh_median": 4.0,
+   "wiki_trend": 2.06,
+   "demand": 3,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.926,
+   "equal": 1.667,
+   "random_top20": 0.041
+  },
+  {
+   "boom": "ai",
+   "need": "equipment",
+   "niche": "Вычисления для ИИ и дата-центры — оборудование и компоненты",
+   "size": 3,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "капзатраты гиперскейлеров $209 млрд за III кв. 2026",
+   "recent": [
+    388,
+    42,
+    0
+   ],
+   "prior": [
+    326,
+    16,
+    0
+   ],
+   "gh": [
+    68,
+    17,
+    0
+   ],
+   "tenders_recent": 42.0,
+   "tenders_prior": 16.0,
+   "momentum_raw": 2.8125000000000004,
+   "unreliable": true,
+   "gh_median": 17.0,
+   "wiki_trend": 2.06,
+   "demand": 3,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.926,
+   "equal": 1.667,
+   "random_top20": 0.067
+  },
+  {
+   "boom": "ai",
+   "need": "people",
+   "niche": "Вычисления для ИИ и дата-центры — люди и навыки",
+   "size": 3,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "капзатраты гиперскейлеров $209 млрд за III кв. 2026",
+   "recent": [
+    0,
+    14,
+    3
+   ],
+   "prior": [
+    0,
+    20,
+    0
+   ],
+   "gh": [
+    0,
+    3,
+    4
+   ],
+   "tenders_recent": 3.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": true,
+   "gh_median": 3.0,
+   "wiki_trend": 2.06,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 2.0,
+   "equal": 1.889,
+   "random_top20": 0.129
+  },
+  {
+   "boom": "ai",
+   "need": "data",
+   "niche": "Вычисления для ИИ и дата-центры — данные, проверка, качество",
+   "size": 3,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 3,
+   "capital": 3,
+   "note": "капзатраты гиперскейлеров $209 млрд за III кв. 2026",
+   "recent": [
+    1365,
+    13,
+    11
+   ],
+   "prior": [
+    1267,
+    6,
+    0
+   ],
+   "gh": [
+    11037,
+    11,
+    0
+   ],
+   "tenders_recent": 13.0,
+   "tenders_prior": 6.0,
+   "momentum_raw": 2.3214285714285716,
+   "unreliable": true,
+   "gh_median": 11.0,
+   "wiki_trend": 2.06,
+   "demand": 3,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 2.222,
+   "equal": 2.111,
+   "random_top20": 0.629
+  },
+  {
+   "boom": "ai",
+   "need": "permits",
+   "niche": "Вычисления для ИИ и дата-центры — разрешения и соответствие закону",
+   "size": 3,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "капзатраты гиперскейлеров $209 млрд за III кв. 2026",
+   "recent": [
+    5,
+    25,
+    3
+   ],
+   "prior": [
+    1,
+    7,
+    0
+   ],
+   "gh": [
+    13,
+    21,
+    1
+   ],
+   "tenders_recent": 5.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 5.357142857142858,
+   "unreliable": true,
+   "gh_median": 13.0,
+   "wiki_trend": 2.06,
+   "demand": 2,
+   "momentum": 3,
+   "open": 0,
+   "jackpot": 2.296,
+   "equal": 2.111,
+   "random_top20": 0.541
+  },
+  {
+   "boom": "ai",
+   "need": "logistics",
+   "niche": "Вычисления для ИИ и дата-центры — логистика и монтаж",
+   "size": 3,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "капзатраты гиперскейлеров $209 млрд за III кв. 2026",
+   "recent": [
+    1,
+    90,
+    8
+   ],
+   "prior": [
+    8,
+    74,
+    1
+   ],
+   "gh": [
+    21,
+    2,
+    0
+   ],
+   "tenders_recent": 8.0,
+   "tenders_prior": 8.0,
+   "momentum_raw": 1.0714285714285716,
+   "unreliable": true,
+   "gh_median": 2.0,
+   "wiki_trend": 2.06,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.778,
+   "equal": 1.556,
+   "random_top20": 0.005
+  },
+  {
+   "boom": "ai",
+   "need": "maintenance",
+   "niche": "Вычисления для ИИ и дата-центры — обслуживание и ремонт",
+   "size": 3,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 2,
+   "note": "капзатраты гиперскейлеров $209 млрд за III кв. 2026",
+   "recent": [
+    205,
+    31,
+    51
+   ],
+   "prior": [
+    181,
+    27,
+    44
+   ],
+   "gh": [
+    80,
+    0,
+    19
+   ],
+   "tenders_recent": 51.0,
+   "tenders_prior": 44.0,
+   "momentum_raw": 1.241883116883117,
+   "unreliable": true,
+   "gh_median": 19.0,
+   "wiki_trend": 2.06,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.852,
+   "equal": 1.667,
+   "random_top20": 0.03
+  },
+  {
+   "boom": "grid",
+   "need": "materials",
+   "niche": "Электросети и электрификация — сырьё и материалы",
+   "size": 3,
+   "timing": 3,
+   "durable": 3,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка: сети — сотни млрд $ в год в мире",
+   "recent": [
+    0,
+    6,
+    0
+   ],
+   "prior": [
+    0,
+    4,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.95,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.037,
+   "equal": 1.889,
+   "random_top20": 0.304
+  },
+  {
+   "boom": "grid",
+   "need": "energy",
+   "niche": "Электросети и электрификация — энергия для этого",
+   "size": 3,
+   "timing": 3,
+   "durable": 3,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка: сети — сотни млрд $ в год в мире",
+   "recent": [
+    96,
+    19,
+    4
+   ],
+   "prior": [
+    81,
+    13,
+    8
+   ],
+   "gh": [
+    9,
+    4,
+    0
+   ],
+   "tenders_recent": 19.0,
+   "tenders_prior": 13.0,
+   "momentum_raw": 1.5659340659340661,
+   "unreliable": true,
+   "gh_median": 4.0,
+   "wiki_trend": 0.95,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 2.0,
+   "equal": 1.778,
+   "random_top20": 0.132
+  },
+  {
+   "boom": "grid",
+   "need": "equipment",
+   "niche": "Электросети и электрификация — оборудование и компоненты",
+   "size": 3,
+   "timing": 3,
+   "durable": 3,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка: сети — сотни млрд $ в год в мире",
+   "recent": [
+    34,
+    15,
+    4
+   ],
+   "prior": [
+    30,
+    9,
+    4
+   ],
+   "gh": [
+    24,
+    0,
+    0
+   ],
+   "tenders_recent": 15.0,
+   "tenders_prior": 9.0,
+   "momentum_raw": 1.7857142857142858,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.95,
+   "demand": 3,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.185,
+   "equal": 2.0,
+   "random_top20": 0.526
+  },
+  {
+   "boom": "grid",
+   "need": "people",
+   "niche": "Электросети и электрификация — люди и навыки",
+   "size": 3,
+   "timing": 3,
+   "durable": 3,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка: сети — сотни млрд $ в год в мире",
+   "recent": [
+    2,
+    0,
+    2
+   ],
+   "prior": [
+    0,
+    0,
+    3
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 2.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.95,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.259,
+   "equal": 2.222,
+   "random_top20": 0.93
+  },
+  {
+   "boom": "grid",
+   "need": "data",
+   "niche": "Электросети и электрификация — данные, проверка, качество",
+   "size": 3,
+   "timing": 3,
+   "durable": 3,
+   "access": 2,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка: сети — сотни млрд $ в год в мире",
+   "recent": [
+    19,
+    2,
+    7
+   ],
+   "prior": [
+    16,
+    0,
+    6
+   ],
+   "gh": [
+    478,
+    3,
+    0
+   ],
+   "tenders_recent": 7.0,
+   "tenders_prior": 6.0,
+   "momentum_raw": 1.25,
+   "unreliable": true,
+   "gh_median": 3.0,
+   "wiki_trend": 0.95,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 2.296,
+   "equal": 2.222,
+   "random_top20": 0.792
+  },
+  {
+   "boom": "grid",
+   "need": "permits",
+   "niche": "Электросети и электрификация — разрешения и соответствие закону",
+   "size": 3,
+   "timing": 3,
+   "durable": 3,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка: сети — сотни млрд $ в год в мире",
+   "recent": [
+    3,
+    10,
+    22
+   ],
+   "prior": [
+    1,
+    3,
+    22
+   ],
+   "gh": [
+    1,
+    1,
+    0
+   ],
+   "tenders_recent": 10.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 3.5714285714285716,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.95,
+   "demand": 3,
+   "momentum": 3,
+   "open": 0,
+   "jackpot": 2.667,
+   "equal": 2.444,
+   "random_top20": 0.961
+  },
+  {
+   "boom": "grid",
+   "need": "logistics",
+   "niche": "Электросети и электрификация — логистика и монтаж",
+   "size": 3,
+   "timing": 3,
+   "durable": 3,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка: сети — сотни млрд $ в год в мире",
+   "recent": [
+    0,
+    20,
+    30
+   ],
+   "prior": [
+    0,
+    15,
+    25
+   ],
+   "gh": [
+    6,
+    0,
+    2
+   ],
+   "tenders_recent": 20.0,
+   "tenders_prior": 15.0,
+   "momentum_raw": 1.4285714285714286,
+   "unreliable": false,
+   "gh_median": 2.0,
+   "wiki_trend": 0.95,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 2.0,
+   "equal": 1.778,
+   "random_top20": 0.133
+  },
+  {
+   "boom": "grid",
+   "need": "maintenance",
+   "niche": "Электросети и электрификация — обслуживание и ремонт",
+   "size": 3,
+   "timing": 3,
+   "durable": 3,
+   "access": 2,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка: сети — сотни млрд $ в год в мире",
+   "recent": [
+    12,
+    1,
+    46
+   ],
+   "prior": [
+    22,
+    1,
+    38
+   ],
+   "gh": [
+    50,
+    0,
+    5
+   ],
+   "tenders_recent": 12.0,
+   "tenders_prior": 22.0,
+   "momentum_raw": 0.5844155844155844,
+   "unreliable": true,
+   "gh_median": 5.0,
+   "wiki_trend": 0.95,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 2.074,
+   "equal": 1.889,
+   "random_top20": 0.24
+  },
+  {
+   "boom": "rearm",
+   "need": "materials",
+   "niche": "Перевооружение Европы — сырьё и материалы",
+   "size": 3,
+   "timing": 2,
+   "durable": 3,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "ReArm Europe €800 млрд, SAFE €150 млрд; допуск к секретности не раньше ~2032",
+   "recent": [
+    0,
+    112,
+    0
+   ],
+   "prior": [
+    3,
+    81,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 0.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.667,
+   "random_top20": 0.041
+  },
+  {
+   "boom": "rearm",
+   "need": "energy",
+   "niche": "Перевооружение Европы — энергия для этого",
+   "size": 3,
+   "timing": 2,
+   "durable": 3,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "ReArm Europe €800 млрд, SAFE €150 млрд; допуск к секретности не раньше ~2032",
+   "recent": [
+    0,
+    1,
+    0
+   ],
+   "prior": [
+    0,
+    5,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.667,
+   "random_top20": 0.026
+  },
+  {
+   "boom": "rearm",
+   "need": "equipment",
+   "niche": "Перевооружение Европы — оборудование и компоненты",
+   "size": 3,
+   "timing": 2,
+   "durable": 3,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "ReArm Europe €800 млрд, SAFE €150 млрд; допуск к секретности не раньше ~2032",
+   "recent": [
+    24,
+    35,
+    0
+   ],
+   "prior": [
+    28,
+    4,
+    0
+   ],
+   "gh": [
+    1,
+    10,
+    0
+   ],
+   "tenders_recent": 24.0,
+   "tenders_prior": 4.0,
+   "momentum_raw": 6.428571428571429,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.64,
+   "demand": 3,
+   "momentum": 3,
+   "open": 0,
+   "jackpot": 2.222,
+   "equal": 1.889,
+   "random_top20": 0.323
+  },
+  {
+   "boom": "rearm",
+   "need": "people",
+   "niche": "Перевооружение Европы — люди и навыки",
+   "size": 3,
+   "timing": 2,
+   "durable": 3,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "ReArm Europe €800 млрд, SAFE €150 млрд; допуск к секретности не раньше ~2032",
+   "recent": [
+    0,
+    1,
+    0
+   ],
+   "prior": [
+    0,
+    6,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.037,
+   "equal": 2.0,
+   "random_top20": 0.375
+  },
+  {
+   "boom": "rearm",
+   "need": "data",
+   "niche": "Перевооружение Европы — данные, проверка, качество",
+   "size": 3,
+   "timing": 2,
+   "durable": 3,
+   "access": 1,
+   "wlb": 3,
+   "capital": 3,
+   "note": "ReArm Europe €800 млрд, SAFE €150 млрд; допуск к секретности не раньше ~2032",
+   "recent": [
+    45,
+    5,
+    0
+   ],
+   "prior": [
+    35,
+    4,
+    1
+   ],
+   "gh": [
+    1,
+    2,
+    0
+   ],
+   "tenders_recent": 5.0,
+   "tenders_prior": 4.0,
+   "momentum_raw": 1.3392857142857144,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.64,
+   "demand": 2,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.926,
+   "equal": 1.889,
+   "random_top20": 0.217
+  },
+  {
+   "boom": "rearm",
+   "need": "permits",
+   "niche": "Перевооружение Европы — разрешения и соответствие закону",
+   "size": 3,
+   "timing": 2,
+   "durable": 3,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "ReArm Europe €800 млрд, SAFE €150 млрд; допуск к секретности не раньше ~2032",
+   "recent": [
+    0,
+    3,
+    0
+   ],
+   "prior": [
+    0,
+    9,
+    1
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 0.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.037,
+   "equal": 2.0,
+   "random_top20": 0.37
+  },
+  {
+   "boom": "rearm",
+   "need": "logistics",
+   "niche": "Перевооружение Европы — логистика и монтаж",
+   "size": 3,
+   "timing": 2,
+   "durable": 3,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "ReArm Europe €800 млрд, SAFE €150 млрд; допуск к секретности не раньше ~2032",
+   "recent": [
+    0,
+    99,
+    0
+   ],
+   "prior": [
+    0,
+    18,
+    0
+   ],
+   "gh": [
+    0,
+    1,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.667,
+   "random_top20": 0.025
+  },
+  {
+   "boom": "rearm",
+   "need": "maintenance",
+   "niche": "Перевооружение Европы — обслуживание и ремонт",
+   "size": 3,
+   "timing": 2,
+   "durable": 3,
+   "access": 1,
+   "wlb": 1,
+   "capital": 2,
+   "note": "ReArm Europe €800 млрд, SAFE €150 млрд; допуск к секретности не раньше ~2032",
+   "recent": [
+    15,
+    68,
+    0
+   ],
+   "prior": [
+    12,
+    36,
+    1
+   ],
+   "gh": [
+    1,
+    2,
+    0
+   ],
+   "tenders_recent": 15.0,
+   "tenders_prior": 12.0,
+   "momentum_raw": 1.3392857142857144,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.64,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.852,
+   "equal": 1.667,
+   "random_top20": 0.036
+  },
+  {
+   "boom": "drones",
+   "need": "materials",
+   "niche": "Дроны и защита от дронов — сырьё и материалы",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; опыт Украины",
+   "recent": [
+    0,
+    101,
+    0
+   ],
+   "prior": [
+    0,
+    57,
+    0
+   ],
+   "gh": [
+    2,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.006
+  },
+  {
+   "boom": "drones",
+   "need": "energy",
+   "niche": "Дроны и защита от дронов — энергия для этого",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; опыт Украины",
+   "recent": [
+    60,
+    43,
+    0
+   ],
+   "prior": [
+    61,
+    18,
+    0
+   ],
+   "gh": [
+    0,
+    1,
+    0
+   ],
+   "tenders_recent": 43.0,
+   "tenders_prior": 18.0,
+   "momentum_raw": 2.5595238095238098,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.778,
+   "random_top20": 0.085
+  },
+  {
+   "boom": "drones",
+   "need": "equipment",
+   "niche": "Дроны и защита от дронов — оборудование и компоненты",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; опыт Украины",
+   "recent": [
+    416,
+    14,
+    0
+   ],
+   "prior": [
+    328,
+    9,
+    0
+   ],
+   "gh": [
+    97,
+    9,
+    0
+   ],
+   "tenders_recent": 14.0,
+   "tenders_prior": 9.0,
+   "momentum_raw": 1.6666666666666667,
+   "unreliable": true,
+   "gh_median": 9.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.704,
+   "equal": 1.556,
+   "random_top20": 0.009
+  },
+  {
+   "boom": "drones",
+   "need": "people",
+   "niche": "Дроны и защита от дронов — люди и навыки",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; опыт Украины",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    8,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.963,
+   "equal": 2.0,
+   "random_top20": 0.316
+  },
+  {
+   "boom": "drones",
+   "need": "data",
+   "niche": "Дроны и защита от дронов — данные, проверка, качество",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка; опыт Украины",
+   "recent": [
+    342,
+    2,
+    1
+   ],
+   "prior": [
+    291,
+    9,
+    1
+   ],
+   "gh": [
+    3829,
+    2,
+    0
+   ],
+   "tenders_recent": 2.0,
+   "tenders_prior": 9.0,
+   "momentum_raw": 0.2380952380952381,
+   "unreliable": true,
+   "gh_median": 2.0,
+   "wiki_trend": 0.74,
+   "demand": 2,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.852,
+   "equal": 1.889,
+   "random_top20": 0.163
+  },
+  {
+   "boom": "drones",
+   "need": "permits",
+   "niche": "Дроны и защита от дронов — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; опыт Украины",
+   "recent": [
+    12,
+    6,
+    0
+   ],
+   "prior": [
+    3,
+    5,
+    0
+   ],
+   "gh": [
+    12,
+    1,
+    0
+   ],
+   "tenders_recent": 6.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 2.142857142857143,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.74,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.926,
+   "equal": 1.889,
+   "random_top20": 0.047
+  },
+  {
+   "boom": "drones",
+   "need": "logistics",
+   "niche": "Дроны и защита от дронов — логистика и монтаж",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; опыт Украины",
+   "recent": [
+    8,
+    18,
+    2
+   ],
+   "prior": [
+    9,
+    18,
+    2
+   ],
+   "gh": [
+    287,
+    0,
+    0
+   ],
+   "tenders_recent": 8.0,
+   "tenders_prior": 9.0,
+   "momentum_raw": 0.9523809523809524,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 0,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.025
+  },
+  {
+   "boom": "drones",
+   "need": "maintenance",
+   "niche": "Дроны и защита от дронов — обслуживание и ремонт",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка; опыт Украины",
+   "recent": [
+    115,
+    7,
+    0
+   ],
+   "prior": [
+    80,
+    10,
+    7
+   ],
+   "gh": [
+    158,
+    0,
+    0
+   ],
+   "tenders_recent": 7.0,
+   "tenders_prior": 10.0,
+   "momentum_raw": 0.75,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 0,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.778,
+   "random_top20": 0.066
+  },
+  {
+   "boom": "ukraine",
+   "need": "materials",
+   "niche": "Восстановление Украины — сырьё и материалы",
+   "size": 2,
+   "timing": 1,
+   "durable": 3,
+   "access": 3,
+   "wlb": 2,
+   "capital": 0,
+   "note": "RDNA5: $588 млрд за 10 лет; большая волна ждёт перемирия",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.667,
+   "random_top20": 0.071
+  },
+  {
+   "boom": "ukraine",
+   "need": "energy",
+   "niche": "Восстановление Украины — энергия для этого",
+   "size": 2,
+   "timing": 1,
+   "durable": 3,
+   "access": 3,
+   "wlb": 1,
+   "capital": 1,
+   "note": "RDNA5: $588 млрд за 10 лет; большая волна ждёт перемирия",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.667,
+   "random_top20": 0.044
+  },
+  {
+   "boom": "ukraine",
+   "need": "equipment",
+   "niche": "Восстановление Украины — оборудование и компоненты",
+   "size": 2,
+   "timing": 1,
+   "durable": 3,
+   "access": 3,
+   "wlb": 2,
+   "capital": 0,
+   "note": "RDNA5: $588 млрд за 10 лет; большая волна ждёт перемирия",
+   "recent": [
+    4,
+    1,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.667,
+   "random_top20": 0.071
+  },
+  {
+   "boom": "ukraine",
+   "need": "people",
+   "niche": "Восстановление Украины — люди и навыки",
+   "size": 2,
+   "timing": 1,
+   "durable": 3,
+   "access": 3,
+   "wlb": 2,
+   "capital": 3,
+   "note": "RDNA5: $588 млрд за 10 лет; большая волна ждёт перемирия",
+   "recent": [
+    0,
+    1,
+    1
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.037,
+   "equal": 2.0,
+   "random_top20": 0.41
+  },
+  {
+   "boom": "ukraine",
+   "need": "data",
+   "niche": "Восстановление Украины — данные, проверка, качество",
+   "size": 2,
+   "timing": 1,
+   "durable": 3,
+   "access": 3,
+   "wlb": 3,
+   "capital": 3,
+   "note": "RDNA5: $588 млрд за 10 лет; большая волна ждёт перемирия",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    1
+   ],
+   "gh": [
+    2,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.111,
+   "equal": 2.111,
+   "random_top20": 0.638
+  },
+  {
+   "boom": "ukraine",
+   "need": "permits",
+   "niche": "Восстановление Украины — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 1,
+   "durable": 3,
+   "access": 3,
+   "wlb": 2,
+   "capital": 3,
+   "note": "RDNA5: $588 млрд за 10 лет; большая волна ждёт перемирия",
+   "recent": [
+    3,
+    0,
+    1
+   ],
+   "prior": [
+    0,
+    1,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.037,
+   "equal": 2.0,
+   "random_top20": 0.407
+  },
+  {
+   "boom": "ukraine",
+   "need": "logistics",
+   "niche": "Восстановление Украины — логистика и монтаж",
+   "size": 2,
+   "timing": 1,
+   "durable": 3,
+   "access": 3,
+   "wlb": 1,
+   "capital": 1,
+   "note": "RDNA5: $588 млрд за 10 лет; большая волна ждёт перемирия",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.667,
+   "random_top20": 0.042
+  },
+  {
+   "boom": "ukraine",
+   "need": "maintenance",
+   "niche": "Восстановление Украины — обслуживание и ремонт",
+   "size": 2,
+   "timing": 1,
+   "durable": 3,
+   "access": 3,
+   "wlb": 1,
+   "capital": 2,
+   "note": "RDNA5: $588 млрд за 10 лет; большая волна ждёт перемирия",
+   "recent": [
+    3,
+    0,
+    5
+   ],
+   "prior": [
+    0,
+    0,
+    6
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 3.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.778,
+   "random_top20": 0.103
+  },
+  {
+   "boom": "energyshock",
+   "need": "materials",
+   "niche": "Энергетический шок: СПГ, нефть, переработка — сырьё и материалы",
+   "size": 3,
+   "timing": 3,
+   "durable": 1,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "Ормуз закрыт с 28.02.2026; доп. расходы ЕС на газ ~€100 млрд/год в сценарии",
+   "recent": [
+    0,
+    23,
+    0
+   ],
+   "prior": [
+    0,
+    24,
+    0
+   ],
+   "gh": [
+    1,
+    1,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.25,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.852,
+   "equal": 1.556,
+   "random_top20": 0.011
+  },
+  {
+   "boom": "energyshock",
+   "need": "energy",
+   "niche": "Энергетический шок: СПГ, нефть, переработка — энергия для этого",
+   "size": 3,
+   "timing": 3,
+   "durable": 1,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "Ормуз закрыт с 28.02.2026; доп. расходы ЕС на газ ~€100 млрд/год в сценарии",
+   "recent": [
+    17,
+    164,
+    0
+   ],
+   "prior": [
+    42,
+    220,
+    0
+   ],
+   "gh": [
+    0,
+    10,
+    0
+   ],
+   "tenders_recent": 17.0,
+   "tenders_prior": 42.0,
+   "momentum_raw": 0.43367346938775514,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.25,
+   "demand": 3,
+   "momentum": 0,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.667,
+   "random_top20": 0.069
+  },
+  {
+   "boom": "energyshock",
+   "need": "equipment",
+   "niche": "Энергетический шок: СПГ, нефть, переработка — оборудование и компоненты",
+   "size": 3,
+   "timing": 3,
+   "durable": 1,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "Ормуз закрыт с 28.02.2026; доп. расходы ЕС на газ ~€100 млрд/год в сценарии",
+   "recent": [
+    93,
+    16,
+    0
+   ],
+   "prior": [
+    69,
+    35,
+    0
+   ],
+   "gh": [
+    8,
+    0,
+    0
+   ],
+   "tenders_recent": 16.0,
+   "tenders_prior": 35.0,
+   "momentum_raw": 0.489795918367347,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.25,
+   "demand": 3,
+   "momentum": 0,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.667,
+   "random_top20": 0.1
+  },
+  {
+   "boom": "energyshock",
+   "need": "people",
+   "niche": "Энергетический шок: СПГ, нефть, переработка — люди и навыки",
+   "size": 3,
+   "timing": 3,
+   "durable": 1,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "Ормуз закрыт с 28.02.2026; доп. расходы ЕС на газ ~€100 млрд/год в сценарии",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.25,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.111,
+   "equal": 2.0,
+   "random_top20": 0.414
+  },
+  {
+   "boom": "energyshock",
+   "need": "data",
+   "niche": "Энергетический шок: СПГ, нефть, переработка — данные, проверка, качество",
+   "size": 3,
+   "timing": 3,
+   "durable": 1,
+   "access": 2,
+   "wlb": 3,
+   "capital": 3,
+   "note": "Ормуз закрыт с 28.02.2026; доп. расходы ЕС на газ ~€100 млрд/год в сценарии",
+   "recent": [
+    119,
+    29,
+    0
+   ],
+   "prior": [
+    61,
+    22,
+    0
+   ],
+   "gh": [
+    156,
+    0,
+    0
+   ],
+   "tenders_recent": 29.0,
+   "tenders_prior": 22.0,
+   "momentum_raw": 1.4123376623376624,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.25,
+   "demand": 3,
+   "momentum": 0,
+   "open": 1,
+   "jackpot": 2.185,
+   "equal": 2.111,
+   "random_top20": 0.623
+  },
+  {
+   "boom": "energyshock",
+   "need": "permits",
+   "niche": "Энергетический шок: СПГ, нефть, переработка — разрешения и соответствие закону",
+   "size": 3,
+   "timing": 3,
+   "durable": 1,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "Ормуз закрыт с 28.02.2026; доп. расходы ЕС на газ ~€100 млрд/год в сценарии",
+   "recent": [
+    7,
+    9,
+    0
+   ],
+   "prior": [
+    2,
+    9,
+    0
+   ],
+   "gh": [
+    1,
+    0,
+    1
+   ],
+   "tenders_recent": 7.0,
+   "tenders_prior": 2.0,
+   "momentum_raw": 3.75,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.25,
+   "demand": 3,
+   "momentum": 3,
+   "open": 0,
+   "jackpot": 2.519,
+   "equal": 2.222,
+   "random_top20": 0.716
+  },
+  {
+   "boom": "energyshock",
+   "need": "logistics",
+   "niche": "Энергетический шок: СПГ, нефть, переработка — логистика и монтаж",
+   "size": 3,
+   "timing": 3,
+   "durable": 1,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "Ормуз закрыт с 28.02.2026; доп. расходы ЕС на газ ~€100 млрд/год в сценарии",
+   "recent": [
+    4,
+    334,
+    0
+   ],
+   "prior": [
+    2,
+    356,
+    0
+   ],
+   "gh": [
+    4,
+    0,
+    0
+   ],
+   "tenders_recent": 4.0,
+   "tenders_prior": 2.0,
+   "momentum_raw": 2.1428571428571432,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.25,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.667,
+   "random_top20": 0.036
+  },
+  {
+   "boom": "energyshock",
+   "need": "maintenance",
+   "niche": "Энергетический шок: СПГ, нефть, переработка — обслуживание и ремонт",
+   "size": 3,
+   "timing": 3,
+   "durable": 1,
+   "access": 2,
+   "wlb": 1,
+   "capital": 2,
+   "note": "Ормуз закрыт с 28.02.2026; доп. расходы ЕС на газ ~€100 млрд/год в сценарии",
+   "recent": [
+    42,
+    31,
+    0
+   ],
+   "prior": [
+    40,
+    40,
+    2
+   ],
+   "gh": [
+    9,
+    0,
+    1
+   ],
+   "tenders_recent": 31.0,
+   "tenders_prior": 40.0,
+   "momentum_raw": 0.8303571428571429,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.25,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.926,
+   "equal": 1.667,
+   "random_top20": 0.044
+  },
+  {
+   "boom": "euproof",
+   "need": "materials",
+   "niche": "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — сырьё и материалы",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 3,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; даты в законах, но отсрочки и споры",
+   "recent": [
+    1,
+    8,
+    0
+   ],
+   "prior": [
+    0,
+    16,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 1.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.778,
+   "random_top20": 0.151
+  },
+  {
+   "boom": "euproof",
+   "need": "energy",
+   "niche": "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — энергия для этого",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 3,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; даты в законах, но отсрочки и споры",
+   "recent": [
+    4,
+    0,
+    1
+   ],
+   "prior": [
+    0,
+    6,
+    0
+   ],
+   "gh": [
+    0,
+    2,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 1.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.778,
+   "random_top20": 0.109
+  },
+  {
+   "boom": "euproof",
+   "need": "equipment",
+   "niche": "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — оборудование и компоненты",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 3,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; даты в законах, но отсрочки и споры",
+   "recent": [
+    8,
+    15,
+    1
+   ],
+   "prior": [
+    1,
+    5,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 8.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 8.571428571428573,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 1.64,
+   "demand": 3,
+   "momentum": 3,
+   "open": 1,
+   "jackpot": 2.333,
+   "equal": 2.111,
+   "random_top20": 0.596
+  },
+  {
+   "boom": "euproof",
+   "need": "people",
+   "niche": "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — люди и навыки",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 3,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; даты в законах, но отсрочки и споры",
+   "recent": [
+    0,
+    6,
+    3
+   ],
+   "prior": [
+    0,
+    5,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 3.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 1.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.111,
+   "equal": 2.111,
+   "random_top20": 0.655
+  },
+  {
+   "boom": "euproof",
+   "need": "data",
+   "niche": "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — данные, проверка, качество",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 3,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка; даты в законах, но отсрочки и споры",
+   "recent": [
+    11,
+    14,
+    2
+   ],
+   "prior": [
+    0,
+    1,
+    1
+   ],
+   "gh": [
+    6,
+    0,
+    0
+   ],
+   "tenders_recent": 11.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 11.785714285714286,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 1.64,
+   "demand": 3,
+   "momentum": 3,
+   "open": 1,
+   "jackpot": 2.63,
+   "equal": 2.556,
+   "random_top20": 0.977
+  },
+  {
+   "boom": "euproof",
+   "need": "permits",
+   "niche": "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 3,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; даты в законах, но отсрочки и споры",
+   "recent": [
+    0,
+    11,
+    11
+   ],
+   "prior": [
+    0,
+    3,
+    13
+   ],
+   "gh": [
+    0,
+    3,
+    2
+   ],
+   "tenders_recent": 11.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 3.928571428571429,
+   "unreliable": false,
+   "gh_median": 2.0,
+   "wiki_trend": 1.64,
+   "demand": 3,
+   "momentum": 3,
+   "open": 0,
+   "jackpot": 2.519,
+   "equal": 2.333,
+   "random_top20": 0.842
+  },
+  {
+   "boom": "euproof",
+   "need": "logistics",
+   "niche": "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — логистика и монтаж",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 3,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; даты в законах, но отсрочки и споры",
+   "recent": [
+    0,
+    0,
+    10
+   ],
+   "prior": [
+    0,
+    1,
+    11
+   ],
+   "gh": [
+    0,
+    0,
+    2
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 0.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 1.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.778,
+   "random_top20": 0.105
+  },
+  {
+   "boom": "euproof",
+   "need": "maintenance",
+   "niche": "Доказательства по законам ЕС (CBAM, метан, батареи, труд) — обслуживание и ремонт",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 3,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка; даты в законах, но отсрочки и споры",
+   "recent": [
+    0,
+    0,
+    20
+   ],
+   "prior": [
+    0,
+    0,
+    19
+   ],
+   "gh": [
+    0,
+    0,
+    2
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 1.64,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.963,
+   "equal": 1.889,
+   "random_top20": 0.202
+  },
+  {
+   "boom": "minerals",
+   "need": "materials",
+   "niche": "Критические минералы и магниты — сырьё и материалы",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    25,
+    4,
+    0
+   ],
+   "prior": [
+    12,
+    3,
+    0
+   ],
+   "gh": [
+    28,
+    4,
+    0
+   ],
+   "tenders_recent": 4.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 1.4285714285714286,
+   "unreliable": true,
+   "gh_median": 4.0,
+   "wiki_trend": 0.72,
+   "demand": 2,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.481,
+   "equal": 1.333,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "minerals",
+   "need": "energy",
+   "niche": "Критические минералы и магниты — энергия для этого",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    1,
+    0
+   ],
+   "gh": [
+    0,
+    2,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.72,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.667,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "minerals",
+   "need": "equipment",
+   "niche": "Критические минералы и магниты — оборудование и компоненты",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    1,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    2,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.72,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.667,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "minerals",
+   "need": "people",
+   "niche": "Критические минералы и магниты — люди и навыки",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    0,
+    1,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.72,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.889,
+   "random_top20": 0.014
+  },
+  {
+   "boom": "minerals",
+   "need": "data",
+   "niche": "Критические минералы и магниты — данные, проверка, качество",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 2,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    8,
+    0,
+    0
+   ],
+   "prior": [
+    6,
+    0,
+    0
+   ],
+   "gh": [
+    8,
+    1,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.72,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.926,
+   "equal": 1.889,
+   "random_top20": 0.117
+  },
+  {
+   "boom": "minerals",
+   "need": "permits",
+   "niche": "Критические минералы и магниты — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.72,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.889,
+   "equal": 1.889,
+   "random_top20": 0.016
+  },
+  {
+   "boom": "minerals",
+   "need": "logistics",
+   "niche": "Критические минералы и магниты — логистика и монтаж",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    0,
+    2,
+    0
+   ],
+   "prior": [
+    0,
+    4,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.72,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.667,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "minerals",
+   "need": "maintenance",
+   "niche": "Критические минералы и магниты — обслуживание и ремонт",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    2,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.72,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "nuclear",
+   "need": "materials",
+   "niche": "Ядерное возрождение — сырьё и материалы",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 0,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; экспортный контроль",
+   "recent": [
+    0,
+    2,
+    0
+   ],
+   "prior": [
+    0,
+    7,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.69,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.444,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "nuclear",
+   "need": "energy",
+   "niche": "Ядерное возрождение — энергия для этого",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 0,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; экспортный контроль",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    1,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.69,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.444,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "nuclear",
+   "need": "equipment",
+   "niche": "Ядерное возрождение — оборудование и компоненты",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 0,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; экспортный контроль",
+   "recent": [
+    0,
+    3,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.69,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.444,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "nuclear",
+   "need": "people",
+   "niche": "Ядерное возрождение — люди и навыки",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 0,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; экспортный контроль",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.69,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.667,
+   "equal": 1.778,
+   "random_top20": 0.046
+  },
+  {
+   "boom": "nuclear",
+   "need": "data",
+   "niche": "Ядерное возрождение — данные, проверка, качество",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 0,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка; экспортный контроль",
+   "recent": [
+    0,
+    2,
+    0
+   ],
+   "prior": [
+    0,
+    4,
+    0
+   ],
+   "gh": [
+    8,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.69,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.889,
+   "random_top20": 0.253
+  },
+  {
+   "boom": "nuclear",
+   "need": "permits",
+   "niche": "Ядерное возрождение — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 0,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; экспортный контроль",
+   "recent": [
+    1,
+    2,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.69,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.667,
+   "equal": 1.778,
+   "random_top20": 0.046
+  },
+  {
+   "boom": "nuclear",
+   "need": "logistics",
+   "niche": "Ядерное возрождение — логистика и монтаж",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 0,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; экспортный контроль",
+   "recent": [
+    0,
+    10,
+    0
+   ],
+   "prior": [
+    0,
+    8,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.69,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.444,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "nuclear",
+   "need": "maintenance",
+   "niche": "Ядерное возрождение — обслуживание и ремонт",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 0,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка; экспортный контроль",
+   "recent": [
+    0,
+    4,
+    0
+   ],
+   "prior": [
+    0,
+    5,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.69,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.519,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "space",
+   "need": "materials",
+   "niche": "Космос — сырьё и материалы",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "Space Capital: $22,2 млрд за III кв. 2026",
+   "recent": [
+    27,
+    0,
+    0
+   ],
+   "prior": [
+    30,
+    0,
+    0
+   ],
+   "gh": [
+    2,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.84,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "space",
+   "need": "energy",
+   "niche": "Космос — энергия для этого",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "Space Capital: $22,2 млрд за III кв. 2026",
+   "recent": [
+    938,
+    0,
+    1
+   ],
+   "prior": [
+    665,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.84,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "space",
+   "need": "equipment",
+   "niche": "Космос — оборудование и компоненты",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "Space Capital: $22,2 млрд за III кв. 2026",
+   "recent": [
+    4845,
+    0,
+    0
+   ],
+   "prior": [
+    3072,
+    0,
+    0
+   ],
+   "gh": [
+    34,
+    8,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 8.0,
+   "wiki_trend": 0.84,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.556,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "space",
+   "need": "people",
+   "niche": "Космос — люди и навыки",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "Space Capital: $22,2 млрд за III кв. 2026",
+   "recent": [
+    10,
+    0,
+    10
+   ],
+   "prior": [
+    8,
+    0,
+    25
+   ],
+   "gh": [
+    0,
+    0,
+    41
+   ],
+   "tenders_recent": 10.0,
+   "tenders_prior": 8.0,
+   "momentum_raw": 1.3392857142857144,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.84,
+   "demand": 3,
+   "momentum": 0,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.889,
+   "random_top20": 0.171
+  },
+  {
+   "boom": "space",
+   "need": "data",
+   "niche": "Космос — данные, проверка, качество",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 3,
+   "capital": 3,
+   "note": "Space Capital: $22,2 млрд за III кв. 2026",
+   "recent": [
+    2021,
+    0,
+    3
+   ],
+   "prior": [
+    1608,
+    0,
+    5
+   ],
+   "gh": [
+    11309,
+    0,
+    1
+   ],
+   "tenders_recent": 3.0,
+   "tenders_prior": 5.0,
+   "momentum_raw": 0.6428571428571428,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.84,
+   "demand": 2,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.704,
+   "equal": 1.778,
+   "random_top20": 0.06
+  },
+  {
+   "boom": "space",
+   "need": "permits",
+   "niche": "Космос — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "Space Capital: $22,2 млрд за III кв. 2026",
+   "recent": [
+    75,
+    0,
+    97
+   ],
+   "prior": [
+    36,
+    0,
+    36
+   ],
+   "gh": [
+    14,
+    0,
+    0
+   ],
+   "tenders_recent": 75.0,
+   "tenders_prior": 36.0,
+   "momentum_raw": 2.232142857142857,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.84,
+   "demand": 3,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.963,
+   "equal": 2.0,
+   "random_top20": 0.376
+  },
+  {
+   "boom": "space",
+   "need": "logistics",
+   "niche": "Космос — логистика и монтаж",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "Space Capital: $22,2 млрд за III кв. 2026",
+   "recent": [
+    86,
+    4,
+    4
+   ],
+   "prior": [
+    81,
+    0,
+    3
+   ],
+   "gh": [
+    32,
+    0,
+    6
+   ],
+   "tenders_recent": 4.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 1.4285714285714286,
+   "unreliable": true,
+   "gh_median": 6.0,
+   "wiki_trend": 0.84,
+   "demand": 2,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.407,
+   "equal": 1.333,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "space",
+   "need": "maintenance",
+   "niche": "Космос — обслуживание и ремонт",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 2,
+   "note": "Space Capital: $22,2 млрд за III кв. 2026",
+   "recent": [
+    1507,
+    0,
+    224
+   ],
+   "prior": [
+    1219,
+    0,
+    126
+   ],
+   "gh": [
+    81,
+    0,
+    39
+   ],
+   "tenders_recent": 224.0,
+   "tenders_prior": 126.0,
+   "momentum_raw": 1.9047619047619047,
+   "unreliable": true,
+   "gh_median": 39.0,
+   "wiki_trend": 0.84,
+   "demand": 3,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.778,
+   "equal": 1.667,
+   "random_top20": 0.012
+  },
+  {
+   "boom": "biotech",
+   "need": "materials",
+   "niche": "Препараты от ожирения и генная терапия — сырьё и материалы",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    0,
+    1,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "biotech",
+   "need": "energy",
+   "niche": "Препараты от ожирения и генная терапия — энергия для этого",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    2,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "biotech",
+   "need": "equipment",
+   "niche": "Препараты от ожирения и генная терапия — оборудование и компоненты",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    1,
+    1,
+    0
+   ],
+   "prior": [
+    2,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "biotech",
+   "need": "people",
+   "niche": "Препараты от ожирения и генная терапия — люди и навыки",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    1
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.889,
+   "random_top20": 0.069
+  },
+  {
+   "boom": "biotech",
+   "need": "data",
+   "niche": "Препараты от ожирения и генная терапия — данные, проверка, качество",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    25,
+    0,
+    0
+   ],
+   "prior": [
+    11,
+    0,
+    0
+   ],
+   "gh": [
+    20,
+    1,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.852,
+   "equal": 1.889,
+   "random_top20": 0.153
+  },
+  {
+   "boom": "biotech",
+   "need": "permits",
+   "niche": "Препараты от ожирения и генная терапия — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    2
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.889,
+   "random_top20": 0.068
+  },
+  {
+   "boom": "biotech",
+   "need": "logistics",
+   "niche": "Препараты от ожирения и генная терапия — логистика и монтаж",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    3,
+    3,
+    0
+   ],
+   "prior": [
+    1,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 3.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "biotech",
+   "need": "maintenance",
+   "niche": "Препараты от ожирения и генная терапия — обслуживание и ремонт",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка",
+   "recent": [
+    0,
+    1,
+    1
+   ],
+   "prior": [
+    0,
+    0,
+    2
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": null,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.667,
+   "equal": 1.667,
+   "random_top20": 0.002
+  },
+  {
+   "boom": "quantum",
+   "need": "materials",
+   "niche": "Квантовые технологии — сырьё и материалы",
+   "size": 1,
+   "timing": 1,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    6,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.83,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.222,
+   "equal": 1.222,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "quantum",
+   "need": "energy",
+   "niche": "Квантовые технологии — энергия для этого",
+   "size": 1,
+   "timing": 1,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    4,
+    0,
+    0
+   ],
+   "prior": [
+    12,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    1
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.83,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.222,
+   "equal": 1.222,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "quantum",
+   "need": "equipment",
+   "niche": "Квантовые технологии — оборудование и компоненты",
+   "size": 1,
+   "timing": 1,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    30,
+    0,
+    0
+   ],
+   "prior": [
+    42,
+    0,
+    0
+   ],
+   "gh": [
+    1,
+    1,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.83,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.185,
+   "equal": 1.111,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "quantum",
+   "need": "people",
+   "niche": "Квантовые технологии — люди и навыки",
+   "size": 1,
+   "timing": 1,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    10
+   ],
+   "prior": [
+    0,
+    0,
+    6
+   ],
+   "gh": [
+    0,
+    0,
+    21
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.83,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.444,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "quantum",
+   "need": "data",
+   "niche": "Квантовые технологии — данные, проверка, качество",
+   "size": 1,
+   "timing": 1,
+   "durable": 2,
+   "access": 1,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    18,
+    0,
+    6
+   ],
+   "prior": [
+    46,
+    0,
+    3
+   ],
+   "gh": [
+    335,
+    0,
+    22
+   ],
+   "tenders_recent": 6.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 2.142857142857143,
+   "unreliable": false,
+   "gh_median": 22.0,
+   "wiki_trend": 0.83,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.481,
+   "equal": 1.556,
+   "random_top20": 0.009
+  },
+  {
+   "boom": "quantum",
+   "need": "permits",
+   "niche": "Квантовые технологии — разрешения и соответствие закону",
+   "size": 1,
+   "timing": 1,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    1,
+    0,
+    1
+   ],
+   "prior": [
+    1,
+    0,
+    1
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 1.0714285714285716,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.83,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.444,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "quantum",
+   "need": "logistics",
+   "niche": "Квантовые технологии — логистика и монтаж",
+   "size": 1,
+   "timing": 1,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    16
+   ],
+   "prior": [
+    0,
+    2,
+    42
+   ],
+   "gh": [
+    17,
+    0,
+    9
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 2.0,
+   "momentum_raw": 0.0,
+   "unreliable": false,
+   "gh_median": 9.0,
+   "wiki_trend": 0.83,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.185,
+   "equal": 1.111,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "quantum",
+   "need": "maintenance",
+   "niche": "Квантовые технологии — обслуживание и ремонт",
+   "size": 1,
+   "timing": 1,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка",
+   "recent": [
+    9,
+    0,
+    60
+   ],
+   "prior": [
+    15,
+    0,
+    49
+   ],
+   "gh": [
+    1,
+    0,
+    15
+   ],
+   "tenders_recent": 9.0,
+   "tenders_prior": 15.0,
+   "momentum_raw": 0.6428571428571429,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.83,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.259,
+   "equal": 1.222,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "shipping",
+   "need": "materials",
+   "niche": "Судоходство и торговые коридоры — сырьё и материалы",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; Maersk и DSV в Дании",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.79,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.008
+  },
+  {
+   "boom": "shipping",
+   "need": "energy",
+   "niche": "Судоходство и торговые коридоры — энергия для этого",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; Maersk и DSV в Дании",
+   "recent": [
+    2,
+    0,
+    1
+   ],
+   "prior": [
+    2,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.79,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.002
+  },
+  {
+   "boom": "shipping",
+   "need": "equipment",
+   "niche": "Судоходство и торговые коридоры — оборудование и компоненты",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; Maersk и DSV в Дании",
+   "recent": [
+    2,
+    0,
+    0
+   ],
+   "prior": [
+    2,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.79,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.008
+  },
+  {
+   "boom": "shipping",
+   "need": "people",
+   "niche": "Судоходство и торговые коридоры — люди и навыки",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; Maersk и DSV в Дании",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    1
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.79,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.963,
+   "equal": 2.0,
+   "random_top20": 0.317
+  },
+  {
+   "boom": "shipping",
+   "need": "data",
+   "niche": "Судоходство и торговые коридоры — данные, проверка, качество",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка; Maersk и DSV в Дании",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    13,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.79,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 2.037,
+   "equal": 2.111,
+   "random_top20": 0.689
+  },
+  {
+   "boom": "shipping",
+   "need": "permits",
+   "niche": "Судоходство и торговые коридоры — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; Maersk и DSV в Дании",
+   "recent": [
+    0,
+    0,
+    1
+   ],
+   "prior": [
+    0,
+    0,
+    1
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.79,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.963,
+   "equal": 2.0,
+   "random_top20": 0.315
+  },
+  {
+   "boom": "shipping",
+   "need": "logistics",
+   "niche": "Судоходство и торговые коридоры — логистика и монтаж",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; Maersk и DSV в Дании",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    17,
+    0,
+    7
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 7.0,
+   "wiki_trend": 0.79,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.704,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "shipping",
+   "need": "maintenance",
+   "niche": "Судоходство и торговые коридоры — обслуживание и ремонт",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка; Maersk и DSV в Дании",
+   "recent": [
+    2,
+    0,
+    5
+   ],
+   "prior": [
+    2,
+    0,
+    1
+   ],
+   "gh": [
+    1,
+    0,
+    4
+   ],
+   "tenders_recent": 2.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 2.1428571428571432,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.79,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.778,
+   "equal": 1.667,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "adaptation",
+   "need": "materials",
+   "niche": "Адаптация к климату и вода — сырьё и материалы",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    7,
+    1,
+    0
+   ],
+   "prior": [
+    1,
+    3,
+    0
+   ],
+   "gh": [
+    0,
+    1,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 1.0714285714285716,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.97,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.003
+  },
+  {
+   "boom": "adaptation",
+   "need": "energy",
+   "niche": "Адаптация к климату и вода — энергия для этого",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    3,
+    0,
+    1
+   ],
+   "prior": [
+    1,
+    0,
+    6
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 1.0714285714285716,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.97,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "adaptation",
+   "need": "equipment",
+   "niche": "Адаптация к климату и вода — оборудование и компоненты",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    32,
+    0,
+    6
+   ],
+   "prior": [
+    15,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 6.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.97,
+   "demand": 2,
+   "momentum": 3,
+   "open": 1,
+   "jackpot": 2.037,
+   "equal": 1.889,
+   "random_top20": 0.297
+  },
+  {
+   "boom": "adaptation",
+   "need": "people",
+   "niche": "Адаптация к климату и вода — люди и навыки",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    0,
+    1,
+    6
+   ],
+   "prior": [
+    0,
+    0,
+    4
+   ],
+   "gh": [
+    0,
+    0,
+    1
+   ],
+   "tenders_recent": 1.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.97,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.963,
+   "equal": 2.0,
+   "random_top20": 0.297
+  },
+  {
+   "boom": "adaptation",
+   "need": "data",
+   "niche": "Адаптация к климату и вода — данные, проверка, качество",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 2,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    77,
+    0,
+    3
+   ],
+   "prior": [
+    27,
+    1,
+    2
+   ],
+   "gh": [
+    37,
+    1,
+    0
+   ],
+   "tenders_recent": 3.0,
+   "tenders_prior": 2.0,
+   "momentum_raw": 1.6071428571428572,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.97,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 2.0,
+   "equal": 2.0,
+   "random_top20": 0.348
+  },
+  {
+   "boom": "adaptation",
+   "need": "permits",
+   "niche": "Адаптация к климату и вода — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    7,
+    1,
+    5
+   ],
+   "prior": [
+    3,
+    1,
+    7
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 5.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 1.7857142857142858,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.97,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.963,
+   "equal": 2.0,
+   "random_top20": 0.279
+  },
+  {
+   "boom": "adaptation",
+   "need": "logistics",
+   "niche": "Адаптация к климату и вода — логистика и монтаж",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    8,
+    1,
+    9
+   ],
+   "prior": [
+    6,
+    3,
+    5
+   ],
+   "gh": [
+    2,
+    1,
+    0
+   ],
+   "tenders_recent": 8.0,
+   "tenders_prior": 5.0,
+   "momentum_raw": 1.7142857142857142,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.97,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.704,
+   "equal": 1.556,
+   "random_top20": 0.005
+  },
+  {
+   "boom": "adaptation",
+   "need": "maintenance",
+   "niche": "Адаптация к климату и вода — обслуживание и ремонт",
+   "size": 2,
+   "timing": 2,
+   "durable": 3,
+   "access": 2,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка",
+   "recent": [
+    16,
+    0,
+    28
+   ],
+   "prior": [
+    13,
+    0,
+    18
+   ],
+   "gh": [
+    0,
+    0,
+    5
+   ],
+   "tenders_recent": 16.0,
+   "tenders_prior": 13.0,
+   "momentum_raw": 1.3186813186813189,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.97,
+   "demand": 3,
+   "momentum": 0,
+   "open": 1,
+   "jackpot": 1.815,
+   "equal": 1.778,
+   "random_top20": 0.065
+  },
+  {
+   "boom": "batteries",
+   "need": "materials",
+   "niche": "Батареи и электромобили в Европе — сырьё и материалы",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; провал Northvolt",
+   "recent": [
+    0,
+    5,
+    0
+   ],
+   "prior": [
+    0,
+    7,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.8,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.519,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "batteries",
+   "need": "energy",
+   "niche": "Батареи и электромобили в Европе — энергия для этого",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; провал Northvolt",
+   "recent": [
+    0,
+    4,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    2,
+    1
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.8,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.481,
+   "equal": 1.333,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "batteries",
+   "need": "equipment",
+   "niche": "Батареи и электромобили в Европе — оборудование и компоненты",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка; провал Northvolt",
+   "recent": [
+    0,
+    4,
+    0
+   ],
+   "prior": [
+    0,
+    3,
+    0
+   ],
+   "gh": [
+    2,
+    3,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 2.0,
+   "wiki_trend": 0.8,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.481,
+   "equal": 1.333,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "batteries",
+   "need": "people",
+   "niche": "Батареи и электромобили в Европе — люди и навыки",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; провал Northvolt",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    6
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.8,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.778,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "batteries",
+   "need": "data",
+   "niche": "Батареи и электромобили в Европе — данные, проверка, качество",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 1,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка; провал Northvolt",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    2,
+    0
+   ],
+   "gh": [
+    7,
+    1,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.8,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.778,
+   "equal": 1.778,
+   "random_top20": 0.039
+  },
+  {
+   "boom": "batteries",
+   "need": "permits",
+   "niche": "Батареи и электромобили в Европе — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка; провал Northvolt",
+   "recent": [
+    0,
+    3,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    1,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.8,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.778,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "batteries",
+   "need": "logistics",
+   "niche": "Батареи и электромобили в Европе — логистика и монтаж",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка; провал Northvolt",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    1,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.8,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.519,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "batteries",
+   "need": "maintenance",
+   "niche": "Батареи и электромобили в Европе — обслуживание и ремонт",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 1,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка; провал Northvolt",
+   "recent": [
+    0,
+    1,
+    0
+   ],
+   "prior": [
+    0,
+    3,
+    0
+   ],
+   "gh": [
+    2,
+    3,
+    4
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 3.0,
+   "wiki_trend": 0.8,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.556,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "chips",
+   "need": "materials",
+   "niche": "Полупроводники в Европе — сырьё и материалы",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 0,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    2,
+    0,
+    0
+   ],
+   "prior": [
+    5,
+    0,
+    0
+   ],
+   "gh": [
+    7,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.96,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.37,
+   "equal": 1.333,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "chips",
+   "need": "energy",
+   "niche": "Полупроводники в Европе — энергия для этого",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 0,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    57,
+    0,
+    0
+   ],
+   "prior": [
+    27,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    1,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.96,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.37,
+   "equal": 1.333,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "chips",
+   "need": "equipment",
+   "niche": "Полупроводники в Европе — оборудование и компоненты",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 0,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    215,
+    0,
+    0
+   ],
+   "prior": [
+    86,
+    0,
+    0
+   ],
+   "gh": [
+    221,
+    1,
+    1
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.96,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.333,
+   "equal": 1.222,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "chips",
+   "need": "people",
+   "niche": "Полупроводники в Европе — люди и навыки",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 0,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    1,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    2
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.96,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.667,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "chips",
+   "need": "data",
+   "niche": "Полупроводники в Европе — данные, проверка, качество",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 0,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    154,
+    0,
+    0
+   ],
+   "prior": [
+    37,
+    0,
+    0
+   ],
+   "gh": [
+    908,
+    0,
+    1
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.96,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.63,
+   "equal": 1.667,
+   "random_top20": 0.019
+  },
+  {
+   "boom": "chips",
+   "need": "permits",
+   "niche": "Полупроводники в Европе — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 0,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    64,
+    0,
+    0
+   ],
+   "prior": [
+    9,
+    0,
+    0
+   ],
+   "gh": [
+    9,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.96,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.667,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "chips",
+   "need": "logistics",
+   "niche": "Полупроводники в Европе — логистика и монтаж",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 0,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    3,
+    0,
+    0
+   ],
+   "prior": [
+    2,
+    1,
+    0
+   ],
+   "gh": [
+    11,
+    0,
+    3
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 0.0,
+   "unreliable": false,
+   "gh_median": 3.0,
+   "wiki_trend": 0.96,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.333,
+   "equal": 1.222,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "chips",
+   "need": "maintenance",
+   "niche": "Полупроводники в Европе — обслуживание и ремонт",
+   "size": 2,
+   "timing": 2,
+   "durable": 2,
+   "access": 0,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка",
+   "recent": [
+    29,
+    0,
+    0
+   ],
+   "prior": [
+    19,
+    0,
+    0
+   ],
+   "gh": [
+    55,
+    0,
+    1
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.96,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.407,
+   "equal": 1.333,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "hydrogen",
+   "need": "materials",
+   "niche": "Водород (контроль: бум, который не случился) — сырьё и материалы",
+   "size": 1,
+   "timing": 1,
+   "durable": 1,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    6,
+    9,
+    7
+   ],
+   "prior": [
+    0,
+    6,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    1
+   ],
+   "tenders_recent": 7.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 3,
+   "open": 1,
+   "jackpot": 1.593,
+   "equal": 1.444,
+   "random_top20": 0.072
+  },
+  {
+   "boom": "hydrogen",
+   "need": "energy",
+   "niche": "Водород (контроль: бум, который не случился) — энергия для этого",
+   "size": 1,
+   "timing": 1,
+   "durable": 1,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    12,
+    9,
+    19
+   ],
+   "prior": [
+    7,
+    10,
+    3
+   ],
+   "gh": [
+    0,
+    0,
+    4
+   ],
+   "tenders_recent": 12.0,
+   "tenders_prior": 7.0,
+   "momentum_raw": 1.8367346938775508,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.296,
+   "equal": 1.222,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "hydrogen",
+   "need": "equipment",
+   "niche": "Водород (контроль: бум, который не случился) — оборудование и компоненты",
+   "size": 1,
+   "timing": 1,
+   "durable": 1,
+   "access": 1,
+   "wlb": 2,
+   "capital": 0,
+   "note": "оценка",
+   "recent": [
+    14,
+    5,
+    10
+   ],
+   "prior": [
+    9,
+    9,
+    3
+   ],
+   "gh": [
+    3,
+    2,
+    0
+   ],
+   "tenders_recent": 10.0,
+   "tenders_prior": 9.0,
+   "momentum_raw": 1.1904761904761905,
+   "unreliable": false,
+   "gh_median": 2.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 0,
+   "open": 0,
+   "jackpot": 1.111,
+   "equal": 1.0,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "hydrogen",
+   "need": "people",
+   "niche": "Водород (контроль: бум, который не случился) — люди и навыки",
+   "size": 1,
+   "timing": 1,
+   "durable": 1,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    0,
+    0,
+    9
+   ],
+   "prior": [
+    0,
+    0,
+    3
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.37,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "hydrogen",
+   "need": "data",
+   "niche": "Водород (контроль: бум, который не случился) — данные, проверка, качество",
+   "size": 1,
+   "timing": 1,
+   "durable": 1,
+   "access": 1,
+   "wlb": 3,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    16,
+    8,
+    19
+   ],
+   "prior": [
+    4,
+    3,
+    3
+   ],
+   "gh": [
+    45,
+    0,
+    2
+   ],
+   "tenders_recent": 16.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 5.714285714285714,
+   "unreliable": false,
+   "gh_median": 2.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 3,
+   "open": 0,
+   "jackpot": 1.852,
+   "equal": 1.778,
+   "random_top20": 0.217
+  },
+  {
+   "boom": "hydrogen",
+   "need": "permits",
+   "niche": "Водород (контроль: бум, который не случился) — разрешения и соответствие закону",
+   "size": 1,
+   "timing": 1,
+   "durable": 1,
+   "access": 1,
+   "wlb": 2,
+   "capital": 3,
+   "note": "оценка",
+   "recent": [
+    1,
+    2,
+    21
+   ],
+   "prior": [
+    1,
+    0,
+    12
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 2.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 2.1428571428571432,
+   "unreliable": true,
+   "gh_median": 0.0,
+   "wiki_trend": 0.74,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.37,
+   "equal": 1.444,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "hydrogen",
+   "need": "logistics",
+   "niche": "Водород (контроль: бум, который не случился) — логистика и монтаж",
+   "size": 1,
+   "timing": 1,
+   "durable": 1,
+   "access": 1,
+   "wlb": 1,
+   "capital": 1,
+   "note": "оценка",
+   "recent": [
+    5,
+    25,
+    27
+   ],
+   "prior": [
+    0,
+    14,
+    3
+   ],
+   "gh": [
+    2,
+    0,
+    1
+   ],
+   "tenders_recent": 25.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 8.928571428571429,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 3,
+   "open": 0,
+   "jackpot": 1.556,
+   "equal": 1.333,
+   "random_top20": 0.041
+  },
+  {
+   "boom": "hydrogen",
+   "need": "maintenance",
+   "niche": "Водород (контроль: бум, который не случился) — обслуживание и ремонт",
+   "size": 1,
+   "timing": 1,
+   "durable": 1,
+   "access": 1,
+   "wlb": 1,
+   "capital": 2,
+   "note": "оценка",
+   "recent": [
+    4,
+    11,
+    38
+   ],
+   "prior": [
+    3,
+    0,
+    19
+   ],
+   "gh": [
+    2,
+    0,
+    1
+   ],
+   "tenders_recent": 11.0,
+   "tenders_prior": 3.0,
+   "momentum_raw": 3.928571428571429,
+   "unreliable": true,
+   "gh_median": 1.0,
+   "wiki_trend": 0.74,
+   "demand": 3,
+   "momentum": 3,
+   "open": 0,
+   "jackpot": 1.63,
+   "equal": 1.444,
+   "random_top20": 0.057
+  },
+  {
+   "boom": "aidata",
+   "need": "materials",
+   "niche": "Качество данных и проверка ИИ — сырьё и материалы",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "Surge, Mercor, Scale: выручка в млрд $",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    1,
+    0
+   ],
+   "gh": [
+    0,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.81,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.004
+  },
+  {
+   "boom": "aidata",
+   "need": "energy",
+   "niche": "Качество данных и проверка ИИ — энергия для этого",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "Surge, Mercor, Scale: выручка в млрд $",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    2,
+    2,
+    0
+   ],
+   "gh": [
+    1,
+    0,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 2.0,
+   "momentum_raw": 0.0,
+   "unreliable": false,
+   "gh_median": 0.0,
+   "wiki_trend": 0.81,
+   "demand": 2,
+   "momentum": 1,
+   "open": 1,
+   "jackpot": 1.741,
+   "equal": 1.667,
+   "random_top20": 0.001
+  },
+  {
+   "boom": "aidata",
+   "need": "equipment",
+   "niche": "Качество данных и проверка ИИ — оборудование и компоненты",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 0,
+   "note": "Surge, Mercor, Scale: выручка в млрд $",
+   "recent": [
+    1,
+    0,
+    0
+   ],
+   "prior": [
+    3,
+    0,
+    0
+   ],
+   "gh": [
+    7,
+    10,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 7.0,
+   "wiki_trend": 0.81,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.704,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "aidata",
+   "need": "people",
+   "niche": "Качество данных и проверка ИИ — люди и навыки",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "Surge, Mercor, Scale: выручка в млрд $",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    0,
+    2,
+    45
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 2.0,
+   "wiki_trend": 0.81,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.926,
+   "equal": 1.889,
+   "random_top20": 0.037
+  },
+  {
+   "boom": "aidata",
+   "need": "data",
+   "niche": "Качество данных и проверка ИИ — данные, проверка, качество",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 3,
+   "capital": 3,
+   "note": "Surge, Mercor, Scale: выручка в млрд $",
+   "recent": [
+    11,
+    0,
+    0
+   ],
+   "prior": [
+    9,
+    1,
+    0
+   ],
+   "gh": [
+    11609,
+    17,
+    7
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 1.0,
+   "momentum_raw": 0.0,
+   "unreliable": false,
+   "gh_median": 17.0,
+   "wiki_trend": 0.81,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 2.0,
+   "equal": 2.0,
+   "random_top20": 0.367
+  },
+  {
+   "boom": "aidata",
+   "need": "permits",
+   "niche": "Качество данных и проверка ИИ — разрешения и соответствие закону",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 2,
+   "capital": 3,
+   "note": "Surge, Mercor, Scale: выручка в млрд $",
+   "recent": [
+    0,
+    2,
+    0
+   ],
+   "prior": [
+    0,
+    3,
+    0
+   ],
+   "gh": [
+    4,
+    6,
+    0
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 4.0,
+   "wiki_trend": 0.81,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.926,
+   "equal": 1.889,
+   "random_top20": 0.027
+  },
+  {
+   "boom": "aidata",
+   "need": "logistics",
+   "niche": "Качество данных и проверка ИИ — логистика и монтаж",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 1,
+   "note": "Surge, Mercor, Scale: выручка в млрд $",
+   "recent": [
+    0,
+    0,
+    0
+   ],
+   "prior": [
+    0,
+    0,
+    0
+   ],
+   "gh": [
+    2,
+    0,
+    1
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 1.0,
+   "wiki_trend": 0.81,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.704,
+   "equal": 1.556,
+   "random_top20": 0.0
+  },
+  {
+   "boom": "aidata",
+   "need": "maintenance",
+   "niche": "Качество данных и проверка ИИ — обслуживание и ремонт",
+   "size": 2,
+   "timing": 3,
+   "durable": 2,
+   "access": 2,
+   "wlb": 1,
+   "capital": 2,
+   "note": "Surge, Mercor, Scale: выручка в млрд $",
+   "recent": [
+    4,
+    0,
+    0
+   ],
+   "prior": [
+    2,
+    0,
+    0
+   ],
+   "gh": [
+    8,
+    3,
+    35
+   ],
+   "tenders_recent": 0.0,
+   "tenders_prior": 0.0,
+   "momentum_raw": 3.0,
+   "unreliable": false,
+   "gh_median": 8.0,
+   "wiki_trend": 0.81,
+   "demand": 2,
+   "momentum": 1,
+   "open": 0,
+   "jackpot": 1.778,
+   "equal": 1.667,
+   "random_top20": 0.0
+  }
+ ]
+}
