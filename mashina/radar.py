@@ -1,29 +1,32 @@
 """Radar v0 (13.11.2026): a scan that runs on a schedule in GitHub Actions and needs no Claude.
 
 Question it serves: where is the sharpest deficit or the biggest boom, without a hand-written list of niches.
+A sharp and lasting price rise across a product line is the most direct public trace of a deficit:
+buyers pay more and supply does not catch up.
 
-STREAM 1 - prices of everything producers sell (US Bureau of Labor Statistics, Producer Price Index,
-all commodity series, monthly). A sharp and lasting price rise across a product line is the most direct
-public trace of a deficit: buyers pay more and supply does not catch up.
+STREAMS (each takes a COMPLETE public list, nothing is picked by hand):
+ A. EU producer prices by industry (Eurostat sts_inpp_m, monthly, every industry code published).
+ B. World commodity prices (World Bank "Pink Sheet", monthly, every commodity in the sheet).
+ C. US producer prices by product (BLS, about 3,700 product lines) - the richest list, but BLS refuses
+    requests from GitHub servers without a registered key; kept in the code and reported as "no access".
 
-RULE (written before the first run):
-- Universe: every not-seasonally-adjusted commodity series (id starts with WPU) that has a value in the
-  months needed. No list of products is written by hand.
-- At month t: rise24 = index(t) / index(t-24) - 1; rise12 and rise36 likewise.
-- "Lasting" flag: rise12 > 0 and index(t) >= 0.97 * (highest index of the last 24 months), i.e. the price
+RULE (written before the first run, same for every stream):
+- At month t: rise24 = price(t) / price(t-24) - 1; rise12 and rise36 likewise.
+- "Lasting" flag: rise12 > 0 and price(t) >= 0.97 * (highest price of the last 24 months), i.e. the price
   is still at its top and has not fallen back like a short spike.
-- Now: the 40 lasting series with the largest rise24 (same title shown once), plus the median rise24.
-- Look back (descriptive, no pass/fail yet): the same ranking as of December 2019..2024, top 15 each,
+- Now: the lasting series with the largest rise24 (same title shown once), plus the median rise24.
+- Look back (descriptive, no pass/fail yet): the same ranking as of December 2019..2024,
   so a reader can see whether known deficits were visible in time.
-- Illustration only: percentile of series whose title contains a few known words (transformer, semiconductor,
-  lumber, eggs, fertilizer, natural gas, copper, switchgear, turbine). These words do not affect the ranking.
-- A product at the top is a QUESTION, not an answer: the price can rise because of a tax, a one-off event
-  or a change in the index. Whether it is a durable deficit is decided by the four features of the case table
+- Stream B also lists EPISODES by rule: every time since 2000 a commodity stood at 2x or more of its lowest
+  price of the previous 24 months. This is a rule-made list of price shocks for the case table.
+- A line at the top is a QUESTION, not an answer: a price can rise because of a tax, a one-off event or a
+  change in the index. Whether it is a durable deficit is decided by the four features of the case table
   (physical limit, hard-to-reverse decision, running capacity, binding buyer).
 
 The run also records which other public sources answer from Actions (for the next streams).
 No OpenAlex credits. Usage: python -m mashina.radar
 """
+import io
 import json
 import os
 import re
@@ -33,8 +36,10 @@ import urllib.request
 
 UA = {"User-Agent": "mashina-research/0.1 (mashina-bot@users.noreply.github.com)"}
 BLS = "https://download.bls.gov/pub/time.series/wp/"
-WATCH = ["transformer", "semiconductor", "softwood lumber", "eggs", "fertilizer", "natural gas", "copper",
-         "switchgear", "turbine"]
+EUROSTAT = ("https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpp_m"
+            "?format=JSON&geo=EU27_2020&sinceTimePeriod=2016-01")
+PINK = ("https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/"
+        "related/CMO-Historical-Data-Monthly.xlsx")
 FIRST_YEAR = 2016
 
 
@@ -42,51 +47,18 @@ def fetch(url, timeout=180):
     return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout)
 
 
-def probe(url, data=None, headers=None):
+def probe(url):
     t = time.time()
     try:
-        h = dict(UA)
-        h.update(headers or {})
-        with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=h), timeout=60) as r:
+        with fetch(url, timeout=60) as r:
             b = r.read(3000)
             return {"status": r.status, "seconds": round(time.time() - t, 1), "sample": b[:300].decode("utf-8", "replace")}
     except Exception as e:
         return {"status": "error", "seconds": round(time.time() - t, 1), "sample": repr(e)[:200]}
 
 
-def load_series():
-    titles = {}
-    with fetch(BLS + "wp.series") as r:
-        for i, raw in enumerate(r):
-            p = [x.strip() for x in raw.decode("utf-8", "replace").split("\t")]
-            if i == 0 or len(p) < 6:
-                continue
-            if p[0].startswith("WPU"):
-                titles[p[0]] = p[5]
-    return titles
-
-
-def load_data(name, data, keep):
-    n = 0
-    with fetch(BLS + name, timeout=600) as r:
-        for i, raw in enumerate(r):
-            p = raw.decode("utf-8", "replace").split("\t")
-            if i == 0 or len(p) < 4:
-                continue
-            sid = p[0].strip()
-            if sid not in keep:
-                continue
-            per = p[2].strip()
-            if not per.startswith("M") or per == "M13":
-                continue
-            try:
-                y, m, v = int(p[1]), int(per[1:]), float(p[3])
-            except ValueError:
-                continue
-            if y >= FIRST_YEAR:
-                data.setdefault(sid, {})[y * 12 + m - 1] = v
-                n += 1
-    return n
+def ym(t):
+    return f"{t // 12}-{t % 12 + 1:02d}"
 
 
 def snapshot(data, titles, t):
@@ -122,101 +94,207 @@ def top(rows, k, lasting_only=True):
     return out
 
 
-def ym(t):
-    return f"{t // 12}-{t % 12 + 1:02d}"
+def latest_month(data):
+    months = sorted({k for d in data.values() for k in d})
+    count = {t: sum(1 for d in data.values() if t in d) for t in months[-14:]}
+    full = max(count.values())
+    return max(t for t, c in count.items() if c >= 0.7 * full), months
+
+
+def summarise(data, titles, k_now, k_back):
+    now, months = latest_month(data)
+    snap = snapshot(data, titles, now)
+    res = {"month": ym(now), "first": ym(months[0]), "series": len(snap),
+           "median_rise24": round(statistics.median(r["rise24"] for r in snap), 4),
+           "lasting_share": round(sum(r["lasting"] for r in snap) / len(snap), 3),
+           "top": top(snap, k_now), "lookback": {}}
+    for y in range(2019, 2025):
+        s = snapshot(data, titles, y * 12 + 11)
+        if s:
+            res["lookback"][str(y)] = {"series": len(s), "median_rise24": round(statistics.median(r["rise24"] for r in s), 4),
+                                       "top": top(s, k_back)}
+    return res
+
+
+# ---------- stream A: Eurostat producer prices by industry ----------
+def parse_jsonstat(j):
+    ids, size = j["id"], j["size"]
+    cats = {d: j["dimension"][d]["category"] for d in ids}
+    pick = {}
+    for d in ids:
+        idx = cats[d]["index"]
+        codes = sorted(idx, key=lambda c: idx[c]) if isinstance(idx, dict) else list(idx)
+        if d in ("nace_r2", "time"):
+            continue
+        if len(codes) == 1:
+            pick[d] = codes[0]
+        elif d == "unit":
+            pick[d] = next((c for c in ("I21", "I15", "I10") if c in codes), next((c for c in codes if c.startswith("I")), codes[0]))
+        elif d == "s_adj":
+            pick[d] = "NSA" if "NSA" in codes else codes[0]
+        else:
+            pick[d] = codes[0]
+    mult, m = {}, 1
+    for d, s in zip(reversed(ids), reversed(size)):
+        mult[d] = m
+        m *= s
+    pos = lambda d, c: (cats[d]["index"][c] if isinstance(cats[d]["index"], dict) else cats[d]["index"].index(c))
+    base = sum(pos(d, c) * mult[d] for d, c in pick.items())
+    val = j["value"]
+    get = (lambda i: val.get(str(i))) if isinstance(val, dict) else (lambda i: val[i] if i < len(val) else None)
+    nace = cats["nace_r2"]["index"]
+    tcat = cats["time"]["index"]
+    data, titles = {}, {}
+    for code in (nace if isinstance(nace, dict) else list(nace)):
+        d = {}
+        for tc in (tcat if isinstance(tcat, dict) else list(tcat)):
+            v = get(base + pos("nace_r2", code) * mult["nace_r2"] + pos("time", tc) * mult["time"])
+            if v is not None:
+                y, mth = tc.split("-")[0], tc.split("-")[1].lstrip("M")
+                d[int(y) * 12 + int(mth) - 1] = float(v)
+        if d:
+            data[code] = d
+            titles[code] = cats["nace_r2"].get("label", {}).get(code, code) + f" [{code}]"
+    return data, titles, pick
+
+
+def stream_eu():
+    with fetch(EUROSTAT, timeout=300) as r:
+        j = json.load(r)
+    data, titles, pick = parse_jsonstat(j)
+    res = summarise(data, titles, 30, 10)
+    res["picked"] = pick
+    res["updated"] = j.get("updated")
+    return res
+
+
+# ---------- stream B: World Bank commodity prices ----------
+def stream_commodities():
+    import openpyxl
+    with fetch(PINK, timeout=300) as r:
+        wb = openpyxl.load_workbook(io.BytesIO(r.read()), read_only=True, data_only=True)
+    ws = wb["Monthly Prices"] if "Monthly Prices" in wb.sheetnames else wb[wb.sheetnames[0]]
+    rows = list(ws.iter_rows(values_only=True))
+    first = next(i for i, row in enumerate(rows) if row and isinstance(row[0], str) and re.match(r"^\d{4}M\d{2}$", row[0].strip()))
+    head = max(range(max(0, first - 6), first), key=lambda i: sum(1 for c in rows[i] if isinstance(c, str) and c.strip()))
+    names = [str(c).strip() if c else None for c in rows[head]]
+    data = {}
+    for row in rows[first:]:
+        if not row or not isinstance(row[0], str) or not re.match(r"^\d{4}M\d{2}$", row[0].strip()):
+            continue
+        t = int(row[0][:4]) * 12 + int(row[0][5:7]) - 1
+        for c, name in enumerate(names):
+            if c == 0 or not name or c >= len(row):
+                continue
+            v = row[c]
+            if isinstance(v, (int, float)) and v > 0:
+                data.setdefault(name, {})[t] = float(v)
+    titles = {k: k for k in data}
+    res = summarise(data, titles, 25, 8)
+    # episodes by rule: price at 2x or more of the lowest price of the previous 24 months, since 2000
+    episodes = []
+    for name, d in data.items():
+        cur = None
+        for t in sorted(k for k in d if k >= 2000 * 12):
+            prev = [d[k] for k in range(t - 24, t) if k in d]
+            mult = d[t] / min(prev) if prev else 0
+            if mult >= 2.0:
+                if cur is None:
+                    cur = {"commodity": name, "start": ym(t), "peak_mult": mult, "peak": ym(t)}
+                elif mult > cur["peak_mult"]:
+                    cur["peak_mult"], cur["peak"] = mult, ym(t)
+                cur["end"] = ym(t)
+            elif cur is not None:
+                episodes.append(cur)
+                cur = None
+        if cur is not None:
+            cur["open"] = True
+            episodes.append(cur)
+    for e in episodes:
+        e["peak_mult"] = round(e["peak_mult"], 2)
+    res["episodes"] = sorted(episodes, key=lambda e: e["start"])
+    res["commodities"] = len(data)
+    return res
+
+
+# ---------- stream C: US producer prices by product (needs access BLS does not give to GitHub servers) ----------
+def stream_bls():
+    titles = {}
+    with fetch(BLS + "wp.series") as r:
+        for i, raw in enumerate(r):
+            p = [x.strip() for x in raw.decode("utf-8", "replace").split("\t")]
+            if i and len(p) >= 6 and p[0].startswith("WPU"):
+                titles[p[0]] = p[5]
+    data = {}
+    with fetch(BLS + "wp.data.0.Current", timeout=600) as r:
+        for i, raw in enumerate(r):
+            p = raw.decode("utf-8", "replace").split("\t")
+            if not i or len(p) < 4 or p[0].strip() not in titles:
+                continue
+            per = p[2].strip()
+            if per.startswith("M") and per != "M13" and int(p[1]) >= FIRST_YEAR:
+                try:
+                    data.setdefault(p[0].strip(), {})[int(p[1]) * 12 + int(per[1:]) - 1] = float(p[3])
+                except ValueError:
+                    pass
+    return summarise(data, titles, 40, 15)
+
+
+def md_stream(L, title, src, s, k=None):
+    L += ["", f"## {title}", "",
+          f"{src} Рядов: {s['series']}, месяц {s['month']}. Медианный рост за 24 месяца: {100 * s['median_rise24']:+.1f}%. "
+          f"Держатся у максимума: {100 * s['lasting_share']:.0f}% рядов.", "",
+          "| Что подорожало и держится | 24 мес. | 12 мес. | 36 мес. |", "|---|---|---|---|"]
+    for r in s["top"][:k]:
+        r36 = f"{100 * r['rise36']:+.0f}%" if r["rise36"] is not None else "—"
+        L.append(f"| {r['title']} | {100 * r['rise24']:+.0f}% | {100 * r['rise12']:+.0f}% | {r36} |")
+    L += ["", "Взгляд назад, верх списка в декабре каждого года:", ""]
+    for y, b in s["lookback"].items():
+        L.append(f"- **{y}** (медиана {100 * b['median_rise24']:+.1f}%): "
+                 + "; ".join(f"{r['title']} {100 * r['rise24']:+.0f}%" for r in b["top"]))
 
 
 def main():
     out = {"sources": {}, "run": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())}
-    out["sources"]["eurostat_ppi"] = probe("https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpp_m"
-                                           "?format=JSON&geo=EU27_2020&sinceTimePeriod=2025-01&nace_r2=C27")
-    out["sources"]["worldbank_pink"] = probe("https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/"
-                                             "related/CMO-Historical-Data-Monthly.xlsx")
-    out["sources"]["stooq"] = probe("https://stooq.com/q/d/l/?s=xlu.us&i=m")
-    out["sources"]["federal_register"] = probe("https://www.federalregister.gov/api/v1/documents.json?per_page=1"
-                                               "&conditions[type][]=RULE&conditions[publication_date][gte]=2026-10-01")
-    out["sources"]["eurlex_rss"] = probe("https://eur-lex.europa.eu/EN/display-feed.rss?rssId=162")
-    out["sources"]["comext_bulk"] = probe("https://ec.europa.eu/eurostat/api/dissemination/files/?sort=1&dir=comext%2FCOMEXT_DATA%2FPRODUCTS")
-    try:
-        titles = load_series()
-        data = {}
-        rows_read = load_data("wp.data.0.Current", data, titles)
-        months = sorted({k for d in data.values() for k in d})
-        out["bls"] = {"series": len(titles), "rows": rows_read, "first": ym(months[0]), "last": ym(months[-1])}
-        if months[0] > 2017 * 12:  # the "Current" file is too short: read the full files by product group
-            listing = fetch(BLS).read().decode("utf-8", "replace")
-            names = sorted(set(re.findall(r"wp\.data\.\d+\.[A-Za-z0-9_\-]+", listing)) - {"wp.data.0.Current"})
-            for nm in names:
-                try:
-                    rows_read += load_data(nm, data, titles)
-                except Exception as e:
-                    out["bls"].setdefault("failed", []).append(nm + " " + repr(e)[:80])
-            months = sorted({k for d in data.values() for k in d})
-            out["bls"].update({"rows": rows_read, "first": ym(months[0]), "last": ym(months[-1]), "files": len(names) + 1})
-        count = {t: sum(1 for d in data.values() if t in d) for t in months[-14:]}
-        full = max(count.values())
-        now = max(t for t, c in count.items() if c >= 0.7 * full)
-        snap = snapshot(data, titles, now)
-        out["now"] = {"month": ym(now), "series": len(snap), "median_rise24": round(statistics.median(r["rise24"] for r in snap), 4),
-                      "lasting_share": round(sum(r["lasting"] for r in snap) / len(snap), 3),
-                      "top": top(snap, 40), "top_any": top(snap, 15, lasting_only=False)}
-        out["lookback"] = {}
-        for y in range(2019, 2025):
-            t = y * 12 + 11
-            s = snapshot(data, titles, t)
-            if not s:
-                continue
-            w = {}
-            for word in WATCH:
-                m = [r for r in s if word in r["title"].lower()]
-                if m:
-                    w[word] = {"n": len(m), "median_pct": round(statistics.median(r["pct"] for r in m), 1),
-                               "best_pct": max(r["pct"] for r in m), "median_rise24": round(statistics.median(r["rise24"] for r in m), 3)}
-            out["lookback"][str(y)] = {"series": len(s), "median_rise24": round(statistics.median(r["rise24"] for r in s), 4),
-                                       "top": top(s, 15), "watch": w}
-        w = {}
-        for word in WATCH:
-            m = [r for r in snap if word in r["title"].lower()]
-            if m:
-                w[word] = {"n": len(m), "median_pct": round(statistics.median(r["pct"] for r in m), 1),
-                           "best_pct": max(r["pct"] for r in m), "median_rise24": round(statistics.median(r["rise24"] for r in m), 3)}
-        out["now"]["watch"] = w
-    except Exception as e:
-        out["bls_error"] = repr(e)[:400]
+    for name, url in [("federal_register", "https://www.federalregister.gov/api/v1/documents.json?per_page=1&conditions[type][]=RULE"
+                                           "&conditions[publication_date][gte]=2026-10-01"),
+                      ("eurlex_rss", "https://eur-lex.europa.eu/EN/display-feed.rss?rssId=162"),
+                      ("comext_bulk", "https://ec.europa.eu/eurostat/api/dissemination/files/?sort=1&dir=comext%2FCOMEXT_DATA%2FPRODUCTS")]:
+        out["sources"][name] = probe(url)
+    for key, fn in [("eu", stream_eu), ("commodities", stream_commodities), ("bls", stream_bls)]:
+        try:
+            out[key] = fn()
+            out["sources"][key] = {"status": 200}
+        except Exception as e:
+            out[key + "_error"] = repr(e)[:300]
+            out["sources"][key] = {"status": "error: " + repr(e)[:80]}
     os.makedirs("reports", exist_ok=True)
     json.dump(out, open("reports/radar.json", "w"), ensure_ascii=False, indent=0)
 
     L = ["# Радар: где цены говорят о дефиците", "",
-         f"Запуск {out['run']}. Работает по расписанию в GitHub Actions, без участия Claude. Правило записано в `mashina/radar.py`.", ""]
-    if "now" in out:
-        n = out["now"]
-        L += [f"Источник: индекс цен производителей США (BLS), {n['series']} рядов без сезонной поправки, месяц {n['month']}.",
-              f"Медианный рост за 24 месяца: {100 * n['median_rise24']:.1f}%. Доля рядов с флагом «держится»: {100 * n['lasting_share']:.0f}%.",
-              "Верх списка — это вопрос «почему?», а не ответ: цена растёт и из-за пошлин, разовых событий, пересчёта индекса.", "",
-              "## Сейчас: 40 рядов с наибольшим ростом за 24 месяца, которые держатся у максимума", "",
-              "| Товар (название BLS) | 24 мес. | 12 мес. | 36 мес. |", "|---|---|---|---|"]
-        for r in n["top"]:
-            r36 = f"{100 * r['rise36']:+.0f}%" if r["rise36"] is not None else "—"
-            L.append(f"| {r['title']} | {100 * r['rise24']:+.0f}% | {100 * r['rise12']:+.0f}% | {r36} |")
-        L += ["", "## Взгляд назад: что было наверху в декабре каждого года", ""]
-        for y, s in out["lookback"].items():
-            L += [f"**Декабрь {y}** (медиана {100 * s['median_rise24']:+.1f}%): "
-                  + "; ".join(f"{r['title']} {100 * r['rise24']:+.0f}%" for r in s["top"]), ""]
-        L += ["## Иллюстрация: где стояли знакомые товары (процентиль по росту за 24 месяца, 100 = самый верх)", "",
-              "| Слово в названии | " + " | ".join(out["lookback"].keys()) + " | сейчас |", "|---|" + "---|" * (len(out["lookback"]) + 1)]
-        for word in WATCH:
-            cells = [str(s["watch"].get(word, {}).get("median_pct", "—")) for s in out["lookback"].values()]
-            cells.append(str(n["watch"].get(word, {}).get("median_pct", "—")))
-            L.append(f"| {word} | " + " | ".join(cells) + " |")
-    else:
-        L += ["Данные BLS не загрузились: " + out.get("bls_error", "?"), ""]
-    L += ["", "## Какие источники отвечают с GitHub (для следующих потоков)", "", "| Источник | Ответ |", "|---|---|"]
+         f"Запуск {out['run']}. Работает сам, по расписанию в GitHub Actions, каждую неделю. Правило записано в `mashina/radar.py`.",
+         "Списки полные, ни один товар не выбран вручную. Строка наверху — это вопрос «почему?», а не ответ:",
+         "цена растёт и из-за пошлин, разовых событий, пересчёта индекса."]
+    if "eu" in out:
+        md_stream(L, "А. Цены производителей ЕС по отраслям", "Источник: Eurostat, все опубликованные коды отраслей.", out["eu"])
+    if "commodities" in out:
+        md_stream(L, "Б. Мировые цены на сырьё", "Источник: Всемирный банк, все товары таблицы.", out["commodities"])
+        ep = out["commodities"]["episodes"]
+        L += ["", f"### Эпизоды по правилу: цена в 2 раза и больше выше минимума за предыдущие 24 месяца (с 2000 года, всего {len(ep)})", "",
+              "| Товар | Начало | Пик | Во сколько раз | Конец |", "|---|---|---|---|---|"]
+        for e in ep:
+            L.append(f"| {e['commodity']} | {e['start']} | {e['peak']} | {e['peak_mult']} | {'идёт сейчас' if e.get('open') else e['end']} |")
+    if "bls" in out:
+        md_stream(L, "В. Цены производителей США по товарам", "Источник: BLS.", out["bls"])
+    L += ["", "## Источники", "", "| Источник | Ответ |", "|---|---|"]
     L += [f"| {k} | {v['status']} |" for k, v in out["sources"].items()]
     open("reports/radar.md", "w").write("\n".join(L) + "\n")
-    print(json.dumps({k: out.get(k) for k in ("bls", "bls_error")}, ensure_ascii=False))
     print({k: v["status"] for k, v in out["sources"].items()})
-    if "now" in out:
-        print(out["now"]["month"], out["now"]["series"], out["now"]["median_rise24"])
+    for k in ("eu", "commodities"):
+        if k in out:
+            print(k, out[k]["month"], out[k]["series"], out[k]["median_rise24"], [r["title"][:40] for r in out[k]["top"][:5]])
+        else:
+            print(k, out.get(k + "_error"))
 
 
 if __name__ == "__main__":
