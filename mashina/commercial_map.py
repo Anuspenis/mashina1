@@ -80,7 +80,40 @@ def table(allc, comp, small):
     return rows
 
 
+def who(oa, out):
+    """Second step (13.11.2026): who are the companies behind the largest rises? Descriptive.
+    For the 12 topics and 4 subfields with the largest rise of company share: countries and institutions
+    on the 2025 works that have a company author (about 32 credits)."""
+    tp = sorted([r for r in out["topics"] if r["pp_change"] is not None and not r["small"]], key=lambda r: -r["pp_change"])[:12]
+    sf = sorted([r for r in out["subfields"] if r["pp_change"] is not None and not r["small"]], key=lambda r: -r["pp_change"])[:4]
+    res = []
+    for kind, rows, fld in [("topic", tp, "primary_topic.id"), ("subfield", sf, "primary_topic.subfield.id")]:
+        for r in rows:
+            f = f"publication_year:2025,{COMPANY},{fld}:{r['id'].rsplit('/', 1)[-1]}"
+            c = oa.get("/works", {"filter": f, "group_by": "authorships.institutions.country_code"}).get("group_by", [])
+            i = oa.get("/works", {"filter": f, "group_by": "authorships.institutions.id"}).get("group_by", [])
+            res.append({"kind": kind, "name": r["name"], "comp_2025": r["comp_2025"],
+                        "countries": [[x.get("key_display_name"), x["count"]] for x in c[:5]],
+                        "institutions": [[x.get("key_display_name"), x["count"]] for x in i[:6]]})
+    return res
+
+
 def main():
+    if os.path.exists("reports/commercial_map.json"):
+        out = json.load(open("reports/commercial_map.json"))
+        if out.get("topics") and not out.get("who"):
+            oa = OpenAlex(floor=150, max_credits=60)
+            out["who"] = who(oa, out)
+            out["who_credits"] = oa.spent
+            json.dump(out, open("reports/commercial_map.json", "w"), ensure_ascii=False, indent=0)
+            L = ["", "## Кто эти компании (работы 2025 года с автором из компании)", "",
+                 "| Тема или подобласть | Работ | Страны (число работ) | Организации (число работ) |", "|---|---|---|---|"]
+            for w in out["who"]:
+                L.append(f"| {w['name']} | {w['comp_2025']} | " + ", ".join(f"{a} {b}" for a, b in w["countries"]) + " | "
+                         + "; ".join(f"{a} {b}" for a, b in w["institutions"]) + " |")
+            open("reports/commercial_map.md", "a").write("\n".join(L) + "\n")
+            print("who done, spent", oa.spent, "remaining", oa.remaining)
+            return
     oa = OpenAlex(floor=150, max_credits=230)
     out = {"years": YEARS, "note": "descriptive only; sensor not validated on outcomes"}
     try:
