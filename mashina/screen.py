@@ -162,7 +162,8 @@ def main():
     for r in rows:
         rec, pri = med(r["recent"]), med(r["prior"])
         r["tenders_recent"], r["tenders_prior"] = rec, pri
-        r["momentum_raw"] = (rec / 22.4) / (pri / 24) if pri and pri > 0 else (np.nan if np.isnan(rec) else 3.0)
+        # Fix 13.11.2026: no tenders before = growth unknown (was shown and ranked as a made-up x3.0)
+        r["momentum_raw"] = (rec / 22.4) / (pri / 24) if pri and pri > 0 else np.nan
         vals = [x for x in r["recent"] if x]
         r["unreliable"] = bool(vals and max(vals) > 3 * max(min(vals), 1))
         r["gh_median"] = med(r["gh"])
