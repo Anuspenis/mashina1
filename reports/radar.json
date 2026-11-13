@@ -1,0 +1,36 @@
+{
+"sources": {
+"eurostat_ppi": {
+"status": 200,
+"seconds": 1.2,
+"sample": "{\"version\":\"2.0\",\"class\":\"dataset\",\"label\":\"Producer prices in industry, total - monthly data\",\"source\":\"ESTAT\",\"updated\":\"2026-11-12T11:00:00+0100\",\"value\":{\"0\":117.4,\"1\":117.4,\"2\":117.6,\"3\":117.5,\"4\":117.4,\"5\":117.2,\"6\":117.3,\"7\":117.2,\"8\":117.1,\"9\":117.3,\"10\":117.5,\"11\":117.6,\"12\":118.1,\"13\":118."
+},
+"worldbank_pink": {
+"status": 200,
+"seconds": 0.1,
+"sample": "PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000��7\u0003�\u0001\u0000\u0000�\b\u0000\u0000\u0013\u0000\b\u0002[Content_Types].xml �\u0004\u0002(�\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+},
+"stooq": {
+"status": 200,
+"seconds": 0.5,
+"sample": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex,nofollow\"></head><body><noscript>This site requires JavaScript to verify your browser. Please enable JavaScript and reload.</noscript><script nonce=\"0Kg08hIHV1g86NO6bRQZkQ\">\n(async()=>{const c=\"AAAAAGr3QAfiG1nku1iU"
+},
+"federal_register": {
+"status": 200,
+"seconds": 0.0,
+"sample": "{\"description\":\"Documents published on or after 10/01/2026 and of type Rule\",\"count\":334,\"total_pages\":17,\"next_page_url\":\"https://www.federalregister.gov/api/v1/documents?conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-01&conditions%5Btype%5D%5B%5D=RULE&format=json&page=2&per_page=1&search_after_"
+},
+"eurlex_rss": {
+"status": 200,
+"seconds": 0.4,
+"sample": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet type=\"text/xsl\" media=\"screen\" href=\"./../screen-rss.xsl\"?>\n<rss version=\"2.0\">\n<channel xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n   <title>1 - All Parliament and Council legislation</title>\n   <pubDate>Fri, 13 Nov 2026 17:32:38 +0100</pubD"
+},
+"comext_bulk": {
+"status": 200,
+"seconds": 0.3,
+"sample": "<!DOCTYPE html>\r\n<html><head><title>Bulk Download</title>\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\r\n<meta name=\"robots\" content=\"noindex\" />\r\n<meta http-equiv=\"expires\" content=\"0\" />\r\n<meta http-equiv=\"pragma\" content=\"no-cache\" />\r\n<title></title>\r\n<script type=\"text/"
+}
+},
+"run": "2026-11-13 16:51 UTC",
+"bls_error": "<HTTPError 403: 'Forbidden'>"
+}
