@@ -1,0 +1,1393 @@
+{
+ "fields": {
+  "buyer-country": {
+   "status": 200,
+   "sample": [
+    {
+     "publication-number": "62-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/62-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/pdf"
+      },
+      "pdfs": {
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/62-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/62-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/62-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/62-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/62-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/62-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/62-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/62-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/62-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/62-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/62-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/62-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/62-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/62-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/62-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/62-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/62-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/62-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/62-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/62-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/62-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/62-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/62-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/62-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/html"
+      }
+     },
+     "buyer-country": [
+      "SVN"
+     ]
+    },
+    {
+     "publication-number": "683-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/683-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/pdf"
+      },
+      "pdfs": {
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/683-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/683-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/683-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/683-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/683-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/683-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/683-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/683-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/683-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/683-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/683-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/683-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/683-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/683-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/683-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/683-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/683-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/683-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/683-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/683-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/683-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/683-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/683-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/683-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/html"
+      }
+     },
+     "buyer-country": [
+      "BEL"
+     ]
+    }
+   ]
+  },
+  "total-value": {
+   "status": 200,
+   "sample": [
+    {
+     "publication-number": "62-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/62-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/pdf"
+      },
+      "pdfs": {
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/62-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/62-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/62-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/62-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/62-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/62-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/62-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/62-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/62-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/62-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/62-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/62-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/62-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/62-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/62-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/62-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/62-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/62-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/62-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/62-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/62-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/62-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/62-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/62-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/html"
+      }
+     },
+     "total-value": 84810
+    },
+    {
+     "publication-number": "683-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/683-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/pdf"
+      },
+      "pdfs": {
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/683-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/683-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/683-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/683-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/683-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/683-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/683-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/683-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/683-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/683-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/683-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/683-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/683-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/683-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/683-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/683-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/683-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/683-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/683-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/683-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/683-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/683-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/683-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/683-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/html"
+      }
+     },
+     "total-value": 1284000
+    }
+   ]
+  },
+  "estimated-value-glo": {
+   "status": 200,
+   "sample": [
+    {
+     "publication-number": "62-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/62-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/pdf"
+      },
+      "pdfs": {
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/62-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/62-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/62-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/62-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/62-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/62-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/62-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/62-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/62-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/62-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/62-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/62-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/62-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/62-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/62-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/62-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/62-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/62-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/62-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/62-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/62-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/62-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/62-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/62-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/html"
+      }
+     }
+    },
+    {
+     "publication-number": "683-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/683-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/pdf"
+      },
+      "pdfs": {
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/683-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/683-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/683-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/683-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/683-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/683-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/683-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/683-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/683-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/683-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/683-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/683-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/683-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/683-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/683-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/683-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/683-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/683-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/683-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/683-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/683-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/683-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/683-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/683-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/html"
+      }
+     }
+    }
+   ]
+  },
+  "estimated-value-proc": {
+   "status": 200,
+   "sample": [
+    {
+     "publication-number": "62-2025",
+     "estimated-value-proc": "84810.0000",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/62-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/pdf"
+      },
+      "pdfs": {
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/62-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/62-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/62-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/62-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/62-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/62-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/62-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/62-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/62-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/62-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/62-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/62-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/62-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/62-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/62-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/62-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/62-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/62-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/62-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/62-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/62-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/62-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/62-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/62-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/html"
+      }
+     }
+    },
+    {
+     "publication-number": "683-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/683-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/pdf"
+      },
+      "pdfs": {
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/683-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/683-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/683-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/683-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/683-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/683-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/683-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/683-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/683-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/683-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/683-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/683-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/683-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/683-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/683-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/683-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/683-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/683-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/683-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/683-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/683-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/683-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/683-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/683-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/html"
+      }
+     }
+    }
+   ]
+  },
+  "result-value-notice": {
+   "status": 200,
+   "sample": [
+    {
+     "publication-number": "62-2025",
+     "result-value-notice": "84810.0000",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/62-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/pdf"
+      },
+      "pdfs": {
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/62-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/62-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/62-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/62-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/62-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/62-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/62-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/62-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/62-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/62-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/62-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/62-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/62-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/62-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/62-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/62-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/62-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/62-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/62-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/62-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/62-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/62-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/62-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/62-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/html"
+      }
+     }
+    },
+    {
+     "publication-number": "683-2025",
+     "result-value-notice": "1284000.00",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/683-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/pdf"
+      },
+      "pdfs": {
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/683-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/683-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/683-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/683-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/683-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/683-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/683-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/683-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/683-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/683-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/683-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/683-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/683-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/683-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/683-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/683-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/683-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/683-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/683-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/683-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/683-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/683-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/683-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/683-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/html"
+      }
+     }
+    }
+   ]
+  },
+  "notice-type": {
+   "status": 200,
+   "sample": [
+    {
+     "notice-type": "can-standard",
+     "publication-number": "62-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/62-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/pdf"
+      },
+      "pdfs": {
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/62-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/62-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/62-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/62-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/62-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/62-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/62-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/62-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/62-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/62-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/62-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/62-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/62-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/62-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/62-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/62-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/62-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/62-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/62-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/62-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/62-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/62-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/62-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/62-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/62-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/62-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/62-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/62-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/62-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/62-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/62-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/62-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/62-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/62-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/62-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/62-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/62-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/62-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/62-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/62-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/62-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/62-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/62-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/62-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/62-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/62-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/62-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/62-2025/html"
+      }
+     }
+    },
+    {
+     "notice-type": "can-standard",
+     "publication-number": "683-2025",
+     "links": {
+      "xml": {
+       "MUL": "https://ted.europa.eu/en/notice/683-2025/xml"
+      },
+      "pdf": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/pdf",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/pdf",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/pdf",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/pdf",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/pdf",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/pdf",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/pdf",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/pdf",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdf",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/pdf",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/pdf",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/pdf",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/pdf",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/pdf",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/pdf",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/pdf",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/pdf",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/pdf",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/pdf",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/pdf",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/pdf",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/pdf",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/pdf",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/pdf"
+      },
+      "pdfs": {
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/pdfs"
+      },
+      "html": {
+       "BUL": "https://ted.europa.eu/bg/notice/-/detail/683-2025",
+       "SPA": "https://ted.europa.eu/es/notice/-/detail/683-2025",
+       "CES": "https://ted.europa.eu/cs/notice/-/detail/683-2025",
+       "DAN": "https://ted.europa.eu/da/notice/-/detail/683-2025",
+       "DEU": "https://ted.europa.eu/de/notice/-/detail/683-2025",
+       "EST": "https://ted.europa.eu/et/notice/-/detail/683-2025",
+       "ELL": "https://ted.europa.eu/el/notice/-/detail/683-2025",
+       "ENG": "https://ted.europa.eu/en/notice/-/detail/683-2025",
+       "FRA": "https://ted.europa.eu/fr/notice/-/detail/683-2025",
+       "GLE": "https://ted.europa.eu/ga/notice/-/detail/683-2025",
+       "HRV": "https://ted.europa.eu/hr/notice/-/detail/683-2025",
+       "ITA": "https://ted.europa.eu/it/notice/-/detail/683-2025",
+       "LAV": "https://ted.europa.eu/lv/notice/-/detail/683-2025",
+       "LIT": "https://ted.europa.eu/lt/notice/-/detail/683-2025",
+       "HUN": "https://ted.europa.eu/hu/notice/-/detail/683-2025",
+       "MLT": "https://ted.europa.eu/mt/notice/-/detail/683-2025",
+       "NLD": "https://ted.europa.eu/nl/notice/-/detail/683-2025",
+       "POL": "https://ted.europa.eu/pl/notice/-/detail/683-2025",
+       "POR": "https://ted.europa.eu/pt/notice/-/detail/683-2025",
+       "RON": "https://ted.europa.eu/ro/notice/-/detail/683-2025",
+       "SLK": "https://ted.europa.eu/sk/notice/-/detail/683-2025",
+       "SLV": "https://ted.europa.eu/sl/notice/-/detail/683-2025",
+       "FIN": "https://ted.europa.eu/fi/notice/-/detail/683-2025",
+       "SWE": "https://ted.europa.eu/sv/notice/-/detail/683-2025"
+      },
+      "htmlDirect": {
+       "BUL": "https://ted.europa.eu/bg/notice/683-2025/html",
+       "SPA": "https://ted.europa.eu/es/notice/683-2025/html",
+       "CES": "https://ted.europa.eu/cs/notice/683-2025/html",
+       "DAN": "https://ted.europa.eu/da/notice/683-2025/html",
+       "DEU": "https://ted.europa.eu/de/notice/683-2025/html",
+       "EST": "https://ted.europa.eu/et/notice/683-2025/html",
+       "ELL": "https://ted.europa.eu/el/notice/683-2025/html",
+       "ENG": "https://ted.europa.eu/en/notice/683-2025/html",
+       "FRA": "https://ted.europa.eu/fr/notice/683-2025/html",
+       "GLE": "https://ted.europa.eu/ga/notice/683-2025/html",
+       "HRV": "https://ted.europa.eu/hr/notice/683-2025/html",
+       "ITA": "https://ted.europa.eu/it/notice/683-2025/html",
+       "LAV": "https://ted.europa.eu/lv/notice/683-2025/html",
+       "LIT": "https://ted.europa.eu/lt/notice/683-2025/html",
+       "HUN": "https://ted.europa.eu/hu/notice/683-2025/html",
+       "MLT": "https://ted.europa.eu/mt/notice/683-2025/html",
+       "NLD": "https://ted.europa.eu/nl/notice/683-2025/html",
+       "POL": "https://ted.europa.eu/pl/notice/683-2025/html",
+       "POR": "https://ted.europa.eu/pt/notice/683-2025/html",
+       "RON": "https://ted.europa.eu/ro/notice/683-2025/html",
+       "SLK": "https://ted.europa.eu/sk/notice/683-2025/html",
+       "SLV": "https://ted.europa.eu/sl/notice/683-2025/html",
+       "FIN": "https://ted.europa.eu/fi/notice/683-2025/html",
+       "SWE": "https://ted.europa.eu/sv/notice/683-2025/html"
+      }
+     }
+    }
+   ]
+  }
+ },
+ "totals": {
+  "base": 1266338,
+  "early": 1411801,
+  "late": 1597124,
+  "now": 1660633
+ },
+ "counts": {
+  "hv_cable": {
+   "label": "windfall",
+   "base": 215,
+   "early": 239,
+   "late": 222,
+   "now": 332
+  },
+  "transformers": {
+   "label": "windfall",
+   "base": 1393,
+   "early": 1668,
+   "late": 2222,
+   "now": 2400
+  },
+  "ammunition": {
+   "label": "windfall",
+   "base": 710,
+   "early": 745,
+   "late": 749,
+   "now": 887
+  },
+  "armoured_vehicles": {
+   "label": "windfall",
+   "base": 209,
+   "early": 188,
+   "late": 192,
+   "now": 209
+  },
+  "uav": {
+   "label": "windfall",
+   "base": 144,
+   "early": 180,
+   "late": 229,
+   "now": 426
+  },
+  "hydrogen": {
+   "label": "flop",
+   "base": 114,
+   "early": 196,
+   "late": 287,
+   "now": 319
+  },
+  "heat_pumps": {
+   "label": "flop",
+   "base": 612,
+   "early": 617,
+   "late": 814,
+   "now": 1282
+  },
+  "wind": {
+   "label": "flop",
+   "base": 143,
+   "early": 115,
+   "late": 113,
+   "now": 108
+  },
+  "batteries": {
+   "label": "flop",
+   "base": 444,
+   "early": 459,
+   "late": 570,
+   "now": 1006
+  },
+  "pv_modules": {
+   "label": "flop",
+   "base": 1819,
+   "early": 2647,
+   "late": 3394,
+   "now": 3999
+  }
+ },
+ "country": {
+  "POL": {
+   "all": 225030,
+   "windfall_codes": 619,
+   "specialisation": 1.08
+  },
+  "CZE": {
+   "all": 100118,
+   "windfall_codes": 316,
+   "specialisation": 1.24
+  },
+  "SVK": {
+   "all": 18214,
+   "windfall_codes": 94,
+   "specialisation": 2.02
+  },
+  "LTU": {
+   "all": 30570,
+   "windfall_codes": 114,
+   "specialisation": 1.46
+  },
+  "LVA": {
+   "all": 35195,
+   "windfall_codes": 79,
+   "specialisation": 0.88
+  },
+  "EST": {
+   "all": 14897,
+   "windfall_codes": 65,
+   "specialisation": 1.71
+  },
+  "ROU": {
+   "all": 84970,
+   "windfall_codes": 199,
+   "specialisation": 0.92
+  },
+  "BGR": {
+   "all": 57264,
+   "windfall_codes": 190,
+   "specialisation": 1.3
+  },
+  "HUN": {
+   "all": 20011,
+   "windfall_codes": 52,
+   "specialisation": 1.02
+  },
+  "DEU": {
+   "all": 309568,
+   "windfall_codes": 566,
+   "specialisation": 0.72
+  },
+  "FRA": {
+   "all": 176297,
+   "windfall_codes": 127,
+   "specialisation": 0.28
+  },
+  "ITA": {
+   "all": 68509,
+   "windfall_codes": 67,
+   "specialisation": 0.38
+  },
+  "ESP": {
+   "all": 132663,
+   "windfall_codes": 220,
+   "specialisation": 0.65
+  },
+  "NLD": {
+   "all": 43184,
+   "windfall_codes": 75,
+   "specialisation": 0.68
+  },
+  "BEL": {
+   "all": 38119,
+   "windfall_codes": 61,
+   "specialisation": 0.63
+  },
+  "DNK": {
+   "all": 15824,
+   "windfall_codes": 125,
+   "specialisation": 3.09
+  },
+  "SWE": {
+   "all": 43721,
+   "windfall_codes": 140,
+   "specialisation": 1.25
+  },
+  "FIN": {
+   "all": 28751,
+   "windfall_codes": 79,
+   "specialisation": 1.08
+  },
+  "NOR": {
+   "all": 23684,
+   "windfall_codes": 56,
+   "specialisation": 0.93
+  },
+  "AUT": {
+   "all": 25342,
+   "windfall_codes": 124,
+   "specialisation": 1.92
+  },
+  "PRT": {
+   "all": 33898,
+   "windfall_codes": 39,
+   "specialisation": 0.45
+  },
+  "GRC": {
+   "all": 18649,
+   "windfall_codes": 221,
+   "specialisation": 4.64
+  },
+  "IRL": {
+   "all": 20961,
+   "windfall_codes": 25,
+   "specialisation": 0.47
+  },
+  "HRV": {
+   "all": 31499,
+   "windfall_codes": 66,
+   "specialisation": 0.82
+  },
+  "UKR": {
+   "all": 276,
+   "windfall_codes": 0,
+   "specialisation": 0.0
+  }
+ },
+ "eures": {
+  "status": "error",
+  "sample": "<HTTPError 404: ''>"
+ },
+ "S": {
+  "hv_cable": {
+   "early": 0.997,
+   "late": 0.819,
+   "now": 1.178
+  },
+  "transformers": {
+   "early": 1.074,
+   "late": 1.265,
+   "now": 1.314
+  },
+  "ammunition": {
+   "early": 0.941,
+   "late": 0.836,
+   "now": 0.953
+  },
+  "armoured_vehicles": {
+   "early": 0.807,
+   "late": 0.728,
+   "now": 0.763
+  },
+  "uav": {
+   "early": 1.121,
+   "late": 1.261,
+   "now": 2.256
+  },
+  "hydrogen": {
+   "early": 1.542,
+   "late": 1.996,
+   "now": 2.134
+  },
+  "heat_pumps": {
+   "early": 0.904,
+   "late": 1.055,
+   "now": 1.597
+  },
+  "wind": {
+   "early": 0.721,
+   "late": 0.627,
+   "now": 0.576
+  },
+  "batteries": {
+   "early": 0.927,
+   "late": 1.018,
+   "now": 1.728
+  },
+  "pv_modules": {
+   "early": 1.305,
+   "late": 1.479,
+   "now": 1.676
+  }
+ },
+ "AUC_early": [
+  0.52,
+  5,
+  5
+ ],
+ "AUC_late": [
+  0.36,
+  5,
+  5
+ ],
+ "AUC_now": [
+  0.36,
+  5,
+  5
+ ],
+ "verdict": "weight 0",
+ "windfall_codes_all_now": 4240
+}
