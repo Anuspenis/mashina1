@@ -4,6 +4,9 @@ name: commercial_map
 # Manual only, late in the UTC day, after the nightly run has finished.
 on:
   workflow_dispatch: {}
+  push:
+    paths:
+      - ".github/triggers/commercial_map"
 
 permissions:
   contents: write
