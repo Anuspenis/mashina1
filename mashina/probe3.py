@@ -29,7 +29,7 @@ import time
 import urllib.request
 
 TED = "https://api.ted.europa.eu/v3/notices/search"
-UA = {"User-Agent": "mashina research (github.com/Anuspenis/mashina1)"}
+UA = {"User-Agent": "mashina research (github.com/bogdalbogvsyal/mashina1)"}
 
 CODES = {  # name: (list of CPV codes, label)
     "hv_cable": (["31321300"], "windfall"),

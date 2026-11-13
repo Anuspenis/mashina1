@@ -8,7 +8,7 @@ import time
 import urllib.parse
 import urllib.request
 
-UA = {"User-Agent": "mashina research (github.com/Anuspenis/mashina1)"}
+UA = {"User-Agent": "mashina research (github.com/bogdalbogvsyal/mashina1)"}
 
 
 def fetch(url, data=None, headers=None, timeout=60, full=False):

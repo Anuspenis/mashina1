@@ -31,7 +31,7 @@ import urllib.request
 
 import numpy as np
 
-UA = {"User-Agent": "mashina research (github.com/Anuspenis/mashina1)"}
+UA = {"User-Agent": "mashina research (github.com/bogdalbogvsyal/mashina1)"}
 
 # key: (name, 3 English wordings, size, timing, durable, access, note)
 BOOMS = {

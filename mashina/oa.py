@@ -48,7 +48,7 @@ class OpenAlex:
         url = BASE + path + "?" + urllib.parse.urlencode(params, safe=":,|")
         req = urllib.request.Request(url, headers={
             "Authorization": "Bearer " + self.key,
-            "User-Agent": "mashina (research; github.com/anuspenis/mashina1)",
+            "User-Agent": "mashina (research; github.com/bogdalbogvsyal/mashina1)",
         })
         for attempt in range(6):
             try:

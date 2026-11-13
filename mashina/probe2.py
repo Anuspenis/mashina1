@@ -13,7 +13,7 @@ SEC_UA = "mashina research mashina-bot@users.noreply.github.com"
 
 
 def get(url, data=None, headers=None, timeout=60):
-    h = {"User-Agent": "mashina research (github.com/Anuspenis/mashina1)"}
+    h = {"User-Agent": "mashina research (github.com/bogdalbogvsyal/mashina1)"}
     h.update(headers or {})
     t = time.time()
     try:
