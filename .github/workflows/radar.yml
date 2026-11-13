@@ -1,0 +1,39 @@
+name: radar
+
+# Non-stop scan for deficits: runs by itself every week, no Claude and no OpenAlex credits.
+# Can also be started by changing the file .github/triggers/radar.
+on:
+  schedule:
+    - cron: "23 5 * * 1"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - ".github/triggers/radar"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Radar
+        run: python -m mashina.radar
+      - name: Commit report
+        if: always()
+        run: |
+          git config user.name "mashina-bot"
+          git config user.email "mashina-bot@users.noreply.github.com"
+          git add reports/radar.*
+          git diff --cached --quiet || git commit -m "radar: $(date -u +%F)"
+          git pull --rebase origin main
+          git push

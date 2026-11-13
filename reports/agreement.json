@@ -1,0 +1,7 @@
+{
+ "n": 144,
+ "rho_claude": 0.568,
+ "rho_data": -0.056,
+ "judgment_weight_multiplier": 0.95,
+ "blind_rater_closer_to": "claude"
+}
