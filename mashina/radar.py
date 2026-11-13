@@ -38,7 +38,9 @@ UA = {"User-Agent": "mashina-research/0.1 (mashina-bot@users.noreply.github.com)
 BLS = "https://download.bls.gov/pub/time.series/wp/"
 EUROSTAT = ("https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_inpp_m"
             "?format=JSON&geo=EU27_2020&sinceTimePeriod=2016-01")
-PINK = ("https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/"
+PINK_PAGE = "https://www.worldbank.org/en/research/commodity-markets"
+# the file address changes with every yearly edition; the first run used an old address whose data ended in 2024-12
+PINK = ("https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/"
         "related/CMO-Historical-Data-Monthly.xlsx")
 FIRST_YEAR = 2016
 
@@ -104,7 +106,10 @@ def latest_month(data):
 def summarise(data, titles, k_now, k_back):
     now, months = latest_month(data)
     snap = snapshot(data, titles, now)
-    res = {"month": ym(now), "first": ym(months[0]), "series": len(snap),
+    today = time.gmtime()
+    res = {"stale_months": today.tm_year * 12 + today.tm_mon - 1 - now,
+           "all": {r["id"]: [round(r["rise24"], 4), r["pct"], int(r["lasting"])] for r in snap},
+           "month": ym(now), "first": ym(months[0]), "series": len(snap),
            "median_rise24": round(statistics.median(r["rise24"] for r in snap), 4),
            "lasting_share": round(sum(r["lasting"] for r in snap) / len(snap), 3),
            "top": top(snap, k_now), "lookback": {}}
@@ -112,7 +117,8 @@ def summarise(data, titles, k_now, k_back):
         s = snapshot(data, titles, y * 12 + 11)
         if s:
             res["lookback"][str(y)] = {"series": len(s), "median_rise24": round(statistics.median(r["rise24"] for r in s), 4),
-                                       "top": top(s, k_back)}
+                                       "top": top(s, k_back),
+                                       "all": {r["id"]: [round(r["rise24"], 4), r["pct"], int(r["lasting"])] for r in s}}
     return res
 
 
@@ -171,7 +177,15 @@ def stream_eu():
 # ---------- stream B: World Bank commodity prices ----------
 def stream_commodities():
     import openpyxl
-    with fetch(PINK, timeout=300) as r:
+    url = PINK
+    try:  # look for the current address on the World Bank page; fall back to the last known one
+        page = fetch(PINK_PAGE, timeout=60).read().decode("utf-8", "replace")
+        m = re.search(r"https://thedocs\.worldbank\.org/[^\"' <>]+CMO-Historical-Data-Monthly\.xlsx", page)
+        if m:
+            url = m.group(0)
+    except Exception:
+        pass
+    with fetch(url, timeout=300) as r:
         wb = openpyxl.load_workbook(io.BytesIO(r.read()), read_only=True, data_only=True)
     ws = wb["Monthly Prices"] if "Monthly Prices" in wb.sheetnames else wb[wb.sheetnames[0]]
     rows = list(ws.iter_rows(values_only=True))
@@ -214,6 +228,7 @@ def stream_commodities():
         e["peak_mult"] = round(e["peak_mult"], 2)
     res["episodes"] = sorted(episodes, key=lambda e: e["start"])
     res["commodities"] = len(data)
+    res["file"] = url
     return res
 
 
@@ -243,7 +258,8 @@ def stream_bls():
 def md_stream(L, title, src, s, k=None):
     L += ["", f"## {title}", "",
           f"{src} Рядов: {s['series']}, месяц {s['month']}. Медианный рост за 24 месяца: {100 * s['median_rise24']:+.1f}%. "
-          f"Держатся у максимума: {100 * s['lasting_share']:.0f}% рядов.", "",
+          f"Держатся у максимума: {100 * s['lasting_share']:.0f}% рядов."
+          + (f" ВНИМАНИЕ: данные устарели на {s['stale_months']} мес." if s.get("stale_months", 0) > 4 else ""), "",
           "| Что подорожало и держится | 24 мес. | 12 мес. | 36 мес. |", "|---|---|---|---|"]
     for r in s["top"][:k]:
         r36 = f"{100 * r['rise36']:+.0f}%" if r["rise36"] is not None else "—"
