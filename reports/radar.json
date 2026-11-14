@@ -3,16 +3,16 @@
 "federal_register": {
 "status": 200,
 "seconds": 0.1,
-"sample": "{\"description\":\"Documents published on or after 10/01/2026 and of type Rule\",\"count\":334,\"total_pages\":17,\"next_page_url\":\"https://www.federalregister.gov/api/v1/documents?conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-01&conditions%5Btype%5D%5B%5D=RULE&format=json&page=2&per_page=1&search_after_"
+"sample": "{\"description\":\"Documents published on or after 10/01/2026 and of type Rule\",\"count\":345,\"total_pages\":18,\"next_page_url\":\"https://www.federalregister.gov/api/v1/documents?conditions%5Bpublication_date%5D%5Bgte%5D=2026-10-01&conditions%5Btype%5D%5B%5D=RULE&format=json&page=2&per_page=1&search_after_"
 },
 "eurlex_rss": {
 "status": 200,
-"seconds": 0.6,
-"sample": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet type=\"text/xsl\" media=\"screen\" href=\"./../screen-rss.xsl\"?>\n<rss version=\"2.0\">\n<channel xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n   <title>1 - All Parliament and Council legislation</title>\n   <pubDate>Fri, 13 Nov 2026 17:29:18 +0100</pubD"
+"seconds": 0.5,
+"sample": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<meta content=\"text/html; charset=UTF-8\" http-equiv=\"Content-Type\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<meta name=\"DCSext.lang\" content=\"en\">\n\t<meta name=\"WT.cg_n\" cont"
 },
 "comext_bulk": {
 "status": 200,
-"seconds": 0.7,
+"seconds": 0.4,
 "sample": "<!DOCTYPE html>\r\n<html><head><title>Bulk Download</title>\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\r\n<meta name=\"robots\" content=\"noindex\" />\r\n<meta http-equiv=\"expires\" content=\"0\" />\r\n<meta http-equiv=\"pragma\" content=\"no-cache\" />\r\n<title></title>\r\n<script type=\"text/"
 },
 "eu": {
@@ -25,7 +25,7 @@
 "status": "error: <HTTPError 403: 'Forbidden'>"
 }
 },
-"run": "2026-11-13 16:55 UTC",
+"run": "2026-11-14 12:58 UTC",
 "eu": {
 "stale_months": 2,
 "all": {
@@ -11364,7 +11364,7 @@
 "unit": "I21",
 "geo": "EU27_2020"
 },
-"updated": "2026-11-12T11:00:00+0100"
+"updated": "2026-11-14T11:00:00+0100"
 },
 "commodities": {
 "stale_months": 1,
